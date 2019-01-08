@@ -46,18 +46,27 @@ filename = 'data/bc-orig.txt'
 minusOne = np.array([-1 for i in range(n+2)])
 
 print(A[:10])
+print('...')
+print(A[-10:])
 
 w0 = np.random.randn(d+1)
 
+# loss: sum w_i^2 (sauf le dernier coeff de w qui est le biais)
 def loss(w):
-  d = w.size
-  return (np.dot(w.T, w) - w[d - 1] * w[d - 1])
+  return (np.dot(w.T, w) - w[-1] * w[-1])
 
+# jac: sum w_i (sauf le dernier)
+#def jac(w):
+#  d = w.size
+#  coeffs = [1 for i in range(d)]
+#  coeffs[-1] = 0
+#  return (np.dot(w.T, np.array(coeffs)))
+  
 def jac(w):
   d = w.size
-  coeffs = [1 for i in range(d)]
-  coeffs[-1] = 0
-  return (np.dot(w.T, np.array(coeffs)))
+  coeffs = np.eye(d)
+  coeffs[-1,-1] = 0
+  return (np.dot(coeffs, w))
 
 cons = {'type':'ineq',
         'fun':lambda w: np.dot(A,w),
@@ -76,8 +85,8 @@ def solve():
     print('\nConstrained:')
     print(res_cons)
 
-    print('\nUnconstrained:')
-    print(res_uncons)
+ #   print('\nUnconstrained:')
+#    print(res_uncons)
 
 
 solve()
