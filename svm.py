@@ -6,6 +6,7 @@ def process_one_line(line):
   d = len(words) - 1
   x = [float(word) for word in words]
   y = x[-1]
+  y = 1 if y == 1 else -1
   x = x[:-1]
   return (d, x, y)
 
@@ -41,13 +42,14 @@ def load_data(filename):
     A = np.array([[cell for cell in line] for line in Alst], ndmin = 2)
     return (n, d, A)
 
-filename = 'data/bc-orig.txt'
+#filename = 'data/bc-orig.txt'
+filename = 'data/test_bc_orig.txt'
 (n, d, A) = load_data(filename)
 minusOne = np.array([-1 for i in range(n+2)])
 
-print(A[:10])
-print('...')
-print(A[-10:])
+#print(A[:10])
+#print('...')
+#print(A[-10:])
 
 w0 = np.random.randn(d+1)
 
@@ -69,12 +71,12 @@ def jac(w):
   return (np.dot(coeffs, w))
 
 cons = {'type':'ineq',
-        'fun':lambda w: np.dot(A,w),
+        'fun':lambda w: minusOne - np.dot(A,w),
         'jac':lambda w: -A}
 
 opt = {'disp':False}
 
-def solve():
+def solve(loss, jac, cons):
 
     res_cons = optimize.minimize(loss, w0, jac=jac, constraints=cons,
                                  method='SLSQP', options=opt)
@@ -85,8 +87,5 @@ def solve():
     print('\nConstrained:')
     print(res_cons)
 
- #   print('\nUnconstrained:')
-#    print(res_uncons)
-
-
-solve()
+if __name__ == '__main__':
+  solve(loss, jac, cons)
