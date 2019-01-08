@@ -1,8 +1,6 @@
 import numpy as np
 from scipy import optimize
 
-filename = 'data/bc-orig.txt'
-
 def process_one_line(line):
   words = line.split(',')
   d = len(words) - 1
@@ -39,10 +37,11 @@ def load_data(filename):
         Alst.append(calculeLine(x, y))
         n = n + 1
         old_d = d
-    addConstraintsForB(Alst, d)
+    addConstraintsForB(Alst, d + 1)
     A = np.array([[cell for cell in line] for line in Alst], ndmin = 2)
     return (n, d, A)
 
+filename = 'data/bc-orig.txt'
 (n, d, A) = load_data(filename)
 minusOne = np.array([-1 for i in range(n+2)])
 
@@ -52,7 +51,7 @@ w0 = np.random.randn(d+1)
 
 def loss(w):
   d = w.size
-  return (np.dot(w.T, w) - w[d] * w[d])
+  return (np.dot(w.T, w) - w[d - 1] * w[d - 1])
 
 def jac(w):
   d = w.size
@@ -68,7 +67,7 @@ opt = {'disp':False}
 
 def solve():
 
-    res_cons = optimize.minimize(loss, w0, jac=jac,constraints=cons,
+    res_cons = optimize.minimize(loss, w0, jac=jac, constraints=cons,
                                  method='SLSQP', options=opt)
 
     #res_uncons = optimize.minimize(loss, x0, jac=jac, method='SLSQP',
