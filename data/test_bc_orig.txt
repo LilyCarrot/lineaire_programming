@@ -1,0 +1,16 @@
+@relation breast-cancer-orig
+
+@attribute ClumpThic real	
+@attribute UnifCellSize real
+@attribute UnifCellShape real
+@attribute MargAdhesion real
+@attribute SingleEpithCellSize real
+@attribute BareNuclei real
+@attribute BlandChromatin real
+@attribute NormalNucleoli real
+@attribute Mitoses	real
+@attribute Target {1,2}
+
+@data
+-1.17503021,-0.700888296,-0.736211012,-0.626722131,-0.531348307,-0.70282871,-0.569078192,-0.610515332,-0.357098166,1
+1.300518873,2.341581549,2.380246361,2.73001473,1.240678809,1.734438309,2.638453438,2.307976184,4.366756456,2
