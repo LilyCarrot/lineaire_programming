@@ -32,5 +32,10 @@ def xiplusplus(w):
 cons = {'type':'ineq',
         'fun':lambda w: svm.minusOne + xiplusplus(w) - np.dot(svm.A,w),
         'jac':lambda w: -svm.A + xiplusplus(w)}
+        #
+        # ERREUR DANS LA JACOBIENNE IL FAUT REFLECHIR
+        #
+        # RAJOUTER LES CONTRAINTES XI >= 0
 
-svm.solve(loss, jac, cons)
+if __name__ == '__main__':
+  svm.solve(loss, jac, cons)
