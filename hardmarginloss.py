@@ -1,0 +1,6 @@
+import svm
+
+# calculer z
+
+# ...
+
