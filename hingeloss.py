@@ -1,41 +1,54 @@
 import numpy as np
+from scipy import optimize
 import svm
 
-# calculer les xi
 
 # minimiser 1/2 ||w||^2 + C (sum xi)
 
-def xi(w):
-  x = [np.dot(w.T, l) for l in svm.A[:-2]]
-  x = [(0 if c >= 1 else 1 - c) for c in x]
-  return x
+def newLineForHinge(oldline, i, n):
+  zeroes = [0.0 for k in range(n)]
+  if (i <= n-1):
+    zeroes[i] = 1.0
+  return (oldline + zeroes)
 
-print(xi(svm.w0))
+A = svm.A.tolist()
+print(A)
+A = [newLineForHinge(oldline, i, svm.n) for i,oldline in enumerate(A)]
+print(A)
+A = A + [[0 for k in range(svm.d+1)] + line for line in np.eye(svm.n).tolist()]
+print(A)
+print('2n+2 = ', end='')
+print(2 * svm.n + 2)
+print('hauteur(A) = ', end='')
+print(len(A))
+A = np.array(A, ndmin=2)
+print(A)
+
 
 # COMPROMISE PARAMETER C
 c = 5
 
-def loss(w):
-  return (svm.loss(w) + c*sum(xi(w)))
+d = svm.d
+def objective(V):
+  return (np.dot(V[:d].T, V[:d]) + c * sum(V[d+1:]))
 
-def jac(w):
-  return (svm.jac(w) + c*sum(xi(w)))
+def jac(V):
+  return (svm.jac(V[:d]) + c*sum(V[d+1:]))
 
-leftMemberIneq = svm.minusOne
-
-def xiplusplus(w):
-  xpp = xi(w)
-  xpp.append(0)
-  xpp.append(0)
-  return xpp
+minusOne = np.array([-1 for i in range(2 * svm.n + 2)])
 
 cons = {'type':'ineq',
-        'fun':lambda w: svm.minusOne + xiplusplus(w) - np.dot(svm.A,w),
-        'jac':lambda w: -svm.A + xiplusplus(w)}
-        #
-        # ERREUR DANS LA JACOBIENNE IL FAUT REFLECHIR
-        #
-        # RAJOUTER LES CONTRAINTES XI >= 0
+        'fun':lambda V: minusOne - np.dot(A,V),
+        'jac':lambda V: -A}
+opt = {'disp':False}
+
+V0 = np.random.randn(d+1+svm.n)
+
+def solve(objective, jac, cons):
+  res = optimize.minimize(objective, V0, jac=jac, constraints=cons,
+                          method='SLSQP', options=opt)
+  #res_uncons = optimize.minimize(objective, V0, jac=jac, method='SLSQP',
+  #                               options=opt)
 
 if __name__ == '__main__':
-  svm.solve(loss, jac, cons)
+  solve(objective, jac, cons)

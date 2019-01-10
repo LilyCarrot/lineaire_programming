@@ -11,7 +11,7 @@ def process_one_line(line):
   return (d, x, y)
 
 def calculeLine(x, y):
-  xlst = [- y * xi for xi in x]
+  xlst = [- y * xk for xk in x]
   xlst.append(-y)
   return xlst
 
@@ -53,8 +53,8 @@ minusOne = np.array([-1 for i in range(n+2)])
 
 w0 = np.random.randn(d+1)
 
-# loss: sum w_i^2 (sauf le dernier coeff de w qui est le biais)
-def loss(w):
+# objective: sum w_i^2 (sauf le dernier coeff de w qui est le biais)
+def objective(w):
   return (np.dot(w.T, w) - w[-1] * w[-1])
 
 # jac: sum w_i (sauf le dernier)
@@ -76,16 +76,16 @@ cons = {'type':'ineq',
 
 opt = {'disp':False}
 
-def solve(loss, jac, cons):
+def solve(objective, jac, cons):
 
-    res_cons = optimize.minimize(loss, w0, jac=jac, constraints=cons,
+    res_cons = optimize.minimize(objective, w0, jac=jac, constraints=cons,
                                  method='SLSQP', options=opt)
 
     #res_uncons = optimize.minimize(loss, x0, jac=jac, method='SLSQP',
     #                               options=opt)
 
-    print('\nConstrained:')
+    print('\nResults:')
     print(res_cons)
 
 if __name__ == '__main__':
-  solve(loss, jac, cons)
+  solve(objective, jac, cons)
