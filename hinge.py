@@ -1,6 +1,6 @@
 import numpy as np
 import cplex
-import svm
+import load_data
 
 def createWxiplusbConstraints(d, n, X, y):
   left = []
@@ -39,13 +39,13 @@ def createCplexInstance(d,n,X,y, c):
 
 if __name__=='__main__':
   filename = 'data/bc-orig.txt'
-  (X, y) = svm.load_data(filename)
+  (X, y) = load_data.load_data(filename)
   n = len(y)
   d = len(X[0])
   c = 0.50
   
   print("Creating Cplex instance...")
-#  p = svm.createCplexInstance(d, n, X, y)
+#  p = load_data.createCplexInstance(d, n, X, y)
 #  p = addHardmarginToCplexInstance(p, d,n,X,y,c)
   p = createCplexInstance(d, n, X, y, c)
   print(p)

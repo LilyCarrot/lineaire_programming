@@ -1,13 +1,13 @@
 import time
 import cplex
-import svm
+import load_data
 import hinge
 import hardmargin
 import ramp
 
 if __name__=='__main__':
   for filename in ['bc-orig.txt', 'diabetes.txt',  'heart-bin.txt',  'liver.txt', 'sonar.txt',	'test_2.txt',  'test_3.txt',	'test_bc_orig.txt']:
-    (X, y) = svm.load_data('data/' + filename)
+    (X, y) = load_data.load_data('data/' + filename)
     n = len(y)
     d = len(X[0])
     print('File: ', filename, '; n: ', n, '; d: ', d)
