@@ -1,0 +1,1407 @@
+<?xml version = "1.0" encoding="UTF-8" standalone="yes"?>
+<CPLEXSolution version="1.2">
+ <header
+   problemName="SVM"
+   objectiveValue="0.47800000649952379"
+   solutionTypeValue="2"
+   solutionTypeString="nonbasic"
+   solutionStatusValue="1"
+   solutionStatusString="optimal"
+   solutionMethodString="barrier"
+   primalFeasible="1"
+   dualFeasible="1"
+   barrierIterations="8"
+   writeLevel="1"/>
+ <quality
+   barEpComp="1e-08"
+   maxPrimalInfeas="4.4408920985006262e-16"
+   maxPrimalResidual="1.6349768761081407e-16"
+   maxX="2.0000000169766814"
+   maxSlack="2.4800325126861367e-08"
+   maxCompSlack="1.2258053991669607e-10"
+   objGap="9.0361006455097481e-09"
+   maxDualInfeas="0"
+   maxDualResidual="1.0280654366007225e-13"
+   maxPi="0.001"
+   maxRedCost="0.52355295691104264"/>
+ <linearConstraints>
+  <constraint index="0" slack="4.4408920985006262e-16" dual="0.001"/>
+  <constraint index="1" slack="2.2204460492503131e-16" dual="0.001"/>
+  <constraint index="2" slack="-2.230760798305198e-08" dual="0.00076691273029184546"/>
+  <constraint index="3" slack="3.3306690738754696e-16" dual="0.001"/>
+  <constraint index="4" slack="2.2204460492503131e-16" dual="0.001"/>
+  <constraint index="5" slack="-2.4211769478199585e-08" dual="0.00049709482667400552"/>
+  <constraint index="6" slack="-2.4216890937012181e-08" dual="0.00034839527667500868"/>
+  <constraint index="7" slack="3.3306690738754696e-16" dual="0.001"/>
+  <constraint index="8" slack="-2.2324908144355504e-08" dual="0.0006962547030199284"/>
+  <constraint index="9" slack="2.2204460492503131e-16" dual="0.001"/>
+  <constraint index="10" slack="3.3306690738754696e-16" dual="0.001"/>
+  <constraint index="11" slack="-2.2215950634674186e-08" dual="0.00079693408749958007"/>
+  <constraint index="12" slack="-2.2284673439898484e-08" dual="0.00060109761511925315"/>
+  <constraint index="13" slack="-2.2215950634674186e-08" dual="0.00079693408750077497"/>
+  <constraint index="14" slack="-2.2275093769508203e-08" dual="0.00076487267298366813"/>
+  <constraint index="15" slack="-2.4587360591965535e-08" dual="0.00051312118413807855"/>
+  <constraint index="16" slack="2.2204460492503131e-16" dual="0.001"/>
+  <constraint index="17" slack="3.3306690738754696e-16" dual="0.001"/>
+  <constraint index="18" slack="2.2204460492503131e-16" dual="0.001"/>
+  <constraint index="19" slack="3.3306690738754696e-16" dual="0.001"/>
+  <constraint index="20" slack="1.1102230246251565e-16" dual="0.001"/>
+  <constraint index="21" slack="4.4408920985006262e-16" dual="0.001"/>
+  <constraint index="22" slack="2.2204460492503131e-16" dual="0.001"/>
+  <constraint index="23" slack="4.4408920985006262e-16" dual="0.001"/>
+  <constraint index="24" slack="2.2204460492503131e-16" dual="0.001"/>
+  <constraint index="25" slack="4.4408920985006262e-16" dual="0.001"/>
+  <constraint index="26" slack="-2.2321046344586648e-08" dual="0.00065583678980803714"/>
+  <constraint index="27" slack="1.1102230246251565e-16" dual="0.001"/>
+  <constraint index="28" slack="3.3306690738754696e-16" dual="0.001"/>
+  <constraint index="29" slack="-2.4085332617218569e-08" dual="0.00046625372230283551"/>
+  <constraint index="30" slack="-2.2272930166877813e-08" dual="0.00065103757774307499"/>
+  <constraint index="31" slack="1.1102230246251565e-16" dual="0.001"/>
+  <constraint index="32" slack="-2.2289728729418812e-08" dual="0.00059351666848083318"/>
+  <constraint index="33" slack="4.4408920985006262e-16" dual="0.001"/>
+  <constraint index="34" slack="1.1102230246251565e-16" dual="0.001"/>
+  <constraint index="35" slack="2.2204460492503131e-16" dual="0.001"/>
+  <constraint index="36" slack="1.1102230246251565e-16" dual="0.001"/>
+  <constraint index="37" slack="-2.2230101093256849e-08" dual="0.00064051904291137344"/>
+  <constraint index="38" slack="1.1102230246251565e-16" dual="0.001"/>
+  <constraint index="39" slack="1.1102230246251565e-16" dual="0.001"/>
+  <constraint index="40" slack="-2.2207848893174287e-08" dual="0.00064911453469461238"/>
+  <constraint index="41" slack="-2.417533839782493e-08" dual="0.00042901801294482786"/>
+  <constraint index="42" slack="3.3306690738754696e-16" dual="0.001"/>
+  <constraint index="43" slack="-2.2163297197508314e-08" dual="0.00068925104637823458"/>
+  <constraint index="44" slack="-2.225645689968303e-08" dual="0.00062085747212247625"/>
+  <constraint index="45" slack="-2.3349035149777819e-08" dual="0.00023604696078074612"/>
+  <constraint index="46" slack="2.2204460492503131e-16" dual="0.001"/>
+  <constraint index="47" slack="2.2204460492503131e-16" dual="0.001"/>
+  <constraint index="48" slack="2.2204460492503131e-16" dual="0.001"/>
+  <constraint index="49" slack="2.2204460492503131e-16" dual="0.001"/>
+  <constraint index="50" slack="0" dual="0.001"/>
+  <constraint index="51" slack="-2.4277891697011e-08" dual="0.0005319632152739703"/>
+  <constraint index="52" slack="2.2204460492503131e-16" dual="0.001"/>
+  <constraint index="53" slack="2.2204460492503131e-16" dual="0.001"/>
+  <constraint index="54" slack="1.1102230246251565e-16" dual="0.001"/>
+  <constraint index="55" slack="0" dual="0.001"/>
+  <constraint index="56" slack="4.4408920985006262e-16" dual="0.001"/>
+  <constraint index="57" slack="1.1102230246251565e-16" dual="0.001"/>
+  <constraint index="58" slack="3.3306690738754696e-16" dual="0.001"/>
+  <constraint index="59" slack="2.2204460492503131e-16" dual="0.001"/>
+  <constraint index="60" slack="-2.2362450780022414e-08" dual="0.00052245780357267698"/>
+  <constraint index="61" slack="1.1102230246251565e-16" dual="0.001"/>
+  <constraint index="62" slack="1.1102230246251565e-16" dual="0.001"/>
+  <constraint index="63" slack="-2.2196574800403823e-08" dual="0.00066521112299394345"/>
+  <constraint index="64" slack="3.3306690738754696e-16" dual="0.001"/>
+  <constraint index="65" slack="0" dual="0.001"/>
+  <constraint index="66" slack="-2.2234251773056712e-08" dual="0.00071882100195643352"/>
+  <constraint index="67" slack="1.1102230246251565e-16" dual="0.001"/>
+  <constraint index="68" slack="2.2204460492503131e-16" dual="0.001"/>
+  <constraint index="69" slack="-2.2321996029361912e-08" dual="0.00064413348247983372"/>
+  <constraint index="70" slack="-2.2196574800403823e-08" dual="0.0006652111229938977"/>
+  <constraint index="71" slack="4.4408920985006262e-16" dual="0.001"/>
+  <constraint index="72" slack="0" dual="0.001"/>
+  <constraint index="73" slack="1.1102230246251565e-16" dual="0.001"/>
+  <constraint index="74" slack="-2.3339496779684055e-08" dual="0.00031195455619070707"/>
+  <constraint index="75" slack="1.1102230246251565e-16" dual="0.001"/>
+  <constraint index="76" slack="4.4408920985006262e-16" dual="0.001"/>
+  <constraint index="77" slack="1.1102230246251565e-16" dual="0.001"/>
+  <constraint index="78" slack="3.3306690738754696e-16" dual="0.001"/>
+  <constraint index="79" slack="0" dual="0.001"/>
+  <constraint index="80" slack="3.3306690738754696e-16" dual="0.001"/>
+  <constraint index="81" slack="-2.2342266259300914e-08" dual="0.00054956499023421331"/>
+  <constraint index="82" slack="2.2204460492503131e-16" dual="0.001"/>
+  <constraint index="83" slack="3.3306690738754696e-16" dual="0.001"/>
+  <constraint index="84" slack="1.1102230246251565e-16" dual="0.001"/>
+  <constraint index="85" slack="4.4408920985006262e-16" dual="0.001"/>
+  <constraint index="86" slack="-2.2221476214667746e-08" dual="0.00060937728281805666"/>
+  <constraint index="87" slack="1.1102230246251565e-16" dual="0.001"/>
+  <constraint index="88" slack="3.3306690738754696e-16" dual="0.001"/>
+  <constraint index="89" slack="0" dual="0.001"/>
+  <constraint index="90" slack="-2.2220815631968094e-08" dual="0.00068463661080082915"/>
+  <constraint index="91" slack="1.1102230246251565e-16" dual="0.001"/>
+  <constraint index="92" slack="0" dual="0.001"/>
+  <constraint index="93" slack="0" dual="0.001"/>
+  <constraint index="94" slack="2.2204460492503131e-16" dual="0.001"/>
+  <constraint index="95" slack="2.2204460492503131e-16" dual="0.001"/>
+  <constraint index="96" slack="1.1102230246251565e-16" dual="0.001"/>
+  <constraint index="97" slack="-2.421990030754273e-08" dual="0.00042920734539407497"/>
+  <constraint index="98" slack="-2.2222331308441312e-08" dual="0.00069536690104127935"/>
+  <constraint index="99" slack="-2.2368614294165923e-08" dual="0.00054272310930261552"/>
+  <constraint index="100" slack="-2.2267008903398278e-08" dual="0.00071762793777739912"/>
+  <constraint index="101" slack="-2.2163297197508314e-08" dual="0.00068925104637824564"/>
+  <constraint index="102" slack="2.2204460492503131e-16" dual="0.001"/>
+  <constraint index="103" slack="0" dual="0.001"/>
+  <constraint index="104" slack="3.3306690738754696e-16" dual="0.001"/>
+  <constraint index="105" slack="2.2204460492503131e-16" dual="0.001"/>
+  <constraint index="106" slack="-2.2167844448972573e-08" dual="0.00072993878119601973"/>
+  <constraint index="107" slack="3.3306690738754696e-16" dual="0.001"/>
+  <constraint index="108" slack="-2.2190693949042384e-08" dual="0.0007635679195496949"/>
+  <constraint index="109" slack="2.2204460492503131e-16" dual="0.001"/>
+  <constraint index="110" slack="-2.2241120722910068e-08" dual="0.00073107256836711838"/>
+  <constraint index="111" slack="2.2204460492503131e-16" dual="0.001"/>
+  <constraint index="112" slack="1.1102230246251565e-16" dual="0.001"/>
+  <constraint index="113" slack="2.2204460492503131e-16" dual="0.001"/>
+  <constraint index="114" slack="1.1102230246251565e-16" dual="0.001"/>
+  <constraint index="115" slack="-2.2196574800403823e-08" dual="0.00066521112299388501"/>
+  <constraint index="116" slack="-2.2204531102687497e-08" dual="0.00067472200927146629"/>
+  <constraint index="117" slack="3.3306690738754696e-16" dual="0.001"/>
+  <constraint index="118" slack="0" dual="0.001"/>
+  <constraint index="119" slack="-2.2164137192248745e-08" dual="0.0006280443943010996"/>
+  <constraint index="120" slack="3.3306690738754696e-16" dual="0.001"/>
+  <constraint index="121" slack="-2.2218638928706014e-08" dual="0.00066882520482194083"/>
+  <constraint index="122" slack="2.2204460492503131e-16" dual="0.001"/>
+  <constraint index="123" slack="3.3306690738754696e-16" dual="0.001"/>
+  <constraint index="124" slack="1.1102230246251565e-16" dual="0.001"/>
+  <constraint index="125" slack="2.2204460492503131e-16" dual="0.001"/>
+  <constraint index="126" slack="2.2204460492503131e-16" dual="0.001"/>
+  <constraint index="127" slack="0" dual="0.001"/>
+  <constraint index="128" slack="-2.3531420145772586e-08" dual="0.00022822833963832861"/>
+  <constraint index="129" slack="-2.4800325126861367e-08" dual="0.00053803915812231399"/>
+  <constraint index="130" slack="-2.4015345267969224e-08" dual="0.0005096639217875206"/>
+  <constraint index="131" slack="1.1102230246251565e-16" dual="0.001"/>
+  <constraint index="132" slack="2.2204460492503131e-16" dual="0.001"/>
+  <constraint index="133" slack="-2.2359163187601894e-08" dual="0.00053099066872399215"/>
+  <constraint index="134" slack="0" dual="0.001"/>
+  <constraint index="135" slack="3.3306690738754696e-16" dual="0.001"/>
+  <constraint index="136" slack="-2.2196574800403823e-08" dual="0.00066521112299390106"/>
+  <constraint index="137" slack="1.1102230246251565e-16" dual="0.001"/>
+  <constraint index="138" slack="0" dual="0.001"/>
+  <constraint index="139" slack="0" dual="0.001"/>
+  <constraint index="140" slack="2.2204460492503131e-16" dual="0.001"/>
+  <constraint index="141" slack="1.1102230246251565e-16" dual="0.001"/>
+  <constraint index="142" slack="3.3306690738754696e-16" dual="0.001"/>
+  <constraint index="143" slack="-2.2391082543649077e-08" dual="0.0004928200022751313"/>
+  <constraint index="144" slack="1.1102230246251565e-16" dual="0.001"/>
+  <constraint index="145" slack="-2.3313942332237048e-08" dual="0.00031430631363650412"/>
+  <constraint index="146" slack="-2.2245715269875177e-08" dual="0.0006828418337747901"/>
+  <constraint index="147" slack="-2.2249681652652953e-08" dual="0.00061127154417393934"/>
+  <constraint index="148" slack="1.1102230246251565e-16" dual="0.001"/>
+  <constraint index="149" slack="1.1102230246251565e-16" dual="0.001"/>
+  <constraint index="150" slack="-2.2135034916104246e-08" dual="0.00071403917226803791"/>
+  <constraint index="151" slack="-2.2273951794105074e-08" dual="0.00061941591364603589"/>
+  <constraint index="152" slack="4.4408920985006262e-16" dual="0.001"/>
+  <constraint index="153" slack="-2.2248682673975395e-08" dual="0.0006685372719405871"/>
+  <constraint index="154" slack="1.1102230246251565e-16" dual="0.001"/>
+  <constraint index="155" slack="2.2204460492503131e-16" dual="0.001"/>
+  <constraint index="156" slack="2.2204460492503131e-16" dual="0.001"/>
+  <constraint index="157" slack="3.3306690738754696e-16" dual="0.001"/>
+  <constraint index="158" slack="2.2204460492503131e-16" dual="0.001"/>
+  <constraint index="159" slack="-2.2222464313159662e-08" dual="0.00064608044834056427"/>
+  <constraint index="160" slack="2.2204460492503131e-16" dual="0.001"/>
+  <constraint index="161" slack="-2.3366522050594085e-08" dual="0.0002801667044471221"/>
+  <constraint index="162" slack="-2.2241120500865463e-08" dual="0.00073107256835416574"/>
+  <constraint index="163" slack="-2.2238258123863375e-08" dual="0.00064963365076767731"/>
+  <constraint index="164" slack="-2.2163297197508314e-08" dual="0.00068925104637824813"/>
+  <constraint index="165" slack="0" dual="0.001"/>
+  <constraint index="166" slack="-2.2261544163626468e-08" dual="0.00062775807618269575"/>
+  <constraint index="167" slack="-2.2230101093256849e-08" dual="0.00064051904289959499"/>
+  <constraint index="168" slack="-2.2192590432013048e-08" dual="0.00066510175090289062"/>
+  <constraint index="169" slack="4.4408920985006262e-16" dual="0.001"/>
+  <constraint index="170" slack="-2.2497854468284118e-08" dual="0.0004966555514982063"/>
+  <constraint index="171" slack="-2.2222707007912845e-08" dual="0.00061940194401475818"/>
+  <constraint index="172" slack="1.1102230246251565e-16" dual="0.001"/>
+  <constraint index="173" slack="1.1102230246251565e-16" dual="0.001"/>
+  <constraint index="174" slack="1.1102230246251565e-16" dual="0.001"/>
+  <constraint index="175" slack="4.4408920985006262e-16" dual="0.001"/>
+  <constraint index="176" slack="0" dual="0.001"/>
+  <constraint index="177" slack="1.1102230246251565e-16" dual="0.001"/>
+  <constraint index="178" slack="1.1102230246251565e-16" dual="0.001"/>
+  <constraint index="179" slack="-2.2230101093256849e-08" dual="0.00064051904289954339"/>
+  <constraint index="180" slack="-2.2208446193161535e-08" dual="0.0006393236717742659"/>
+  <constraint index="181" slack="-2.2333520810491336e-08" dual="0.00076533401039682229"/>
+  <constraint index="182" slack="3.3306690738754696e-16" dual="0.001"/>
+  <constraint index="183" slack="-2.2205606686753754e-08" dual="0.00073167636455054893"/>
+  <constraint index="184" slack="-2.3309624008760466e-08" dual="0.00032929025338773461"/>
+  <constraint index="185" slack="0" dual="0.001"/>
+  <constraint index="186" slack="3.3306690738754696e-16" dual="0.001"/>
+  <constraint index="187" slack="-2.24710867691158e-08" dual="0.00087450725895343189"/>
+  <constraint index="188" slack="1.1102230246251565e-16" dual="0.001"/>
+  <constraint index="189" slack="4.4408920985006262e-16" dual="0.001"/>
+  <constraint index="190" slack="0" dual="0.001"/>
+  <constraint index="191" slack="3.3306690738754696e-16" dual="0.001"/>
+  <constraint index="192" slack="0" dual="0.001"/>
+  <constraint index="193" slack="2.2204460492503131e-16" dual="0.001"/>
+  <constraint index="194" slack="0" dual="0.001"/>
+  <constraint index="195" slack="-2.2163297197508314e-08" dual="0.00068925104637823924"/>
+  <constraint index="196" slack="3.3306690738754696e-16" dual="0.001"/>
+  <constraint index="197" slack="1.1102230246251565e-16" dual="0.001"/>
+  <constraint index="198" slack="-2.2225502327444246e-08" dual="0.00062930213770568224"/>
+  <constraint index="199" slack="3.3306690738754696e-16" dual="0.001"/>
+  <constraint index="200" slack="1.1102230246251565e-16" dual="0.001"/>
+  <constraint index="201" slack="3.3306690738754696e-16" dual="0.001"/>
+  <constraint index="202" slack="-2.2222464313159662e-08" dual="0.00064608044834056427"/>
+  <constraint index="203" slack="1.1102230246251565e-16" dual="0.001"/>
+  <constraint index="204" slack="1.1102230246251565e-16" dual="0.001"/>
+  <constraint index="205" slack="1.1102230246251565e-16" dual="0.001"/>
+  <constraint index="206" slack="3.3306690738754696e-16" dual="0.001"/>
+  <constraint index="207" slack="2.2204460492503131e-16" dual="0.001"/>
+  <constraint index="208" slack="-2.2206777527955524e-08" dual="0.00078437703040073938"/>
+  <constraint index="209" slack="1.1102230246251565e-16" dual="0.001"/>
+  <constraint index="210" slack="0" dual="0.001"/>
+  <constraint index="211" slack="-2.2163297197508314e-08" dual="0.00068925104637985177"/>
+  <constraint index="212" slack="2.2204460492503131e-16" dual="0.001"/>
+  <constraint index="213" slack="2.2204460492503131e-16" dual="0.001"/>
+  <constraint index="214" slack="2.2204460492503131e-16" dual="0.001"/>
+  <constraint index="215" slack="-2.2222464313159662e-08" dual="0.00064608044832688836"/>
+  <constraint index="216" slack="0" dual="0.001"/>
+  <constraint index="217" slack="-2.2163297197508314e-08" dual="0.00068925104637983453"/>
+  <constraint index="218" slack="3.3306690738754696e-16" dual="0.001"/>
+  <constraint index="219" slack="2.2204460492503131e-16" dual="0.001"/>
+  <constraint index="220" slack="2.2204460492503131e-16" dual="0.001"/>
+  <constraint index="221" slack="2.2204460492503131e-16" dual="0.001"/>
+  <constraint index="222" slack="-1.3292198453029869e-08" dual="0.00099999999506870897"/>
+  <constraint index="223" slack="-4.4408920985006262e-16" dual="0.001"/>
+  <constraint index="224" slack="-1.0806084471681743e-08" dual="0.00099999999438129617"/>
+  <constraint index="225" slack="-1.0824845464441069e-08" dual="0.0009999999933015106"/>
+  <constraint index="226" slack="-1.1266272581522685e-08" dual="0.00099999999363164257"/>
+  <constraint index="227" slack="-1.1043741698912868e-08" dual="0.00099999999353431808"/>
+  <constraint index="228" slack="-4.4408920985006262e-16" dual="0.001"/>
+  <constraint index="229" slack="-1.100302426948474e-08" dual="0.00099999999349283282"/>
+  <constraint index="230" slack="-1.4802732373198069e-08" dual="0.00099999999490766722"/>
+  <constraint index="231" slack="-1.1049042125677033e-08" dual="0.00099999999355058415"/>
+  <constraint index="232" slack="1.1102230246251565e-16" dual="0.001"/>
+  <constraint index="233" slack="1.1102230246251565e-16" dual="0.001"/>
+  <constraint index="234" slack="-1.1156695123304416e-08" dual="0.0009999999935424587"/>
+  <constraint index="235" slack="-2.2204460492503131e-16" dual="0.001"/>
+  <constraint index="236" slack="-1.1647151687554924e-08" dual="0.00099999999373459906"/>
+  <constraint index="237" slack="-1.1923331655339098e-08" dual="0.0009999999938102484"/>
+  <constraint index="238" slack="-1.1882772543714282e-08" dual="0.00099999999399302212"/>
+  <constraint index="239" slack="-1.0483742318712075e-08" dual="0.00099999999424042708"/>
+  <constraint index="240" slack="-1.0876951339611196e-08" dual="0.00099999999340617926"/>
+  <constraint index="241" slack="-1.124145132536114e-08" dual="0.00099999999314313555"/>
+  <constraint index="242" slack="-1.1127030630220247e-08" dual="0.0009999999935541631"/>
+  <constraint index="243" slack="-4.4408920985006262e-16" dual="0.001"/>
+  <constraint index="244" slack="-1.1022149859485353e-08" dual="0.00099999999353514034"/>
+  <constraint index="245" slack="-1.0935156780078614e-08" dual="0.00099999999346974322"/>
+  <constraint index="246" slack="-1.1019714474258535e-08" dual="0.00099999999341160613"/>
+  <constraint index="247" slack="-1.0976646258598066e-08" dual="0.00099999999445502473"/>
+  <constraint index="248" slack="-1.1363764151894884e-08" dual="0.00099999999369004985"/>
+  <constraint index="249" slack="-1.1171023661660229e-08" dual="0.00099999999359755721"/>
+  <constraint index="250" slack="2.2204460492503131e-16" dual="0.001"/>
+  <constraint index="251" slack="-1.5718380153018074e-08" dual="0.00099999999520742179"/>
+  <constraint index="252" slack="-1.0997616151087186e-08" dual="0.00099999999284522498"/>
+  <constraint index="253" slack="-1.5719971990790782e-08" dual="0.00099999999527388469"/>
+  <constraint index="254" slack="-1.1053807646987934e-08" dual="0.00099999999354061469"/>
+  <constraint index="255" slack="-1.2834486140533841e-08" dual="0.00099999999353672371"/>
+  <constraint index="256" slack="-1.1264058130677768e-08" dual="0.0009999999940174737"/>
+  <constraint index="257" slack="-1.3696736633761475e-08" dual="0.000999999994373097"/>
+  <constraint index="258" slack="-1.0933550509406587e-08" dual="0.00099999999340176569"/>
+  <constraint index="259" slack="-1.0994792409846355e-08" dual="0.00099999999346607861"/>
+  <constraint index="260" slack="-1.0777941206185915e-08" dual="0.00099999999323114523"/>
+  <constraint index="261" slack="-1.0952402318409327e-08" dual="0.00099999999276678664"/>
+  <constraint index="262" slack="-1.082667866469933e-08" dual="0.00099999999331807526"/>
+  <constraint index="263" slack="-1.0956133555950487e-08" dual="0.00099999999342939008"/>
+  <constraint index="264" slack="-1.1385908438299452e-08" dual="0.00099999999364731927"/>
+  <constraint index="265" slack="-1.1975661573515595e-08" dual="0.00099999999397256778"/>
+  <constraint index="266" slack="-2.2204460492503131e-16" dual="0.001"/>
+  <constraint index="267" slack="-2.2204460492503131e-16" dual="0.001"/>
+  <constraint index="268" slack="-1.0934164240694599e-08" dual="0.00099999999291278769"/>
+  <constraint index="269" slack="-1.0874226408219556e-08" dual="0.00099999999330397152"/>
+  <constraint index="270" slack="-1.518034742353791e-08" dual="0.00099999999504022589"/>
+  <constraint index="271" slack="-1.1168378666326362e-08" dual="0.0009999999935344187"/>
+  <constraint index="272" slack="-1.0531424399218281e-08" dual="0.00099999999420425181"/>
+  <constraint index="273" slack="-1.1047013526166438e-08" dual="0.00099999999307685979"/>
+  <constraint index="274" slack="-1.0823240303992065e-08" dual="0.00099999999252337241"/>
+  <constraint index="275" slack="2.2204460492503131e-16" dual="0.001"/>
+  <constraint index="276" slack="-1.0850503162629366e-08" dual="0.00099999999336797436"/>
+  <constraint index="277" slack="-1.1019377410548259e-08" dual="0.00099999999356896138"/>
+  <constraint index="278" slack="-1.094894219733078e-08" dual="0.00099999999339979049"/>
+  <constraint index="279" slack="-1.1190655735404675e-08" dual="0.00099999999357180285"/>
+  <constraint index="280" slack="-1.0567528629934486e-08" dual="0.00099999999429514655"/>
+  <constraint index="281" slack="-1.1032068814031959e-08" dual="0.00099999999353133566"/>
+  <constraint index="282" slack="-1.0969041230879384e-08" dual="0.00099999999347334017"/>
+  <constraint index="283" slack="-1.1129879018412225e-08" dual="0.00099999999357492167"/>
+  <constraint index="284" slack="-1.1061039639770343e-08" dual="0.0009999999935737902"/>
+  <constraint index="285" slack="-1.095179880117314e-08" dual="0.00099999999270883148"/>
+  <constraint index="286" slack="-1.0960535146153916e-08" dual="0.00099999999440983974"/>
+  <constraint index="287" slack="-1.0974050113077283e-08" dual="0.00099999999281246278"/>
+  <constraint index="288" slack="-1.1001104471830558e-08" dual="0.00099999999344462832"/>
+  <constraint index="289" slack="-1.1235424146605055e-08" dual="0.00099999999364229985"/>
+  <constraint index="290" slack="-1.0863042687603297e-08" dual="0.00099999999257691595"/>
+  <constraint index="291" slack="-1.1087697648903827e-08" dual="0.0009999999935123734"/>
+  <constraint index="292" slack="-1.1382064180054385e-08" dual="0.00099999999366199264"/>
+  <constraint index="293" slack="-1.0916174630892783e-08" dual="0.00099999999339096097"/>
+  <constraint index="294" slack="-1.1824128343107532e-08" dual="0.00099999999387772177"/>
+  <constraint index="295" slack="-1.1016566103805303e-08" dual="0.00099999999345114893"/>
+  <constraint index="296" slack="-1.1992007387107151e-08" dual="0.00099999999394378004"/>
+  <constraint index="297" slack="2.2204460492503131e-16" dual="0.001"/>
+  <constraint index="298" slack="-1.0932257765716713e-08" dual="0.00099999999341459896"/>
+  <constraint index="299" slack="-1.0831055163862402e-08" dual="0.00099999999328792338"/>
+  <constraint index="300" slack="2.2204460492503131e-16" dual="0.001"/>
+  <constraint index="301" slack="-1.1186928938755614e-08" dual="0.00099999999357882957"/>
+  <constraint index="302" slack="-1.0957405205402893e-08" dual="0.00099999999350213766"/>
+  <constraint index="303" slack="-1.5202404668457348e-08" dual="0.0009999999951861582"/>
+  <constraint index="304" slack="0" dual="0.001"/>
+  <constraint index="305" slack="-2.2204460492503131e-16" dual="0.001"/>
+  <constraint index="306" slack="-2.2204460492503131e-16" dual="0.001"/>
+  <constraint index="307" slack="-1.2958670358997892e-08" dual="0.00099999999381806528"/>
+  <constraint index="308" slack="-1.0932503569094365e-08" dual="0.00099999999346579759"/>
+  <constraint index="309" slack="-1.0865610633459255e-08" dual="0.00099999999328958633"/>
+  <constraint index="310" slack="-1.1335285154956409e-08" dual="0.00099999999369824338"/>
+  <constraint index="311" slack="-1.1023185919611933e-08" dual="0.00099999999278950762"/>
+  <constraint index="312" slack="-1.1563228818900484e-08" dual="0.00099999999377418654"/>
+  <constraint index="313" slack="-1.1466223526213071e-08" dual="0.00099999999372027198"/>
+  <constraint index="314" slack="-1.0392971150352537e-08" dual="0.00099999999403804231"/>
+  <constraint index="315" slack="-1.094529977763159e-08" dual="0.00099999999347527547"/>
+  <constraint index="316" slack="-1.4097155887071722e-08" dual="0.00099999999438922147"/>
+  <constraint index="317" slack="0" dual="0.001"/>
+  <constraint index="318" slack="-1.0996787480621606e-08" dual="0.00099999999354626751"/>
+  <constraint index="319" slack="-1.093771606619498e-08" dual="0.00099999999269928226"/>
+  <constraint index="320" slack="2.2204460492503131e-16" dual="0.001"/>
+  <constraint index="321" slack="2.2204460492503131e-16" dual="0.001"/>
+  <constraint index="322" slack="-1.1573290326083452e-08" dual="0.00099999999342398772"/>
+  <constraint index="323" slack="0" dual="0.001"/>
+  <constraint index="324" slack="-1.1042438297081958e-08" dual="0.00099999999306168725"/>
+  <constraint index="325" slack="-1.1281279910235753e-08" dual="0.00099999999363929878"/>
+  <constraint index="326" slack="-1.0507943848381274e-08" dual="0.00099999999423851325"/>
+  <constraint index="327" slack="-1.1033239655233729e-08" dual="0.00099999999355017194"/>
+  <constraint index="328" slack="-1.1615817196997114e-08" dual="0.00099999999472485989"/>
+  <constraint index="329" slack="-1.0880843337446322e-08" dual="0.00099999999334722317"/>
+  <constraint index="330" slack="-1.1617283135478829e-08" dual="0.00099999999377489994"/>
+  <constraint index="331" slack="-1.108263836258061e-08" dual="0.00099999999307924157"/>
+  <constraint index="332" slack="-1.1453171522290972e-08" dual="0.00099999999371440081"/>
+  <constraint index="333" slack="-1.0927533544702328e-08" dual="0.00099999999342276864"/>
+  <constraint index="334" slack="-1.393103232771864e-08" dual="0.00099999999449714295"/>
+  <constraint index="335" slack="-1.1383420428501267e-08" dual="0.00099999999370760091"/>
+  <constraint index="336" slack="-1.1116742637540256e-08" dual="0.00099999999358233024"/>
+  <constraint index="337" slack="-2.2204460492503131e-16" dual="0.001"/>
+  <constraint index="338" slack="-1.4679890192326184e-08" dual="0.0009999999947709593"/>
+  <constraint index="339" slack="-1.2148130945632829e-08" dual="0.00099999999442617693"/>
+  <constraint index="340" slack="2.2204460492503131e-16" dual="0.001"/>
+  <constraint index="341" slack="2.2204460492503131e-16" dual="0.001"/>
+  <constraint index="342" slack="4.4408920985006262e-16" dual="0.001"/>
+  <constraint index="343" slack="-2.2195231874633237e-08" dual="0.00066648770749825551"/>
+  <constraint index="344" slack="0" dual="0.001"/>
+  <constraint index="345" slack="-2.2196574800403823e-08" dual="0.00066521112299381411"/>
+  <constraint index="346" slack="4.4408920985006262e-16" dual="0.001"/>
+  <constraint index="347" slack="2.2204460492503131e-16" dual="0.001"/>
+  <constraint index="348" slack="4.4408920985006262e-16" dual="0.001"/>
+  <constraint index="349" slack="2.2204460492503131e-16" dual="0.001"/>
+  <constraint index="350" slack="2.2204460492503131e-16" dual="0.001"/>
+  <constraint index="351" slack="1.1102230246251565e-16" dual="0.001"/>
+  <constraint index="352" slack="3.3306690738754696e-16" dual="0.001"/>
+  <constraint index="353" slack="1.1102230246251565e-16" dual="0.001"/>
+  <constraint index="354" slack="3.3306690738754696e-16" dual="0.001"/>
+  <constraint index="355" slack="-2.22475287081636e-08" dual="0.00073091017104703708"/>
+  <constraint index="356" slack="-2.2230101093256849e-08" dual="0.00064051904289959499"/>
+  <constraint index="357" slack="-2.2195231874633237e-08" dual="0.00066648770752445071"/>
+  <constraint index="358" slack="-2.2304507352188807e-08" dual="0.00065748752058233289"/>
+  <constraint index="359" slack="1.1102230246251565e-16" dual="0.001"/>
+  <constraint index="360" slack="1.1102230246251565e-16" dual="0.001"/>
+  <constraint index="361" slack="-2.2300234991945445e-08" dual="0.00056626933198938682"/>
+  <constraint index="362" slack="2.2204460492503131e-16" dual="0.001"/>
+  <constraint index="363" slack="-2.2238258123863375e-08" dual="0.00064963365076761096"/>
+  <constraint index="364" slack="2.2204460492503131e-16" dual="0.001"/>
+  <constraint index="365" slack="-2.2200516092141243e-08" dual="0.00071615114443609844"/>
+  <constraint index="366" slack="1.1102230246251565e-16" dual="0.001"/>
+  <constraint index="367" slack="-2.2195231874633237e-08" dual="0.00066648770752445396"/>
+  <constraint index="368" slack="-2.2213431094542102e-08" dual="0.00073968265025832123"/>
+  <constraint index="369" slack="4.4408920985006262e-16" dual="0.001"/>
+  <constraint index="370" slack="-2.2364433638344394e-08" dual="0.0006615738664764128"/>
+  <constraint index="371" slack="1.1102230246251565e-16" dual="0.001"/>
+  <constraint index="372" slack="-2.229499229677856e-08" dual="0.00078842800973433832"/>
+  <constraint index="373" slack="-2.2257920173629486e-08" dual="0.00061878000874176305"/>
+  <constraint index="374" slack="2.2204460492503131e-16" dual="0.001"/>
+  <constraint index="375" slack="0" dual="0.001"/>
+  <constraint index="376" slack="0" dual="0.001"/>
+  <constraint index="377" slack="-2.2163297197508314e-08" dual="0.00068925104637823458"/>
+  <constraint index="378" slack="-2.415956812384934e-08" dual="0.00047456960482871526"/>
+  <constraint index="379" slack="0" dual="0.001"/>
+  <constraint index="380" slack="-2.2468174432077603e-08" dual="0.0008878834470186143"/>
+  <constraint index="381" slack="-2.2236737118319638e-08" dual="0.00060839850645232096"/>
+  <constraint index="382" slack="-2.2260592702494364e-08" dual="0.00061707582803130034"/>
+  <constraint index="383" slack="-2.2260592702494364e-08" dual="0.00061707582802956443"/>
+  <constraint index="384" slack="3.3306690738754696e-16" dual="0.001"/>
+  <constraint index="385" slack="2.2204460492503131e-16" dual="0.001"/>
+  <constraint index="386" slack="3.3306690738754696e-16" dual="0.001"/>
+  <constraint index="387" slack="-2.2206777750000128e-08" dual="0.00078437703041187154"/>
+  <constraint index="388" slack="1.1102230246251565e-16" dual="0.001"/>
+  <constraint index="389" slack="4.4408920985006262e-16" dual="0.001"/>
+  <constraint index="390" slack="-2.2257920173629486e-08" dual="0.00061878000872782378"/>
+  <constraint index="391" slack="1.1102230246251565e-16" dual="0.001"/>
+  <constraint index="392" slack="3.3306690738754696e-16" dual="0.001"/>
+  <constraint index="393" slack="-2.2204460492503131e-16" dual="0.001"/>
+  <constraint index="394" slack="-2.2230101093256849e-08" dual="0.00064051904289959499"/>
+  <constraint index="395" slack="4.4408920985006262e-16" dual="0.001"/>
+  <constraint index="396" slack="0" dual="0.001"/>
+  <constraint index="397" slack="-2.2408120914363394e-08" dual="0.00053517312737894117"/>
+  <constraint index="398" slack="-2.2230101093256849e-08" dual="0.00064051904290111862"/>
+  <constraint index="399" slack="3.3306690738754696e-16" dual="0.001"/>
+  <constraint index="400" slack="-2.2297352186839703e-08" dual="0.00060220168939971116"/>
+  <constraint index="401" slack="1.1102230246251565e-16" dual="0.001"/>
+  <constraint index="402" slack="-2.2221476214667746e-08" dual="0.00060937728281983345"/>
+  <constraint index="403" slack="-2.2301095636834134e-08" dual="0.00058971278650469313"/>
+  <constraint index="404" slack="2.2204460492503131e-16" dual="0.001"/>
+  <constraint index="405" slack="1.1102230246251565e-16" dual="0.001"/>
+  <constraint index="406" slack="4.4408920985006262e-16" dual="0.001"/>
+  <constraint index="407" slack="1.1102230246251565e-16" dual="0.001"/>
+  <constraint index="408" slack="4.4408920985006262e-16" dual="0.001"/>
+  <constraint index="409" slack="-2.2215143280490679e-08" dual="0.00070050958591213336"/>
+  <constraint index="410" slack="-2.2196574800403823e-08" dual="0.00066521112299379979"/>
+  <constraint index="411" slack="2.2204460492503131e-16" dual="0.001"/>
+  <constraint index="412" slack="3.3306690738754696e-16" dual="0.001"/>
+  <constraint index="413" slack="0" dual="0.001"/>
+  <constraint index="414" slack="4.4408920985006262e-16" dual="0.001"/>
+  <constraint index="415" slack="0" dual="0.001"/>
+  <constraint index="416" slack="-2.2204362348787754e-08" dual="0.00061917539758911519"/>
+  <constraint index="417" slack="-2.2190071335970174e-08" dual="0.00073182261134103728"/>
+  <constraint index="418" slack="-2.2257920173629486e-08" dual="0.00061878000872606922"/>
+  <constraint index="419" slack="3.3306690738754696e-16" dual="0.001"/>
+  <constraint index="420" slack="0" dual="0.001"/>
+  <constraint index="421" slack="3.3306690738754696e-16" dual="0.001"/>
+  <constraint index="422" slack="-2.2252184539439668e-08" dual="0.00061112279273901004"/>
+  <constraint index="423" slack="-2.229601436809503e-08" dual="0.00075723363028828484"/>
+  <constraint index="424" slack="1.1102230246251565e-16" dual="0.001"/>
+  <constraint index="425" slack="1.1102230246251565e-16" dual="0.001"/>
+  <constraint index="426" slack="-2.2245143060928285e-08" dual="0.00060208763137108146"/>
+  <constraint index="427" slack="0" dual="0.001"/>
+  <constraint index="428" slack="-2.2190071335970174e-08" dual="0.00073182261134096605"/>
+  <constraint index="429" slack="-2.2217210293717926e-08" dual="0.00071797874661634544"/>
+  <constraint index="430" slack="-2.2163297197508314e-08" dual="0.0006892510463782503"/>
+  <constraint index="431" slack="1.1102230246251565e-16" dual="0.001"/>
+  <constraint index="432" slack="-2.2227874429958661e-08" dual="0.00064207183718126791"/>
+  <constraint index="433" slack="0" dual="0.001"/>
+  <constraint index="434" slack="2.2204460492503131e-16" dual="0.001"/>
+  <constraint index="435" slack="-2.2296459345483299e-08" dual="0.00064101410872888004"/>
+  <constraint index="436" slack="-2.242156416087937e-08" dual="0.00048516236331860152"/>
+  <constraint index="437" slack="1.1102230246251565e-16" dual="0.001"/>
+  <constraint index="438" slack="2.2204460492503131e-16" dual="0.001"/>
+  <constraint index="439" slack="0" dual="0.001"/>
+  <constraint index="440" slack="-2.2270470134699849e-08" dual="0.00056007280320087723"/>
+  <constraint index="441" slack="-2.233876839063953e-08" dual="0.00054557292536941263"/>
+  <constraint index="442" slack="4.4408920985006262e-16" dual="0.001"/>
+  <constraint index="443" slack="0" dual="0.001"/>
+  <constraint index="444" slack="1.1102230246251565e-16" dual="0.001"/>
+  <constraint index="445" slack="-2.2401170030050821e-08" dual="0.00053362613339112761"/>
+  <constraint index="446" slack="0" dual="0.001"/>
+  <constraint index="447" slack="-2.2196013027553363e-08" dual="0.00065604086735051865"/>
+  <constraint index="448" slack="2.2204460492503131e-16" dual="0.001"/>
+  <constraint index="449" slack="0" dual="0.001"/>
+  <constraint index="450" slack="-2.2230101093256849e-08" dual="0.00064051904289959521"/>
+  <constraint index="451" slack="3.3306690738754696e-16" dual="0.001"/>
+  <constraint index="452" slack="-1.1645354458522661e-08" dual="0.00099999999379944671"/>
+  <constraint index="453" slack="-1.0888920431995075e-08" dual="0.00099999999341602208"/>
+  <constraint index="454" slack="-1.1120738330205882e-08" dual="0.00099999999355589132"/>
+  <constraint index="455" slack="-1.1824128343107532e-08" dual="0.00099999999387772177"/>
+  <constraint index="456" slack="-1.0962036611772419e-08" dual="0.00099999999261488537"/>
+  <constraint index="457" slack="-1.0782534642927999e-08" dual="0.00099999999320209555"/>
+  <constraint index="458" slack="-1.1120331322445054e-08" dual="0.00099999999359272904"/>
+  <constraint index="459" slack="-1.1224158713574184e-08" dual="0.0009999999935801653"/>
+  <constraint index="460" slack="3.3306690738754696e-16" dual="0.001"/>
+  <constraint index="461" slack="1.1102230246251565e-16" dual="0.001"/>
+  <constraint index="462" slack="-1.090026535699451e-08" dual="0.00099999999328609845"/>
+  <constraint index="463" slack="-1.0876870071285794e-08" dual="0.00099999999338243393"/>
+  <constraint index="464" slack="-1.4955652716253098e-08" dual="0.00099999999493331705"/>
+  <constraint index="465" slack="-1.0862868826677641e-08" dual="0.00099999999258632379"/>
+  <constraint index="466" slack="2.2204460492503131e-16" dual="0.001"/>
+  <constraint index="467" slack="-1.5395498653703044e-08" dual="0.00099999999498770107"/>
+  <constraint index="468" slack="1.1102230246251565e-16" dual="0.001"/>
+  <constraint index="469" slack="-1.7113739092522451e-08" dual="0.00099999999617513794"/>
+  <constraint index="470" slack="-1.0985358400716905e-08" dual="0.00099999999338645112"/>
+  <constraint index="471" slack="-2.2204460492503131e-16" dual="0.001"/>
+  <constraint index="472" slack="-1.1055895754452649e-08" dual="0.00099999999326260704"/>
+  <constraint index="473" slack="-1.0903609570789285e-08" dual="0.00099999999336553881"/>
+  <constraint index="474" slack="-1.1347866868405276e-08" dual="0.00099999999408938492"/>
+  <constraint index="475" slack="0" dual="0.001"/>
+  <constraint index="476" slack="-1.084397416306615e-08" dual="0.00099999999328531067"/>
+  <constraint index="477" slack="-1.0899659841356879e-08" dual="0.00099999999446473116"/>
+  <constraint index="478" slack="-1.1288136647635838e-08" dual="0.00099999999362887482"/>
+  <constraint index="479" slack="0" dual="0.001"/>
+  <constraint index="480" slack="-1.4270177484121405e-08" dual="0.0009999999945686398"/>
+  <constraint index="481" slack="-1.466988885923115e-08" dual="0.00099999999467638738"/>
+  <constraint index="482" slack="-1.1345453021505136e-08" dual="0.00099999999413211832"/>
+  <constraint index="483" slack="-1.1299940316789048e-08" dual="0.00099999999295698173"/>
+  <constraint index="484" slack="-1.2803596849408905e-08" dual="0.00099999999371280291"/>
+  <constraint index="485" slack="-2.2204460492503131e-16" dual="0.001"/>
+  <constraint index="486" slack="-1.113450087686374e-08" dual="0.00099999999316197964"/>
+  <constraint index="487" slack="-1.1158454604753842e-08" dual="0.00099999999360343619"/>
+  <constraint index="488" slack="-1.1410984157578241e-08" dual="0.00099999999312278096"/>
+  <constraint index="489" slack="-1.1193741045190109e-08" dual="0.0009999999935697201"/>
+  <constraint index="490" slack="-1.1164691615661582e-08" dual="0.0009999999929262266"/>
+  <constraint index="491" slack="-1.7734062662810857e-08" dual="0.00099999999647699045"/>
+  <constraint index="492" slack="-1.1466734006759793e-08" dual="0.00099999999279517322"/>
+  <constraint index="493" slack="-1.1158636681329881e-08" dual="0.00099999999361009275"/>
+  <constraint index="494" slack="-8.9070986142303354e-09" dual="0.0009999999930851535"/>
+  <constraint index="495" slack="-1.117567105524131e-08" dual="0.00099999999355676345"/>
+  <constraint index="496" slack="-1.2763219814360127e-08" dual="0.0009999999938161959"/>
+  <constraint index="497" slack="2.2204460492503131e-16" dual="0.001"/>
+  <constraint index="498" slack="-1.0866459732028488e-08" dual="0.00099999999328179243"/>
+  <constraint index="499" slack="-1.1506768426983172e-08" dual="0.00099999999375132787"/>
+  <constraint index="500" slack="-1.1072680106138932e-08" dual="0.00099999999353747072"/>
+  <constraint index="501" slack="-1.1357548679313823e-08" dual="0.00099999999368581278"/>
+  <constraint index="502" slack="-1.1163493240928801e-08" dual="0.00099999999359831398"/>
+  <constraint index="503" slack="-1.1538791921950065e-08" dual="0.00099999999376736127"/>
+  <constraint index="504" slack="-1.2717934261274877e-08" dual="0.00099999999383247802"/>
+  <constraint index="505" slack="-1.0916327397580972e-08" dual="0.00099999999345606427"/>
+  <constraint index="506" slack="-1.3380186736355881e-08" dual="0.00099999999410539209"/>
+  <constraint index="507" slack="-1.332954324695379e-08" dual="0.00099999999418349129"/>
+  <constraint index="508" slack="0" dual="0.001"/>
+  <constraint index="509" slack="0" dual="0.001"/>
+  <constraint index="510" slack="-1.2680375638396413e-08" dual="0.00099999999349834967"/>
+  <constraint index="511" slack="-1.1650982401079091e-08" dual="0.0009999999936805672"/>
+  <constraint index="512" slack="4.4408920985006262e-16" dual="0.001"/>
+  <constraint index="513" slack="0" dual="0.001"/>
+  <constraint index="514" slack="-2.2358887186157972e-08" dual="0.00063688751276929246"/>
+  <constraint index="515" slack="-2.2206777750000128e-08" dual="0.00078437703041309766"/>
+  <constraint index="516" slack="2.2204460492503131e-16" dual="0.001"/>
+  <constraint index="517" slack="0" dual="0.001"/>
+  <constraint index="518" slack="3.3306690738754696e-16" dual="0.001"/>
+  <constraint index="519" slack="-2.2199599492012112e-08" dual="0.00077155515297990679"/>
+  <constraint index="520" slack="1.1102230246251565e-16" dual="0.001"/>
+  <constraint index="521" slack="3.3306690738754696e-16" dual="0.001"/>
+  <constraint index="522" slack="0" dual="0.001"/>
+  <constraint index="523" slack="2.2204460492503131e-16" dual="0.001"/>
+  <constraint index="524" slack="0" dual="0.001"/>
+  <constraint index="525" slack="-2.2439808011753826e-08" dual="0.00055550646597715388"/>
+  <constraint index="526" slack="3.3306690738754696e-16" dual="0.001"/>
+  <constraint index="527" slack="-2.2297462320963746e-08" dual="0.0005778570723962075"/>
+  <constraint index="528" slack="1.1102230246251565e-16" dual="0.001"/>
+  <constraint index="529" slack="-2.2194424076360519e-08" dual="0.0007584999794455037"/>
+  <constraint index="530" slack="3.3306690738754696e-16" dual="0.001"/>
+  <constraint index="531" slack="-2.4187111202778055e-08" dual="0.00040366411431231366"/>
+  <constraint index="532" slack="-2.2259720067197009e-08" dual="0.00061531006711898755"/>
+  <constraint index="533" slack="-2.2351001272014059e-08" dual="0.00052818824674198813"/>
+  <constraint index="534" slack="-2.224703909980974e-08" dual="0.00060030065795136278"/>
+  <constraint index="535" slack="0" dual="0.001"/>
+  <constraint index="536" slack="3.3306690738754696e-16" dual="0.001"/>
+  <constraint index="537" slack="-2.2260592702494364e-08" dual="0.00061707582803137483"/>
+  <constraint index="538" slack="-2.2297889756828226e-08" dual="0.00055984928107610256"/>
+  <constraint index="539" slack="-2.2196574800403823e-08" dual="0.0006652111229938977"/>
+  <constraint index="540" slack="-2.246466079824927e-08" dual="0.00043068755365268139"/>
+  <constraint index="541" slack="-2.2163297197508314e-08" dual="0.00068925104637824683"/>
+  <constraint index="542" slack="0" dual="0.001"/>
+  <constraint index="543" slack="2.2204460492503131e-16" dual="0.001"/>
+  <constraint index="544" slack="-2.2302337754354085e-08" dual="0.00055766414365512526"/>
+  <constraint index="545" slack="-2.2318812353816497e-08" dual="0.00052632789344108158"/>
+  <constraint index="546" slack="-2.3746071997621243e-08" dual="9.1060642393393863e-05"/>
+  <constraint index="547" slack="1.1102230246251565e-16" dual="0.001"/>
+  <constraint index="548" slack="3.3306690738754696e-16" dual="0.001"/>
+  <constraint index="549" slack="-2.2345898464948277e-08" dual="0.00051118094124488571"/>
+  <constraint index="550" slack="0" dual="0.001"/>
+  <constraint index="551" slack="4.4408920985006262e-16" dual="0.001"/>
+  <constraint index="552" slack="-2.2355000073304154e-08" dual="0.00058080465077601422"/>
+  <constraint index="553" slack="2.2204460492503131e-16" dual="0.001"/>
+  <constraint index="554" slack="3.3306690738754696e-16" dual="0.001"/>
+  <constraint index="555" slack="2.2204460492503131e-16" dual="0.001"/>
+  <constraint index="556" slack="4.4408920985006262e-16" dual="0.001"/>
+  <constraint index="557" slack="-2.2313931369311035e-08" dual="0.00058303615338513716"/>
+  <constraint index="558" slack="-2.2204460492503131e-16" dual="0.001"/>
+  <constraint index="559" slack="-2.2237879759856582e-08" dual="0.00070489362652510811"/>
+  <constraint index="560" slack="4.4408920985006262e-16" dual="0.001"/>
+  <constraint index="561" slack="1.1102230246251565e-16" dual="0.001"/>
+  <constraint index="562" slack="-2.2226026574756474e-08" dual="0.00064353386741030272"/>
+  <constraint index="563" slack="-2.2321510861900151e-08" dual="0.00067594977262536182"/>
+  <constraint index="564" slack="4.4408920985006262e-16" dual="0.001"/>
+  <constraint index="565" slack="-2.2400283850032565e-08" dual="0.00052828223650178575"/>
+  <constraint index="566" slack="2.2204460492503131e-16" dual="0.001"/>
+  <constraint index="567" slack="-2.2192806703458245e-08" dual="0.00072784694025461861"/>
+  <constraint index="568" slack="4.4408920985006262e-16" dual="0.001"/>
+  <constraint index="569" slack="0" dual="0.001"/>
+  <constraint index="570" slack="3.3306690738754696e-16" dual="0.001"/>
+  <constraint index="571" slack="2.2204460492503131e-16" dual="0.001"/>
+  <constraint index="572" slack="-2.430373347017678e-08" dual="0.0002166316374664224"/>
+  <constraint index="573" slack="0" dual="0.001"/>
+  <constraint index="574" slack="-2.4106797447132067e-08" dual="0.00060196275788858007"/>
+  <constraint index="575" slack="0" dual="0.001"/>
+  <constraint index="576" slack="1.1102230246251565e-16" dual="0.001"/>
+  <constraint index="577" slack="0" dual="0.001"/>
+  <constraint index="578" slack="2.2204460492503131e-16" dual="0.001"/>
+  <constraint index="579" slack="2.2204460492503131e-16" dual="0.001"/>
+  <constraint index="580" slack="4.4408920985006262e-16" dual="0.001"/>
+  <constraint index="581" slack="1.1102230246251565e-16" dual="0.001"/>
+  <constraint index="582" slack="1.1102230246251565e-16" dual="0.001"/>
+  <constraint index="583" slack="0" dual="0.001"/>
+  <constraint index="584" slack="3.3306690738754696e-16" dual="0.001"/>
+  <constraint index="585" slack="1.1102230246251565e-16" dual="0.001"/>
+  <constraint index="586" slack="2.2204460492503131e-16" dual="0.001"/>
+  <constraint index="587" slack="2.2204460492503131e-16" dual="0.001"/>
+  <constraint index="588" slack="2.2204460492503131e-16" dual="0.001"/>
+  <constraint index="589" slack="0" dual="0.001"/>
+  <constraint index="590" slack="-2.2196574800403823e-08" dual="0.00066521112299554991"/>
+  <constraint index="591" slack="3.3306690738754696e-16" dual="0.001"/>
+  <constraint index="592" slack="1.1102230246251565e-16" dual="0.001"/>
+  <constraint index="593" slack="-2.2229945439988796e-08" dual="0.00059013607072852688"/>
+  <constraint index="594" slack="1.1102230246251565e-16" dual="0.001"/>
+  <constraint index="595" slack="-2.2238258123863375e-08" dual="0.00064963365076766257"/>
+  <constraint index="596" slack="1.1102230246251565e-16" dual="0.001"/>
+  <constraint index="597" slack="3.3306690738754696e-16" dual="0.001"/>
+  <constraint index="598" slack="-2.2240205010959357e-08" dual="0.00067571743979761526"/>
+  <constraint index="599" slack="2.2204460492503131e-16" dual="0.001"/>
+  <constraint index="600" slack="4.4408920985006262e-16" dual="0.001"/>
+  <constraint index="601" slack="-2.2196574800403823e-08" dual="0.00066521112299394323"/>
+  <constraint index="602" slack="-2.212822414193738e-08" dual="0.0007036823524396871"/>
+  <constraint index="603" slack="0" dual="0.001"/>
+  <constraint index="604" slack="-2.222218964398337e-08" dual="0.00064042728374496735"/>
+  <constraint index="605" slack="-2.2196574800403823e-08" dual="0.00066521112299388512"/>
+  <constraint index="606" slack="1.1102230246251565e-16" dual="0.001"/>
+  <constraint index="607" slack="2.2204460492503131e-16" dual="0.001"/>
+  <constraint index="608" slack="-2.2215602690778269e-08" dual="0.00065482071108496063"/>
+  <constraint index="609" slack="3.3306690738754696e-16" dual="0.001"/>
+  <constraint index="610" slack="0" dual="0.001"/>
+  <constraint index="611" slack="-2.3318749153844465e-08" dual="0.00020656189552377069"/>
+  <constraint index="612" slack="2.2204460492503131e-16" dual="0.001"/>
+  <constraint index="613" slack="0" dual="0.001"/>
+  <constraint index="614" slack="3.3306690738754696e-16" dual="0.001"/>
+  <constraint index="615" slack="-2.2491325246676297e-08" dual="0.00070168222385570168"/>
+  <constraint index="616" slack="-2.4301150203243083e-08" dual="0.00044646485721626958"/>
+  <constraint index="617" slack="2.2204460492503131e-16" dual="0.001"/>
+  <constraint index="618" slack="1.1102230246251565e-16" dual="0.001"/>
+  <constraint index="619" slack="-2.2206777527955524e-08" dual="0.00078437703040072073"/>
+  <constraint index="620" slack="-2.2269234234428836e-08" dual="0.0006625796955424246"/>
+  <constraint index="621" slack="2.2204460492503131e-16" dual="0.001"/>
+  <constraint index="622" slack="-2.2314205372353513e-08" dual="0.00056797318964674985"/>
+  <constraint index="623" slack="-1.093271118079997e-08" dual="0.0009999999934417116"/>
+  <constraint index="624" slack="-1.1069567484867093e-08" dual="0.00099999999349574087"/>
+  <constraint index="625" slack="-1.1211690686963038e-08" dual="0.00099999999359074668"/>
+  <constraint index="626" slack="-1.1273073363682329e-08" dual="0.00099999999362221934"/>
+  <constraint index="627" slack="-1.0982650566759844e-08" dual="0.00099999999299328775"/>
+  <constraint index="628" slack="-1.1080414807906891e-08" dual="0.00099999999303308925"/>
+  <constraint index="629" slack="-1.1226189755575433e-08" dual="0.00099999999360369423"/>
+  <constraint index="630" slack="-1.2886110400955886e-08" dual="0.00099999999487279125"/>
+  <constraint index="631" slack="-1.1798627186365707e-08" dual="0.0009999999939069833"/>
+  <constraint index="632" slack="-1.6001025615608455e-08" dual="0.00099999999557810965"/>
+  <constraint index="633" slack="1.1102230246251565e-16" dual="0.001"/>
+  <constraint index="634" slack="-1.0961541008214226e-08" dual="0.00099999999347494479"/>
+  <constraint index="635" slack="-1.1914817132918643e-08" dual="0.000999999993858292"/>
+  <constraint index="636" slack="-1.1125284471447117e-08" dual="0.00099999999362509399"/>
+  <constraint index="637" slack="-1.0928322691228232e-08" dual="0.00099999999344216567"/>
+  <constraint index="638" slack="-1.0892196922185349e-08" dual="0.00099999999336622901"/>
+  <constraint index="639" slack="0" dual="0.001"/>
+  <constraint index="640" slack="-1.113450087686374e-08" dual="0.00099999999316197964"/>
+  <constraint index="641" slack="-1.1032776470187855e-08" dual="0.0009999999935595672"/>
+  <constraint index="642" slack="-1.0998217447877323e-08" dual="0.00099999999346742996"/>
+  <constraint index="643" slack="-1.3347873029090351e-08" dual="0.00099999999451439543"/>
+  <constraint index="644" slack="-1.1044091863254835e-08" dual="0.00099999999355704079"/>
+  <constraint index="645" slack="-1.1119134502024508e-08" dual="0.00099999999355119586"/>
+  <constraint index="646" slack="-1.0454511478741324e-08" dual="0.00099999999415440279"/>
+  <constraint index="647" slack="-1.1031030755503934e-08" dual="0.00099999999349839521"/>
+  <constraint index="648" slack="-1.1175625758141905e-08" dual="0.00099999999360986139"/>
+  <constraint index="649" slack="-1.1095893093227005e-08" dual="0.00099999999311072593"/>
+  <constraint index="650" slack="-1.570570207221067e-08" dual="0.0009999999952074116"/>
+  <constraint index="651" slack="-1.1100713681599927e-08" dual="0.00099999999349814671"/>
+  <constraint index="652" slack="-1.1732636195915802e-08" dual="0.00099999999338942248"/>
+  <constraint index="653" slack="-1.0959809504385021e-08" dual="0.00099999999344725968"/>
+  <constraint index="654" slack="-1.0978860265353774e-08" dual="0.00099999999347327945"/>
+  <constraint index="655" slack="-2.2204460492503131e-16" dual="0.001"/>
+  <constraint index="656" slack="0" dual="0.001"/>
+  <constraint index="657" slack="-1.3523814734739403e-08" dual="0.00099999999424362353"/>
+  <constraint index="658" slack="-1.3425633493824307e-08" dual="0.00099999999414805544"/>
+  <constraint index="659" slack="-1.0883443479769994e-08" dual="0.00099999999336464456"/>
+  <constraint index="660" slack="-1.0935425009961364e-08" dual="0.00099999999341759201"/>
+  <constraint index="661" slack="-1.1039469782758715e-08" dual="0.00099999999306898415"/>
+  <constraint index="662" slack="-1.1019376522369839e-08" dual="0.00099999999356896138"/>
+  <constraint index="663" slack="-1.1191332749405092e-08" dual="0.0009999999934902496"/>
+  <constraint index="664" slack="-1.217802814146296e-08" dual="0.00099999999444042834"/>
+  <constraint index="665" slack="-1.1617779627215441e-08" dual="0.00099999999376506905"/>
+  <constraint index="666" slack="-1.1298541657822625e-08" dual="0.00099999999362764339"/>
+  <constraint index="667" slack="-1.1197875293689208e-08" dual="0.00099999999359272882"/>
+  <constraint index="668" slack="-4.4408920985006262e-16" dual="0.001"/>
+  <constraint index="669" slack="-1.7102742111418934e-08" dual="0.00099999999587552734"/>
+  <constraint index="670" slack="-1.099674529214667e-08" dual="0.00099999999298736085"/>
+  <constraint index="671" slack="-1.0977650566346142e-08" dual="0.00099999999351462246"/>
+  <constraint index="672" slack="-1.1171475744475856e-08" dual="0.00099999999346564732"/>
+  <constraint index="673" slack="-1.1154110524103089e-08" dual="0.00099999999360959901"/>
+  <constraint index="674" slack="-1.1087323725789133e-08" dual="0.00099999999353738095"/>
+  <constraint index="675" slack="-1.0938845163011024e-08" dual="0.000999999993383246"/>
+  <constraint index="676" slack="-1.2645355429441452e-08" dual="0.00099999999379128918"/>
+  <constraint index="677" slack="0" dual="0.001"/>
+  <constraint index="678" slack="-1.1091815910191372e-08" dual="0.00099999999352465654"/>
+  <constraint index="679" slack="-1.1328784355058019e-08" dual="0.00099999999287822376"/>
+  <constraint index="680" slack="-1.1081969564230576e-08" dual="0.00099999999309935308"/>
+  <constraint index="681" slack="-1.114643666255688e-08" dual="0.00099999999355116073"/>
+  <constraint index="682" slack="-1.2229040891043041e-08" dual="0.00099999999353718471"/>
+ </linearConstraints>
+ <variables>
+  <variable name="w0" index="0" value="5.7730767053817871e-11" reducedCost="0.45112161482180868"/>
+  <variable name="w1" index="1" value="4.0527046350114303e-11" reducedCost="0.52192141071816278"/>
+  <variable name="w2" index="2" value="4.1806008097743181e-11" reducedCost="0.52355295691104264"/>
+  <variable name="w3" index="3" value="6.1240036908186909e-11" reducedCost="0.4589870718097539"/>
+  <variable name="w4" index="4" value="6.3670055823710161e-11" reducedCost="0.42188958074131527"/>
+  <variable name="w5" index="5" value="5.2000086366572364e-11" reducedCost="0.50500304739868263"/>
+  <variable name="w6" index="6" value="4.830469292235914e-11" reducedCost="0.45988720470678374"/>
+  <variable name="w7" index="7" value="5.2769173754237212e-11" reducedCost="0.44262708027418818"/>
+  <variable name="w8" index="8" value="1.8213650848529821e-10" reducedCost="0.24385499221396928"/>
+  <variable name="b" index="9" value="0.99999999913400262" reducedCost="-0.14154839500923927"/>
+  <variable name="ksi0" index="10" value="1.2265201076999688e-09" reducedCost="0"/>
+  <variable name="ksi1" index="11" value="1.2353592593328244e-09" reducedCost="0"/>
+  <variable name="ksi2" index="12" value="2.3361430956111433e-08" reducedCost="0.00023308726981096089"/>
+  <variable name="ksi3" index="13" value="1.2458875042753448e-09" reducedCost="0"/>
+  <variable name="ksi4" index="14" value="1.2265203297445737e-09" reducedCost="0"/>
+  <variable name="ksi5" index="15" value="2.4876482960534084e-08" reducedCost="0.00050290517337734611"/>
+  <variable name="ksi6" index="16" value="2.4951602576296822e-08" reducedCost="0.00065160472337634306"/>
+  <variable name="ksi7" index="17" value="1.2458875042753448e-09" reducedCost="0"/>
+  <variable name="ksi8" index="18" value="2.3331189501028256e-08" reducedCost="0.00030374529708287806"/>
+  <variable name="ksi9" index="19" value="1.2265203297445737e-09" reducedCost="0"/>
+  <variable name="ksi10" index="20" value="1.2547264338635955e-09" reducedCost="0"/>
+  <variable name="ksi11" index="21" value="2.3314074602088671e-08" reducedCost="0.0002030659126032263"/>
+  <variable name="ksi12" index="22" value="2.3378812232494311e-08" reducedCost="0.0003989023849835532"/>
+  <variable name="ksi13" index="23" value="2.3314074613277553e-08" reducedCost="0.00020306591260203137"/>
+  <variable name="ksi14" index="24" value="2.3318957677132857e-08" reducedCost="0.00023512732711913827"/>
+  <variable name="ksi15" index="25" value="2.5607598391913725e-08" reducedCost="0.00048687881588754594"/>
+  <variable name="ksi16" index="26" value="1.1975677116637939e-09" reducedCost="0"/>
+  <variable name="ksi17" index="27" value="1.1867363758355509e-09" reducedCost="0"/>
+  <variable name="ksi18" index="28" value="1.2169351082391699e-09" reducedCost="0"/>
+  <variable name="ksi19" index="29" value="1.2458875042753448e-09" reducedCost="0"/>
+  <variable name="ksi20" index="30" value="1.1287918377789197e-09" reducedCost="0"/>
+  <variable name="ksi21" index="31" value="1.1663198185019041e-09" reducedCost="0"/>
+  <variable name="ksi22" index="32" value="1.2071529331691977e-09" reducedCost="0"/>
+  <variable name="ksi23" index="33" value="1.216934886194565e-09" reducedCost="0"/>
+  <variable name="ksi24" index="34" value="1.2071529331691977e-09" reducedCost="0"/>
+  <variable name="ksi25" index="35" value="1.2265201076999688e-09" reducedCost="0"/>
+  <variable name="ksi26" index="36" value="2.3369424777581015e-08" reducedCost="0.00034416321029476926"/>
+  <variable name="ksi27" index="37" value="1.2138937632855118e-09" reducedCost="0"/>
+  <variable name="ksi28" index="38" value="1.2458875042753448e-09" reducedCost="0"/>
+  <variable name="ksi29" index="39" value="2.5064685671974625e-08" reducedCost="0.00053374627774851623"/>
+  <variable name="ksi30" index="40" value="2.3349655581677086e-08" reducedCost="0.00034896242235973136"/>
+  <variable name="ksi31" index="41" value="1.2740940524835764e-09" reducedCost="0"/>
+  <variable name="ksi32" index="42" value="2.338626334925275e-08" reducedCost="0.00040648333162197323"/>
+  <variable name="ksi33" index="43" value="1.2265201076999688e-09" reducedCost="0"/>
+  <variable name="ksi34" index="44" value="1.2050548336972611e-09" reducedCost="0"/>
+  <variable name="ksi35" index="45" value="1.1712110170591927e-09" reducedCost="0"/>
+  <variable name="ksi36" index="46" value="1.1856874371218851e-09" reducedCost="0"/>
+  <variable name="ksi37" index="47" value="2.3355588334056985e-08" reducedCost="0.00035948095719143291"/>
+  <variable name="ksi38" index="48" value="1.1677377953489554e-09" reducedCost="0"/>
+  <variable name="ksi39" index="49" value="1.2740940524835764e-09" reducedCost="0"/>
+  <variable name="ksi40" index="50" value="2.3338770988401139e-08" reducedCost="0.00035088546540819402"/>
+  <variable name="ksi41" index="51" value="2.4922849335902508e-08" reducedCost="0.00057098198710652383"/>
+  <variable name="ksi42" index="52" value="1.1553594747581997e-09" reducedCost="0"/>
+  <variable name="ksi43" index="53" value="2.3327519090239751e-08" reducedCost="0.00031074895372457177"/>
+  <variable name="ksi44" index="54" value="2.3364832384494483e-08" reducedCost="0.00037914252798033015"/>
+  <variable name="ksi45" index="55" value="2.412323268851063e-08" reducedCost="0.0007639530392706057"/>
+  <variable name="ksi46" index="56" value="1.1663200405465091e-09" reducedCost="0"/>
+  <variable name="ksi47" index="57" value="1.1627664386892889e-09" reducedCost="0"/>
+  <variable name="ksi48" index="58" value="1.2071529331691977e-09" reducedCost="0"/>
+  <variable name="ksi49" index="59" value="1.2149427019991776e-09" reducedCost="0"/>
+  <variable name="ksi50" index="60" value="1.2254713910309079e-09" reducedCost="0"/>
+  <variable name="ksi51" index="61" value="2.4820657733953236e-08" reducedCost="0.00046803678477738144"/>
+  <variable name="ksi52" index="62" value="1.1564319501999876e-09" reducedCost="0"/>
+  <variable name="ksi53" index="63" value="1.2071529331691977e-09" reducedCost="0"/>
+  <variable name="ksi54" index="64" value="1.1846382763636143e-09" reducedCost="0"/>
+  <variable name="ksi55" index="65" value="1.1846384984082192e-09" reducedCost="0"/>
+  <variable name="ksi56" index="66" value="1.2265201076999688e-09" reducedCost="0"/>
+  <variable name="ksi57" index="67" value="1.2458877263199497e-09" reducedCost="0"/>
+  <variable name="ksi58" index="68" value="1.1867363758355509e-09" reducedCost="0"/>
+  <variable name="ksi59" index="69" value="1.2071529331691977e-09" reducedCost="0"/>
+  <variable name="ksi60" index="70" value="2.3426890801088173e-08" reducedCost="0.00047754219653012953"/>
+  <variable name="ksi61" index="71" value="1.1314272851947749e-09" reducedCost="0"/>
+  <variable name="ksi62" index="72" value="1.2138937632855118e-09" reducedCost="0"/>
+  <variable name="ksi63" index="73" value="2.3341429474227587e-08" reducedCost="0.00033478887710886295"/>
+  <variable name="ksi64" index="74" value="1.2458875042753448e-09" reducedCost="0"/>
+  <variable name="ksi65" index="75" value="1.1820081580182773e-09" reducedCost="0"/>
+  <variable name="ksi66" index="76" value="2.3365448792694177e-08" reducedCost="0.00028117899814637283"/>
+  <variable name="ksi67" index="77" value="1.1889921269769843e-09" reducedCost="0"/>
+  <variable name="ksi68" index="78" value="1.2265203297445737e-09" reducedCost="0"/>
+  <variable name="ksi69" index="79" value="2.332664943678382e-08" reducedCost="0.00035586651762297273"/>
+  <variable name="ksi70" index="80" value="2.3341429473821858e-08" reducedCost="0.00033478887710890876"/>
+  <variable name="ksi71" index="81" value="1.2353590372882195e-09" reducedCost="0"/>
+  <variable name="ksi72" index="82" value="1.2061039944555318e-09" reducedCost="0"/>
+  <variable name="ksi73" index="83" value="1.1424302615026249e-09" reducedCost="0"/>
+  <variable name="ksi74" index="84" value="2.4448793848407258e-08" reducedCost="0.00068804544386064461"/>
+  <variable name="ksi75" index="85" value="1.1856874371218851e-09" reducedCost="0"/>
+  <variable name="ksi76" index="86" value="1.2265201076999688e-09" reducedCost="0"/>
+  <variable name="ksi77" index="87" value="1.2032349561152955e-09" reducedCost="0"/>
+  <variable name="ksi78" index="88" value="1.2458875042753448e-09" reducedCost="0"/>
+  <variable name="ksi79" index="89" value="1.1846384984082192e-09" reducedCost="0"/>
+  <variable name="ksi80" index="90" value="1.2138935412409069e-09" reducedCost="0"/>
+  <variable name="ksi81" index="91" value="2.3407212763593817e-08" reducedCost="0.00045043500986859309"/>
+  <variable name="ksi82" index="92" value="1.1663200405465091e-09" reducedCost="0"/>
+  <variable name="ksi83" index="93" value="1.2458875042753448e-09" reducedCost="0"/>
+  <variable name="ksi84" index="94" value="1.2458877263199497e-09" reducedCost="0"/>
+  <variable name="ksi85" index="95" value="1.2071527111245928e-09" reducedCost="0"/>
+  <variable name="ksi86" index="96" value="2.3411036056541853e-08" reducedCost="0.00039062271728474975"/>
+  <variable name="ksi87" index="97" value="1.1698645385749273e-09" reducedCost="0"/>
+  <variable name="ksi88" index="98" value="1.1381559028578181e-09" reducedCost="0"/>
+  <variable name="ksi89" index="99" value="1.1652711018328432e-09" reducedCost="0"/>
+  <variable name="ksi90" index="100" value="2.3342859103917381e-08" reducedCost="0.00031536338930197719"/>
+  <variable name="ksi91" index="101" value="1.1371069641441522e-09" reducedCost="0"/>
+  <variable name="ksi92" index="102" value="1.1712112391037977e-09" reducedCost="0"/>
+  <variable name="ksi93" index="103" value="1.1370945296462764e-09" reducedCost="0"/>
+  <variable name="ksi94" index="104" value="1.1663200405465091e-09" reducedCost="0"/>
+  <variable name="ksi95" index="105" value="1.1550568279616868e-09" reducedCost="0"/>
+  <variable name="ksi96" index="106" value="1.2458877263199497e-09" reducedCost="0"/>
+  <variable name="ksi97" index="107" value="2.4817476278271111e-08" reducedCost="0.00057079265465727672"/>
+  <variable name="ksi98" index="108" value="2.3389470075098559e-08" reducedCost="0.000304633099061527"/>
+  <variable name="ksi99" index="109" value="2.3398350834360707e-08" reducedCost="0.00045727689080019078"/>
+  <variable name="ksi100" index="110" value="2.3284615183804925e-08" reducedCost="0.00028237206232540729"/>
+  <variable name="ksi101" index="111" value="2.3327519090315984e-08" reducedCost="0.00031074895372456071"/>
+  <variable name="ksi102" index="112" value="1.1652708797882383e-09" reducedCost="0"/>
+  <variable name="ksi103" index="113" value="1.2512534341979631e-09" reducedCost="0"/>
+  <variable name="ksi104" index="114" value="1.2458875042753448e-09" reducedCost="0"/>
+  <variable name="ksi105" index="115" value="1.2265203297445737e-09" reducedCost="0"/>
+  <variable name="ksi106" index="116" value="2.331806450060721e-08" reducedCost="0.00027006121890678662"/>
+  <variable name="ksi107" index="117" value="1.1644999409199386e-09" reducedCost="0"/>
+  <variable name="ksi108" index="118" value="2.3338489777178584e-08" reducedCost="0.00023643208055311153"/>
+  <variable name="ksi109" index="119" value="1.2071529331691977e-09" reducedCost="0"/>
+  <variable name="ksi110" index="120" value="2.33413429277087e-08" reducedCost="0.00026892743173568797"/>
+  <variable name="ksi111" index="121" value="1.1459034832128623e-09" reducedCost="0"/>
+  <variable name="ksi112" index="122" value="1.2050548336972611e-09" reducedCost="0"/>
+  <variable name="ksi113" index="123" value="1.1652708797882383e-09" reducedCost="0"/>
+  <variable name="ksi114" index="124" value="1.1867365978801558e-09" reducedCost="0"/>
+  <variable name="ksi115" index="125" value="2.3341429473749436e-08" reducedCost="0.00033478887710892133"/>
+  <variable name="ksi116" index="126" value="2.3328969124523376e-08" reducedCost="0.00032527799083134011"/>
+  <variable name="ksi117" index="127" value="1.2458875042753448e-09" reducedCost="0"/>
+  <variable name="ksi118" index="128" value="1.1709383462843448e-09" reducedCost="0"/>
+  <variable name="ksi119" index="129" value="2.3404007743411054e-08" reducedCost="0.00037195560580170685"/>
+  <variable name="ksi120" index="130" value="1.1867363758355509e-09" reducedCost="0"/>
+  <variable name="ksi121" index="131" value="2.3308728032024363e-08" reducedCost="0.00033117479528086557"/>
+  <variable name="ksi122" index="132" value="1.2353592593328244e-09" reducedCost="0"/>
+  <variable name="ksi123" index="133" value="1.2050546116526561e-09" reducedCost="0"/>
+  <variable name="ksi124" index="134" value="1.1856874371218851e-09" reducedCost="0"/>
+  <variable name="ksi125" index="135" value="1.2124382609002282e-09" reducedCost="0"/>
+  <variable name="ksi126" index="136" value="1.2071529331691977e-09" reducedCost="0"/>
+  <variable name="ksi127" index="137" value="1.1370945296462764e-09" reducedCost="0"/>
+  <variable name="ksi128" index="138" value="2.4253319760678459e-08" reducedCost="0.00077177166041302319"/>
+  <variable name="ksi129" index="139" value="2.5377023536348019e-08" reducedCost="0.00046196084190331044"/>
+  <variable name="ksi130" index="140" value="2.5095760282650505e-08" reducedCost="0.00049033607826383114"/>
+  <variable name="ksi131" index="141" value="1.2458877263199497e-09" reducedCost="0"/>
+  <variable name="ksi132" index="142" value="1.1363182617074585e-09" reducedCost="0"/>
+  <variable name="ksi133" index="143" value="2.3419507842957229e-08" reducedCost="0.00046900933137881425"/>
+  <variable name="ksi134" index="144" value="1.2536777171945346e-09" reducedCost="0"/>
+  <variable name="ksi135" index="145" value="1.2458875042753448e-09" reducedCost="0"/>
+  <variable name="ksi136" index="146" value="2.3341429473821858e-08" reducedCost="0.00033478887710890529"/>
+  <variable name="ksi137" index="147" value="1.1856874371218851e-09" reducedCost="0"/>
+  <variable name="ksi138" index="148" value="1.1181214842892473e-09" reducedCost="0"/>
+  <variable name="ksi139" index="149" value="1.1564745827641332e-09" reducedCost="0"/>
+  <variable name="ksi140" index="150" value="1.2061037724109269e-09" reducedCost="0"/>
+  <variable name="ksi141" index="151" value="1.1856874371218851e-09" reducedCost="0"/>
+  <variable name="ksi142" index="152" value="1.1900410656906502e-09" reducedCost="0"/>
+  <variable name="ksi143" index="153" value="2.3446409411457012e-08" reducedCost="0.00050717999782767505"/>
+  <variable name="ksi144" index="154" value="1.2257740378274207e-09" reducedCost="0"/>
+  <variable name="ksi145" index="155" value="2.43887112387112e-08" reducedCost="0.00068569368641484773"/>
+  <variable name="ksi146" index="156" value="2.3334279772720413e-08" reducedCost="0.00031715816632801625"/>
+  <variable name="ksi147" index="157" value="2.3390891157636804e-08" reducedCost="0.00038872845592886711"/>
+  <variable name="ksi148" index="158" value="1.1846382763636143e-09" reducedCost="0"/>
+  <variable name="ksi149" index="159" value="1.1856874371218851e-09" reducedCost="0"/>
+  <variable name="ksi150" index="160" value="2.3307046684781026e-08" reducedCost="0.00028596082783476854"/>
+  <variable name="ksi151" index="161" value="2.3359406362326371e-08" reducedCost="0.00038058408645677045"/>
+  <variable name="ksi152" index="162" value="1.2071527111245928e-09" reducedCost="0"/>
+  <variable name="ksi153" index="163" value="2.334329614235171e-08" reducedCost="0.0003314627281622193"/>
+  <variable name="ksi154" index="164" value="1.2547266559082004e-09" reducedCost="0"/>
+  <variable name="ksi155" index="165" value="1.1459034832128623e-09" reducedCost="0"/>
+  <variable name="ksi156" index="166" value="1.2265203297445737e-09" reducedCost="0"/>
+  <variable name="ksi157" index="167" value="1.2458875042753448e-09" reducedCost="0"/>
+  <variable name="ksi158" index="168" value="1.2071529331691977e-09" reducedCost="0"/>
+  <variable name="ksi159" index="169" value="2.3350207197668655e-08" reducedCost="0.00035391955176224214"/>
+  <variable name="ksi160" index="170" value="1.2061037724109269e-09" reducedCost="0"/>
+  <variable name="ksi161" index="171" value="2.4399900034925062e-08" reducedCost="0.00071983329560422959"/>
+  <variable name="ksi162" index="172" value="2.3341342835834001e-08" reducedCost="0.00026892743174864066"/>
+  <variable name="ksi163" index="173" value="2.3343329037636005e-08" reducedCost="0.00035036634933512909"/>
+  <variable name="ksi164" index="174" value="2.3327519090315137e-08" reducedCost="0.00031074895372455816"/>
+  <variable name="ksi165" index="175" value="1.1652711018328432e-09" reducedCost="0"/>
+  <variable name="ksi166" index="176" value="2.3362696872337479e-08" reducedCost="0.0003722419239201106"/>
+  <variable name="ksi167" index="177" value="2.335558827122154e-08" reducedCost="0.00035948095720321141"/>
+  <variable name="ksi168" index="178" value="2.3343112159204033e-08" reducedCost="0.00033489824919991573"/>
+  <variable name="ksi169" index="179" value="1.2071527111245928e-09" reducedCost="0"/>
+  <variable name="ksi170" index="180" value="2.3321131201049569e-08" reducedCost="0.00050334444860460005"/>
+  <variable name="ksi171" index="181" value="2.33918504451365e-08" reducedCost="0.00038059805608804811"/>
+  <variable name="ksi172" index="182" value="1.2458877263199497e-09" reducedCost="0"/>
+  <variable name="ksi173" index="183" value="1.1507946817701509e-09" reducedCost="0"/>
+  <variable name="ksi174" index="184" value="1.1856874371218851e-09" reducedCost="0"/>
+  <variable name="ksi175" index="185" value="1.2353590372882195e-09" reducedCost="0"/>
+  <variable name="ksi176" index="186" value="1.2177113761779879e-09" reducedCost="0"/>
+  <variable name="ksi177" index="187" value="1.1846382763636143e-09" reducedCost="0"/>
+  <variable name="ksi178" index="188" value="1.2458877263199497e-09" reducedCost="0"/>
+  <variable name="ksi179" index="189" value="2.3355588271217728e-08" reducedCost="0.00035948095720326296"/>
+  <variable name="ksi180" index="190" value="2.3371255107689734e-08" reducedCost="0.00036067632832854045"/>
+  <variable name="ksi181" index="191" value="2.3358798108542931e-08" reducedCost="0.00023466598970598403"/>
+  <variable name="ksi182" index="192" value="1.2458875042753448e-09" reducedCost="0"/>
+  <variable name="ksi183" index="193" value="2.3354451620899403e-08" reducedCost="0.00026832363555225747"/>
+  <variable name="ksi184" index="194" value="2.4351731440887911e-08" reducedCost="0.00067070974666361713"/>
+  <variable name="ksi185" index="195" value="1.1846384984082192e-09" reducedCost="0"/>
+  <variable name="ksi186" index="196" value="1.2050546116526561e-09" reducedCost="0"/>
+  <variable name="ksi187" index="197" value="2.3473531386051024e-08" reducedCost="0.00012549274114937451"/>
+  <variable name="ksi188" index="198" value="1.2740940524835764e-09" reducedCost="0"/>
+  <variable name="ksi189" index="199" value="1.2176811781117181e-09" reducedCost="0"/>
+  <variable name="ksi190" index="200" value="1.2343103206191586e-09" reducedCost="0"/>
+  <variable name="ksi191" index="201" value="1.2120439096818814e-09" reducedCost="0"/>
+  <variable name="ksi192" index="202" value="1.2254713910309079e-09" reducedCost="0"/>
+  <variable name="ksi193" index="203" value="1.2061037724109269e-09" reducedCost="0"/>
+  <variable name="ksi194" index="204" value="1.1459037052574672e-09" reducedCost="0"/>
+  <variable name="ksi195" index="205" value="2.3327519090240175e-08" reducedCost="0.00031074895372456716"/>
+  <variable name="ksi196" index="206" value="1.2458875042753448e-09" reducedCost="0"/>
+  <variable name="ksi197" index="207" value="1.1776543074049073e-09" reducedCost="0"/>
+  <variable name="ksi198" index="208" value="2.3374229308102376e-08" reducedCost="0.00037069786239712411"/>
+  <variable name="ksi199" index="209" value="1.2050546116526561e-09" reducedCost="0"/>
+  <variable name="ksi200" index="210" value="1.1867365978801558e-09" reducedCost="0"/>
+  <variable name="ksi201" index="211" value="1.1856872150772801e-09" reducedCost="0"/>
+  <variable name="ksi202" index="212" value="2.3350207197668655e-08" reducedCost="0.00035391955176224214"/>
+  <variable name="ksi203" index="213" value="1.2458877263199497e-09" reducedCost="0"/>
+  <variable name="ksi204" index="214" value="1.193477205951865e-09" reducedCost="0"/>
+  <variable name="ksi205" index="215" value="1.1548754175194631e-09" reducedCost="0"/>
+  <variable name="ksi206" index="216" value="1.2458875042753448e-09" reducedCost="0"/>
+  <variable name="ksi207" index="217" value="1.2071529331691977e-09" reducedCost="0"/>
+  <variable name="ksi208" index="218" value="2.3325318073433516e-08" reducedCost="0.00021562296970206705"/>
+  <variable name="ksi209" index="219" value="1.1385378195782891e-09" reducedCost="0"/>
+  <variable name="ksi210" index="220" value="1.17789789033651e-09" reducedCost="0"/>
+  <variable name="ksi211" index="221" value="2.3327519100138178e-08" reducedCost="0.00031074895372295452"/>
+  <variable name="ksi212" index="222" value="1.1822139933670428e-09" reducedCost="0"/>
+  <variable name="ksi213" index="223" value="1.2265203297445737e-09" reducedCost="0"/>
+  <variable name="ksi214" index="224" value="1.2061037724109269e-09" reducedCost="0"/>
+  <variable name="ksi215" index="225" value="2.3350207124037351e-08" reducedCost="0.00035391955177591804"/>
+  <variable name="ksi216" index="226" value="1.1842323788258113e-09" reducedCost="0"/>
+  <variable name="ksi217" index="227" value="2.3327519100061945e-08" reducedCost="0.00031074895372297192"/>
+  <variable name="ksi218" index="228" value="1.2740938304389715e-09" reducedCost="0"/>
+  <variable name="ksi219" index="229" value="1.2071529331691977e-09" reducedCost="0"/>
+  <variable name="ksi220" index="230" value="1.2254711689863029e-09" reducedCost="0"/>
+  <variable name="ksi221" index="231" value="1.2071529331691977e-09" reducedCost="0"/>
+  <variable name="ksi222" index="232" value="2.000000012489072" reducedCost="4.9826427531493745e-12"/>
+  <variable name="ksi223" index="233" value="1.9999999997436468" reducedCost="0"/>
+  <variable name="ksi224" index="234" value="2.0000000098814987" reducedCost="5.7215101527792897e-12"/>
+  <variable name="ksi225" index="235" value="2.000000010481485" reducedCost="6.7498410861461639e-12"/>
+  <variable name="ksi226" index="236" value="2.0000000106862079" reducedCost="6.419709138172116e-12"/>
+  <variable name="ksi227" index="237" value="2.0000000103664566" reducedCost="6.5170335980510985e-12"/>
+  <variable name="ksi228" index="238" value="1.9999999998164073" reducedCost="0"/>
+  <variable name="ksi229" index="239" value="2.000000010343375" reducedCost="6.558518972408259e-12"/>
+  <variable name="ksi230" index="240" value="2.0000000143069361" reducedCost="5.1179572077265141e-12"/>
+  <variable name="ksi231" index="241" value="2.0000000104111217" reducedCost="6.5007675242226245e-12"/>
+  <variable name="ksi232" index="242" value="1.9999999997369033" reducedCost="0"/>
+  <variable name="ksi233" index="243" value="1.9999999999606111" reducedCost="0"/>
+  <variable name="ksi234" index="244" value="2.0000000108778506" reducedCost="6.5088929863416578e-12"/>
+  <variable name="ksi235" index="245" value="2.0000000004596665" reducedCost="0"/>
+  <variable name="ksi236" index="246" value="2.0000000110491585" reducedCost="6.3167527057866067e-12"/>
+  <variable name="ksi237" index="247" value="2.0000000114033987" reducedCost="6.2411034282803549e-12"/>
+  <variable name="ksi238" index="248" value="2.0000000110148179" reducedCost="6.0583296668340689e-12"/>
+  <variable name="ksi239" index="249" value="2.000000009560893" reducedCost="5.8623792397276203e-12"/>
+  <variable name="ksi240" index="250" value="2.0000000103926743" reducedCost="6.6451724406461975e-12"/>
+  <variable name="ksi241" index="251" value="2.0000000111399157" reducedCost="6.8824889468874198e-12"/>
+  <variable name="ksi242" index="252" value="2.0000000104471911" reducedCost="6.4971886405487451e-12"/>
+  <variable name="ksi243" index="253" value="1.999999999494936" reducedCost="0"/>
+  <variable name="ksi244" index="254" value="2.0000000103119238" reducedCost="6.5162114962224546e-12"/>
+  <variable name="ksi245" index="255" value="2.0000000102788942" reducedCost="6.5816084709685578e-12"/>
+  <variable name="ksi246" index="256" value="2.0000000105232187" reducedCost="6.6397456540251281e-12"/>
+  <variable name="ksi247" index="257" value="2.0000000100346691" reducedCost="5.6477816006852805e-12"/>
+  <variable name="ksi248" index="258" value="2.0000000107613438" reducedCost="6.3613018734223992e-12"/>
+  <variable name="ksi249" index="259" value="2.0000000105554148" reducedCost="6.4537946011502212e-12"/>
+  <variable name="ksi250" index="260" value="2.0000000007832726" reducedCost="0"/>
+  <variable name="ksi251" index="261" value="2.0000000153865232" reducedCost="4.8182026436003077e-12"/>
+  <variable name="ksi252" index="262" value="2.0000000111334373" reducedCost="7.1803994246167779e-12"/>
+  <variable name="ksi253" index="263" value="2.0000000153001993" reducedCost="4.7517396521144133e-12"/>
+  <variable name="ksi254" index="264" value="2.0000000103347331" reducedCost="6.5107369962627633e-12"/>
+  <variable name="ksi255" index="265" value="2.0000000130566704" reducedCost="6.4889007954800594e-12"/>
+  <variable name="ksi256" index="266" value="2.0000000106516116" reducedCost="6.0338779824286742e-12"/>
+  <variable name="ksi257" index="267" value="2.0000000132682265" reducedCost="5.6525274342278868e-12"/>
+  <variable name="ksi258" index="268" value="2.0000000106701763" reducedCost="6.6495860735134323e-12"/>
+  <variable name="ksi259" index="269" value="2.0000000103620788" reducedCost="6.5852731180915403e-12"/>
+  <variable name="ksi260" index="270" value="2.0000000106088773" reducedCost="6.8202064850900518e-12"/>
+  <variable name="ksi261" index="271" value="2.0000000111928613" reducedCost="7.2588377353741144e-12"/>
+  <variable name="ksi262" index="272" value="2.0000000104950906" reducedCost="6.7332765185886743e-12"/>
+  <variable name="ksi263" index="273" value="2.0000000104494386" reducedCost="6.6219616724512186e-12"/>
+  <variable name="ksi264" index="274" value="2.0000000109215494" reducedCost="6.404032531172324e-12"/>
+  <variable name="ksi265" index="275" value="2.0000000116650818" reducedCost="6.0787840680066177e-12"/>
+  <variable name="ksi266" index="276" value="2.0000000003351106" reducedCost="0"/>
+  <variable name="ksi267" index="277" value="2.0000000007844454" reducedCost="0"/>
+  <variable name="ksi268" index="278" value="2.0000000109914646" reducedCost="7.1128366347745222e-12"/>
+  <variable name="ksi269" index="279" value="2.0000000106826268" reducedCost="6.7473803147038778e-12"/>
+  <variable name="ksi270" index="280" value="2.0000000147423851" reducedCost="4.9853985465462448e-12"/>
+  <variable name="ksi271" index="281" value="2.0000000105660671" reducedCost="6.5169330967316389e-12"/>
+  <variable name="ksi272" index="282" value="2.0000000097440811" reducedCost="5.8985546566723018e-12"/>
+  <variable name="ksi273" index="283" value="2.0000000107046438" reducedCost="6.9487645843661865e-12"/>
+  <variable name="ksi274" index="284" value="2.000000011546605" reducedCost="7.5022520849537311e-12"/>
+  <variable name="ksi275" index="285" value="1.9999999996625375" reducedCost="0"/>
+  <variable name="ksi276" index="286" value="2.0000000104549964" reducedCost="6.6833774586221748e-12"/>
+  <variable name="ksi277" index="287" value="2.0000000101936175" reducedCost="6.4823904475155259e-12"/>
+  <variable name="ksi278" index="288" value="2.0000000106180629" reducedCost="6.6515612006783986e-12"/>
+  <variable name="ksi279" index="289" value="2.0000000107943139" reducedCost="6.4795488733140625e-12"/>
+  <variable name="ksi280" index="290" value="2.0000000095941544" reducedCost="5.8076598399847252e-12"/>
+  <variable name="ksi281" index="291" value="2.0000000104349769" reducedCost="6.5200161371525459e-12"/>
+  <variable name="ksi282" index="292" value="2.0000000104044799" reducedCost="6.5780116480260747e-12"/>
+  <variable name="ksi283" index="293" value="2.0000000106077334" reducedCost="6.4764301787708755e-12"/>
+  <variable name="ksi284" index="294" value="2.0000000102544431" reducedCost="6.4775615417112716e-12"/>
+  <variable name="ksi285" index="295" value="2.0000000114439827" reducedCost="7.3167930087022863e-12"/>
+  <variable name="ksi286" index="296" value="2.000000010116274" reducedCost="5.6929666890973122e-12"/>
+  <variable name="ksi287" index="297" value="2.0000000111562177" reducedCost="7.2131615486434412e-12"/>
+  <variable name="ksi288" index="298" value="2.0000000104562403" reducedCost="6.6067233220478229e-12"/>
+  <variable name="ksi289" index="299" value="2.0000000106179088" reducedCost="6.4090519971433083e-12"/>
+  <variable name="ksi290" index="300" value="2.000000011452153" reducedCost="7.4487084106889328e-12"/>
+  <variable name="ksi291" index="301" value="2.0000000108105138" reducedCost="6.5389784614943798e-12"/>
+  <variable name="ksi292" index="302" value="2.0000000111083143" reducedCost="6.3893591287034242e-12"/>
+  <variable name="ksi293" index="303" value="2.0000000105071676" reducedCost="6.6603907793748836e-12"/>
+  <variable name="ksi294" index="304" value="2.000000011594353" reducedCost="6.1736300515213886e-12"/>
+  <variable name="ksi295" index="305" value="2.000000010459936" reducedCost="6.6002028564858724e-12"/>
+  <variable name="ksi296" index="306" value="2.0000000113089302" reducedCost="6.1075717975205708e-12"/>
+  <variable name="ksi297" index="307" value="1.9999999999153975" reducedCost="0"/>
+  <variable name="ksi298" index="308" value="2.0000000105900764" reducedCost="6.6367527273905531e-12"/>
+  <variable name="ksi299" index="309" value="2.0000000105214037" reducedCost="6.7634284466427626e-12"/>
+  <variable name="ksi300" index="310" value="1.9999999997790061" reducedCost="0"/>
+  <variable name="ksi301" index="311" value="2.0000000107678688" reducedCost="6.4725221580707253e-12"/>
+  <variable name="ksi302" index="312" value="2.0000000102414757" reducedCost="6.5492140159307922e-12"/>
+  <variable name="ksi303" index="313" value="2.0000000145783159" reducedCost="4.8394662685688929e-12"/>
+  <variable name="ksi304" index="314" value="2.0000000003102754" reducedCost="0"/>
+  <variable name="ksi305" index="315" value="2.0000000008177028" reducedCost="0"/>
+  <variable name="ksi306" index="316" value="2.0000000004551275" reducedCost="0"/>
+  <variable name="ksi307" index="317" value="2.0000000128361179" reducedCost="6.2075590594851073e-12"/>
+  <variable name="ksi308" index="318" value="2.0000000102939626" reducedCost="6.5855540588748699e-12"/>
+  <variable name="ksi309" index="319" value="2.0000000106974642" reducedCost="6.761765336105806e-12"/>
+  <variable name="ksi310" index="320" value="2.0000000107179532" reducedCost="6.3531084619555505e-12"/>
+  <variable name="ksi311" index="321" value="2.0000000113950387" reducedCost="7.2361169019281417e-12"/>
+  <variable name="ksi312" index="322" value="2.0000000108195959" reducedCost="6.2771651337563345e-12"/>
+  <variable name="ksi313" index="323" value="2.0000000110085678" reducedCost="6.331079834133093e-12"/>
+  <variable name="ksi314" index="324" value="2.0000000098473469" reducedCost="6.0647641676971819e-12"/>
+  <variable name="ksi315" index="325" value="2.0000000103606048" reducedCost="6.5760761816481659e-12"/>
+  <variable name="ksi316" index="326" value="2.0000000138537506" reducedCost="5.6364029778456384e-12"/>
+  <variable name="ksi317" index="327" value="2.0000000001907803" reducedCost="0"/>
+  <variable name="ksi318" index="328" value="2.000000010192251" reducedCost="6.5050841374863014e-12"/>
+  <variable name="ksi319" index="329" value="2.0000000113750209" reducedCost="7.3263421746462976e-12"/>
+  <variable name="ksi320" index="330" value="1.9999999998750129" reducedCost="0"/>
+  <variable name="ksi321" index="331" value="2.0000000005102763" reducedCost="0"/>
+  <variable name="ksi322" index="332" value="2.0000000109140634" reducedCost="6.6016367520629415e-12"/>
+  <variable name="ksi323" index="333" value="2.0000000003050182" reducedCost="0"/>
+  <variable name="ksi324" index="334" value="2.0000000107305489" reducedCost="6.9639372369360498e-12"/>
+  <variable name="ksi325" index="335" value="2.0000000108440386" reducedCost="6.412053012650328e-12"/>
+  <variable name="ksi326" index="336" value="2.0000000097638235" reducedCost="5.8642931837357709e-12"/>
+  <variable name="ksi327" index="337" value="2.0000000103082471" reducedCost="6.5011797702607303e-12"/>
+  <variable name="ksi328" index="338" value="2.0000000107087867" reducedCost="5.3779465210277573e-12"/>
+  <variable name="ksi329" index="339" value="2.0000000104636793" reducedCost="6.7041285946312865e-12"/>
+  <variable name="ksi330" index="340" value="2.0000000109303824" reducedCost="6.2764518921400913e-12"/>
+  <variable name="ksi331" index="341" value="2.000000010839444" reducedCost="6.9463828088721633e-12"/>
+  <variable name="ksi332" index="342" value="2.0000000111453997" reducedCost="6.3369509055233645e-12"/>
+  <variable name="ksi333" index="343" value="2.0000000105677764" reducedCost="6.6285830317748218e-12"/>
+  <variable name="ksi334" index="344" value="2.0000000135286857" reducedCost="5.5284813789660522e-12"/>
+  <variable name="ksi335" index="345" value="2.0000000107798832" reducedCost="6.3437507957971288e-12"/>
+  <variable name="ksi336" index="346" value="2.0000000105039035" reducedCost="6.4690215351310572e-12"/>
+  <variable name="ksi337" index="347" value="2.0000000008472769" reducedCost="0"/>
+  <variable name="ksi338" index="348" value="2.000000014293327" reducedCost="5.2546651261624718e-12"/>
+  <variable name="ksi339" index="349" value="2.0000000114387797" reducedCost="5.6251748161139476e-12"/>
+  <variable name="ksi340" index="350" value="2.0000000001566121" reducedCost="0"/>
+  <variable name="ksi341" index="351" value="1.1663200405465091e-09" reducedCost="0"/>
+  <variable name="ksi342" index="352" value="1.197567489619189e-09" reducedCost="0"/>
+  <variable name="ksi343" index="353" value="2.3344977414463224e-08" reducedCost="0.00033351229260455072"/>
+  <variable name="ksi344" index="354" value="1.1652711018328432e-09" reducedCost="0"/>
+  <variable name="ksi345" index="355" value="2.3341429473491515e-08" reducedCost="0.0003347888771089923"/>
+  <variable name="ksi346" index="356" value="1.2353590372882195e-09" reducedCost="0"/>
+  <variable name="ksi347" index="357" value="1.2169351082391699e-09" reducedCost="0"/>
+  <variable name="ksi348" index="358" value="1.2071527111245928e-09" reducedCost="0"/>
+  <variable name="ksi349" index="359" value="1.2265203297445737e-09" reducedCost="0"/>
+  <variable name="ksi350" index="360" value="1.2001933891170324e-09" reducedCost="0"/>
+  <variable name="ksi351" index="361" value="1.2547266559082004e-09" reducedCost="0"/>
+  <variable name="ksi352" index="362" value="1.2458875042753448e-09" reducedCost="0"/>
+  <variable name="ksi353" index="363" value="1.2050548336972611e-09" reducedCost="0"/>
+  <variable name="ksi354" index="364" value="1.2547264338635955e-09" reducedCost="0"/>
+  <variable name="ksi355" index="365" value="2.3357533040923196e-08" reducedCost="0.00026908982905576932"/>
+  <variable name="ksi356" index="366" value="2.335558827122154e-08" reducedCost="0.00035948095720321135"/>
+  <variable name="ksi357" index="367" value="2.3344977564404573e-08" reducedCost="0.00033351229257835575"/>
+  <variable name="ksi358" index="368" value="2.336880559377082e-08" reducedCost="0.00034251247952047352"/>
+  <variable name="ksi359" index="369" value="1.2050548336972611e-09" reducedCost="0"/>
+  <variable name="ksi360" index="370" value="1.1297790480924164e-09" reducedCost="0"/>
+  <variable name="ksi361" index="371" value="2.3413687137197583e-08" reducedCost="0.00043373066811341963"/>
+  <variable name="ksi362" index="372" value="1.2071529331691977e-09" reducedCost="0"/>
+  <variable name="ksi363" index="373" value="2.3343329037276016e-08" reducedCost="0.00035036634933519544"/>
+  <variable name="ksi364" index="374" value="1.2254711689863029e-09" reducedCost="0"/>
+  <variable name="ksi365" index="375" value="2.3322529970068865e-08" reducedCost="0.00028384885566670785"/>
+  <variable name="ksi366" index="376" value="1.1856874371218851e-09" reducedCost="0"/>
+  <variable name="ksi367" index="377" value="2.334497756440415e-08" reducedCost="0.00033351229257835244"/>
+  <variable name="ksi368" index="378" value="2.3353437155908307e-08" reducedCost="0.00026031734984448507"/>
+  <variable name="ksi369" index="379" value="1.1663198185019041e-09" reducedCost="0"/>
+  <variable name="ksi370" index="380" value="2.32682560780328e-08" reducedCost="0.0003384261336263936"/>
+  <variable name="ksi371" index="381" value="1.2050548336972611e-09" reducedCost="0"/>
+  <variable name="ksi372" index="382" value="2.335195737929729e-08" reducedCost="0.00021157199036846798"/>
+  <variable name="ksi373" index="383" value="2.3373822198607386e-08" reducedCost="0.0003812199913610433"/>
+  <variable name="ksi374" index="384" value="1.2061037724109269e-09" reducedCost="0"/>
+  <variable name="ksi375" index="385" value="1.1722603998620684e-09" reducedCost="0"/>
+  <variable name="ksi376" index="386" value="1.0981912046403863e-09" reducedCost="0"/>
+  <variable name="ksi377" index="387" value="2.3327519090240175e-08" reducedCost="0.00031074895372457182"/>
+  <variable name="ksi378" index="388" value="2.4952451720459297e-08" reducedCost="0.00052543039522263653"/>
+  <variable name="ksi379" index="389" value="1.1846384984082192e-09" reducedCost="0"/>
+  <variable name="ksi380" index="390" value="2.348998634101775e-08" reducedCost="0.00011211655308419205"/>
+  <variable name="ksi381" index="391" value="2.3388201074776425e-08" reducedCost="0.00039160149365048534"/>
+  <variable name="ksi382" index="392" value="2.3371603588905237e-08" reducedCost="0.00038292417207150595"/>
+  <variable name="ksi383" index="393" value="2.3371603580120658e-08" reducedCost="0.00038292417207324192"/>
+  <variable name="ksi384" index="394" value="1.1856872150772801e-09" reducedCost="0"/>
+  <variable name="ksi385" index="395" value="1.1663200405465091e-09" reducedCost="0"/>
+  <variable name="ksi386" index="396" value="1.2050546116526561e-09" reducedCost="0"/>
+  <variable name="ksi387" index="397" value="2.3325318172723141e-08" reducedCost="0.00021562296969093484"/>
+  <variable name="ksi388" index="398" value="1.1856874371218851e-09" reducedCost="0"/>
+  <variable name="ksi389" index="399" value="1.2265201076999688e-09" reducedCost="0"/>
+  <variable name="ksi390" index="400" value="2.3373822128346427e-08" reducedCost="0.00038121999137498262"/>
+  <variable name="ksi391" index="401" value="1.2458877263199497e-09" reducedCost="0"/>
+  <variable name="ksi392" index="402" value="1.1789887954805067e-09" reducedCost="0"/>
+  <variable name="ksi393" index="403" value="1.1617978801226059e-09" reducedCost="0"/>
+  <variable name="ksi394" index="404" value="2.335558827122154e-08" reducedCost="0.00035948095720321141"/>
+  <variable name="ksi395" index="405" value="1.1574808889136534e-09" reducedCost="0"/>
+  <variable name="ksi396" index="406" value="1.2061039944555318e-09" reducedCost="0"/>
+  <variable name="ksi397" index="407" value="2.3384811861796437e-08" reducedCost="0.00046482687272386529"/>
+  <variable name="ksi398" index="408" value="2.3355588279587261e-08" reducedCost="0.00035948095720168778"/>
+  <variable name="ksi399" index="409" value="1.1867363758355509e-09" reducedCost="0"/>
+  <variable name="ksi400" index="410" value="2.3373470395739899e-08" reducedCost="0.00039779831070309524"/>
+  <variable name="ksi401" index="411" value="1.1856874371218851e-09" reducedCost="0"/>
+  <variable name="ksi402" index="412" value="2.3411036065272645e-08" reducedCost="0.0003906227172829729"/>
+  <variable name="ksi403" index="413" value="2.3378277173027587e-08" reducedCost="0.00041028721359811306"/>
+  <variable name="ksi404" index="414" value="1.1543105360445338e-09" reducedCost="0"/>
+  <variable name="ksi405" index="415" value="1.1287918377789197e-09" reducedCost="0"/>
+  <variable name="ksi406" index="416" value="1.1663198185019041e-09" reducedCost="0"/>
+  <variable name="ksi407" index="417" value="1.2138937632855118e-09" reducedCost="0"/>
+  <variable name="ksi408" index="418" value="1.2265201076999688e-09" reducedCost="0"/>
+  <variable name="ksi409" index="419" value="2.3384537677972988e-08" reducedCost="0.00029949041419067305"/>
+  <variable name="ksi410" index="420" value="2.334142947341867e-08" reducedCost="0.00033478887710900666"/>
+  <variable name="ksi411" index="421" value="1.2265203297445737e-09" reducedCost="0"/>
+  <variable name="ksi412" index="422" value="1.1856872150772801e-09" reducedCost="0"/>
+  <variable name="ksi413" index="423" value="1.1459037052574672e-09" reducedCost="0"/>
+  <variable name="ksi414" index="424" value="1.2071527111245928e-09" reducedCost="0"/>
+  <variable name="ksi415" index="425" value="1.1459037052574672e-09" reducedCost="0"/>
+  <variable name="ksi416" index="426" value="2.340800425850332e-08" reducedCost="0.00038082460251369121"/>
+  <variable name="ksi417" index="427" value="2.3390277651438056e-08" reducedCost="0.00026817738876176917"/>
+  <variable name="ksi418" index="428" value="2.3373822119566507e-08" reducedCost="0.00038121999137673713"/>
+  <variable name="ksi419" index="429" value="1.2120439096818814e-09" reducedCost="0"/>
+  <variable name="ksi420" index="430" value="1.2177113761779879e-09" reducedCost="0"/>
+  <variable name="ksi421" index="431" value="1.1867363758355509e-09" reducedCost="0"/>
+  <variable name="ksi422" index="432" value="2.3387483663136246e-08" reducedCost="0.00038887720736379626"/>
+  <variable name="ksi423" index="433" value="2.3367861643006692e-08" reducedCost="0.00024276636981452148"/>
+  <variable name="ksi424" index="434" value="1.1856874371218851e-09" reducedCost="0"/>
+  <variable name="ksi425" index="435" value="1.1424302615026249e-09" reducedCost="0"/>
+  <variable name="ksi426" index="436" value="2.3406769001634722e-08" reducedCost="0.000397912368731725"/>
+  <variable name="ksi427" index="437" value="1.0962794005919818e-09" reducedCost="0"/>
+  <variable name="ksi428" index="438" value="2.3390277651083997e-08" reducedCost="0.0002681773887618403"/>
+  <variable name="ksi429" index="439" value="2.3389252737254128e-08" reducedCost="0.00028202125348646091"/>
+  <variable name="ksi430" index="440" value="2.3327519090314714e-08" reducedCost="0.00031074895372455605"/>
+  <variable name="ksi431" index="441" value="1.1846382763636143e-09" reducedCost="0"/>
+  <variable name="ksi432" index="442" value="2.3358252866550946e-08" reducedCost="0.00035792816292153849"/>
+  <variable name="ksi433" index="443" value="1.1698361168654969e-09" reducedCost="0"/>
+  <variable name="ksi434" index="444" value="1.2318056574756042e-09" reducedCost="0"/>
+  <variable name="ksi435" index="445" value="2.3347234158649991e-08" reducedCost="0.00035898589137392642"/>
+  <variable name="ksi436" index="446" value="2.3419809455746742e-08" reducedCost="0.00051483763678420477"/>
+  <variable name="ksi437" index="447" value="1.1856874371218851e-09" reducedCost="0"/>
+  <variable name="ksi438" index="448" value="1.1652708797882383e-09" reducedCost="0"/>
+  <variable name="ksi439" index="449" value="1.1701623003901318e-09" reducedCost="0"/>
+  <variable name="ksi440" index="450" value="2.3453561744825149e-08" reducedCost="0.00043992719690192912"/>
+  <variable name="ksi441" index="451" value="2.3411702825744418e-08" reducedCost="0.00045442707473339377"/>
+  <variable name="ksi442" index="452" value="1.2071527111245928e-09" reducedCost="0"/>
+  <variable name="ksi443" index="453" value="1.1983439796026119e-09" reducedCost="0"/>
+  <variable name="ksi444" index="454" value="1.1507946817701509e-09" reducedCost="0"/>
+  <variable name="ksi445" index="455" value="2.3358937637676129e-08" reducedCost="0.00046637386671167873"/>
+  <variable name="ksi446" index="456" value="1.1459037052574672e-09" reducedCost="0"/>
+  <variable name="ksi447" index="457" value="2.3349706593071664e-08" reducedCost="0.00034395913275228786"/>
+  <variable name="ksi448" index="458" value="1.1652708797882383e-09" reducedCost="0"/>
+  <variable name="ksi449" index="459" value="1.2254713910309079e-09" reducedCost="0"/>
+  <variable name="ksi450" index="460" value="2.335558827122154e-08" reducedCost="0.00035948095720321119"/>
+  <variable name="ksi451" index="461" value="1.1856872150772801e-09" reducedCost="0"/>
+  <variable name="ksi452" index="462" value="2.0000000113641416" reducedCost="6.2519049989833551e-12"/>
+  <variable name="ksi453" index="463" value="2.0000000103363464" reducedCost="6.6353296287526248e-12"/>
+  <variable name="ksi454" index="464" value="2.0000000106379505" reducedCost="6.4954604900875233e-12"/>
+  <variable name="ksi455" index="465" value="2.000000011594353" reducedCost="6.1736300515213886e-12"/>
+  <variable name="ksi456" index="466" value="2.0000000114520002" reducedCost="7.4107391162680127e-12"/>
+  <variable name="ksi457" index="467" value="2.0000000106379856" reducedCost="6.8492561195144326e-12"/>
+  <variable name="ksi458" index="468" value="2.0000000103364419" reducedCost="6.4586226573634723e-12"/>
+  <variable name="ksi459" index="469" value="2.0000000110600396" reducedCost="6.4711864593712677e-12"/>
+  <variable name="ksi460" index="470" value="1.9999999996856284" reducedCost="0"/>
+  <variable name="ksi461" index="471" value="1.9999999999023195" reducedCost="0"/>
+  <variable name="ksi462" index="472" value="2.0000000107540599" reducedCost="6.7652533046544835e-12"/>
+  <variable name="ksi463" index="473" value="2.0000000105322808" reducedCost="6.6689177498128101e-12"/>
+  <variable name="ksi464" index="474" value="2.0000000145265902" reducedCost="5.0923073100110077e-12"/>
+  <variable name="ksi465" index="475" value="2.0000000114100787" reducedCost="7.4393007185696385e-12"/>
+  <variable name="ksi466" index="476" value="2.000000000821899" reducedCost="0"/>
+  <variable name="ksi467" index="477" value="2.0000000151465103" reducedCost="5.0379233446508891e-12"/>
+  <variable name="ksi468" index="478" value="1.9999999997953792" reducedCost="0"/>
+  <variable name="ksi469" index="479" value="2.0000000163726215" reducedCost="3.85048653246875e-12"/>
+  <variable name="ksi470" index="480" value="2.0000000105433329" reducedCost="6.66490069045424e-12"/>
+  <variable name="ksi471" index="481" value="2.0000000001203331" reducedCost="0"/>
+  <variable name="ksi472" index="482" value="2.0000000109035008" reducedCost="6.7887447616775065e-12"/>
+  <variable name="ksi473" index="483" value="2.0000000104523958" reducedCost="6.6858129795699684e-12"/>
+  <variable name="ksi474" index="484" value="2.0000000106916618" reducedCost="5.9619667734812447e-12"/>
+  <variable name="ksi475" index="485" value="2.0000000002217915" reducedCost="0"/>
+  <variable name="ksi476" index="486" value="2.0000000106442748" reducedCost="6.7660411660861333e-12"/>
+  <variable name="ksi477" index="487" value="2.000000010085953" reducedCost="5.6380752237385001e-12"/>
+  <variable name="ksi478" index="488" value="2.000000010885322" reducedCost="6.4224768555973395e-12"/>
+  <variable name="ksi479" index="489" value="2.0000000005894343" reducedCost="0"/>
+  <variable name="ksi480" index="490" value="2.0000000139096419" reducedCost="5.4569846335024408e-12"/>
+  <variable name="ksi481" index="491" value="2.0000000143930619" reducedCost="5.3492371098082055e-12"/>
+  <variable name="ksi482" index="492" value="2.0000000106313851" reducedCost="5.9192333278834675e-12"/>
+  <variable name="ksi483" index="493" value="2.0000000112883782" reducedCost="7.0686428085869228e-12"/>
+  <variable name="ksi484" index="494" value="2.0000000127457418" reducedCost="6.3128216158821285e-12"/>
+  <variable name="ksi485" index="495" value="1.9999999999291007" reducedCost="0"/>
+  <variable name="ksi486" index="496" value="2.0000000107027165" reducedCost="6.863644788840558e-12"/>
+  <variable name="ksi487" index="497" value="2.0000000105379345" reducedCost="6.4479155119443876e-12"/>
+  <variable name="ksi488" index="498" value="2.0000000112028968" reducedCost="6.9028433822138106e-12"/>
+  <variable name="ksi489" index="499" value="2.0000000107575167" reducedCost="6.4816316797620649e-12"/>
+  <variable name="ksi490" index="500" value="2.0000000111447385" reducedCost="7.0993977386328805e-12"/>
+  <variable name="ksi491" index="501" value="2.0000000169766814" reducedCost="3.5486339491099131e-12"/>
+  <variable name="ksi492" index="502" value="2.0000000118482957" reducedCost="7.2304512647474971e-12"/>
+  <variable name="ksi493" index="503" value="2.0000000104655826" reducedCost="6.4412590606103304e-12"/>
+  <variable name="ksi494" index="504" value="2.0000000078156308" reducedCost="7.0176527771678321e-12"/>
+  <variable name="ksi495" index="505" value="2.00000001085469" reducedCost="6.494588271169173e-12"/>
+  <variable name="ksi496" index="506" value="2.0000000125750454" reducedCost="6.2094285314478043e-12"/>
+  <variable name="ksi497" index="507" value="2.0000000001982179" reducedCost="0"/>
+  <variable name="ksi498" index="508" value="2.0000000108349063" reducedCost="6.7695592834641754e-12"/>
+  <variable name="ksi499" index="509" value="2.000000011131374" reducedCost="6.3000239251223002e-12"/>
+  <variable name="ksi500" index="510" value="2.0000000104963842" reducedCost="6.5138811196163878e-12"/>
+  <variable name="ksi501" index="511" value="2.000000010762923" reducedCost="6.3655390240698085e-12"/>
+  <variable name="ksi502" index="512" value="2.0000000106058358" reducedCost="6.4530377103179602e-12"/>
+  <variable name="ksi503" index="513" value="2.0000000109822165" reducedCost="6.2839904534600945e-12"/>
+  <variable name="ksi504" index="514" value="2.0000000124866455" reducedCost="6.1931464385953043e-12"/>
+  <variable name="ksi505" index="515" value="2.0000000102970801" reducedCost="6.5952875346035552e-12"/>
+  <variable name="ksi506" index="516" value="2.0000000131374276" reducedCost="5.9202323994328989e-12"/>
+  <variable name="ksi507" index="517" value="2.0000000129351734" reducedCost="5.8421332032352388e-12"/>
+  <variable name="ksi508" index="518" value="2.0000000001642606" reducedCost="0"/>
+  <variable name="ksi509" index="519" value="1.9999999999307123" reducedCost="0"/>
+  <variable name="ksi510" index="520" value="2.0000000128349202" reducedCost="6.5272747639800772e-12"/>
+  <variable name="ksi511" index="521" value="2.0000000111474794" reducedCost="6.3707846071335994e-12"/>
+  <variable name="ksi512" index="522" value="1.2071527111245928e-09" reducedCost="0"/>
+  <variable name="ksi513" index="523" value="1.1199531302352739e-09" reducedCost="0"/>
+  <variable name="ksi514" index="524" value="2.3306564699943497e-08" reducedCost="0.00036311248733351395"/>
+  <variable name="ksi515" index="525" value="2.3325318183659607e-08" reducedCost="0.00021562296968970869"/>
+  <variable name="ksi516" index="526" value="1.2254711689863029e-09" reducedCost="0"/>
+  <variable name="ksi517" index="527" value="1.1515709497089688e-09" reducedCost="0"/>
+  <variable name="ksi518" index="528" value="1.1778974462473002e-09" reducedCost="0"/>
+  <variable name="ksi519" index="529" value="2.3338556324629135e-08" reducedCost="0.00022844484712289964"/>
+  <variable name="ksi520" index="530" value="1.1867365978801558e-09" reducedCost="0"/>
+  <variable name="ksi521" index="531" value="1.2458875042753448e-09" reducedCost="0"/>
+  <variable name="ksi522" index="532" value="1.1459037052574672e-09" reducedCost="0"/>
+  <variable name="ksi523" index="533" value="1.1459034832128623e-09" reducedCost="0"/>
+  <variable name="ksi524" index="534" value="1.2254713910309079e-09" reducedCost="0"/>
+  <variable name="ksi525" index="535" value="2.334245396896207e-08" reducedCost="0.00044449353412565247"/>
+  <variable name="ksi526" index="536" value="1.1856872150772801e-09" reducedCost="0"/>
+  <variable name="ksi527" index="537" value="2.3403112251945633e-08" reducedCost="0.00042214292770659885"/>
+  <variable name="ksi528" index="538" value="1.1518438425284216e-09" reducedCost="0"/>
+  <variable name="ksi529" index="539" value="2.3353797487121941e-08" reducedCost="0.00024150002065730263"/>
+  <variable name="ksi530" index="540" value="1.2050546116526561e-09" reducedCost="0"/>
+  <variable name="ksi531" index="541" value="2.4958795838885658e-08" reducedCost="0.00059633588573903802"/>
+  <variable name="ksi532" index="542" value="2.3371507112011787e-08" reducedCost="0.00038468993298381874"/>
+  <variable name="ksi533" index="543" value="2.342225877017542e-08" reducedCost="0.00047181175336081816"/>
+  <variable name="ksi534" index="544" value="2.3408350363813852e-08" reducedCost="0.00039969934215144362"/>
+  <variable name="ksi535" index="545" value="1.2026307727452945e-09" reducedCost="0"/>
+  <variable name="ksi536" index="546" value="1.2050546116526561e-09" reducedCost="0"/>
+  <variable name="ksi537" index="547" value="2.3371603589149182e-08" reducedCost="0.00038292417207143157"/>
+  <variable name="ksi538" index="548" value="2.3421177158180983e-08" reducedCost="0.00044015071902670378"/>
+  <variable name="ksi539" index="549" value="2.3341429473821858e-08" reducedCost="0.00033478887710890876"/>
+  <variable name="ksi540" index="550" value="2.3475338853143415e-08" reducedCost="0.0005693124464501249"/>
+  <variable name="ksi541" index="551" value="2.3327519090315561e-08" reducedCost="0.00031074895372455957"/>
+  <variable name="ksi542" index="552" value="1.2332611598608878e-09" reducedCost="0"/>
+  <variable name="ksi543" index="553" value="1.1652708797882383e-09" reducedCost="0"/>
+  <variable name="ksi544" index="554" value="2.3424872236610685e-08" reducedCost="0.00044233585644768103"/>
+  <variable name="ksi545" index="555" value="2.3460928090304304e-08" reducedCost="0.00047367210666172488"/>
+  <variable name="ksi546" index="556" value="2.4558143094355278e-08" reducedCost="0.00090893935763223057"/>
+  <variable name="ksi547" index="557" value="1.1856874371218851e-09" reducedCost="0"/>
+  <variable name="ksi548" index="558" value="1.2458875042753448e-09" reducedCost="0"/>
+  <variable name="ksi549" index="559" value="2.3457988911520458e-08" reducedCost="0.00048881905885792064"/>
+  <variable name="ksi550" index="560" value="1.1822142154116477e-09" reducedCost="0"/>
+  <variable name="ksi551" index="561" value="1.2353590372882195e-09" reducedCost="0"/>
+  <variable name="ksi552" index="562" value="2.3373087222890319e-08" reducedCost="0.00041919534932679224"/>
+  <variable name="ksi553" index="563" value="1.2071529331691977e-09" reducedCost="0"/>
+  <variable name="ksi554" index="564" value="1.1838673374953146e-09" reducedCost="0"/>
+  <variable name="ksi555" index="565" value="1.1685755696433375e-09" reducedCost="0"/>
+  <variable name="ksi556" index="566" value="1.2071527111245928e-09" reducedCost="0"/>
+  <variable name="ksi557" index="567" value="2.3392755101974443e-08" reducedCost="0.00041696384671766914"/>
+  <variable name="ksi558" index="568" value="1.0951882734033802e-09" reducedCost="0"/>
+  <variable name="ksi559" index="569" value="2.3329891821901016e-08" reducedCost="0.00029510637357769835"/>
+  <variable name="ksi560" index="570" value="1.1663198185019041e-09" reducedCost="0"/>
+  <variable name="ksi561" index="571" value="1.2138937632855118e-09" reducedCost="0"/>
+  <variable name="ksi562" index="572" value="2.3361295792344217e-08" reducedCost="0.00035646613269250368"/>
+  <variable name="ksi563" index="573" value="2.334342569612866e-08" reducedCost="0.00032405022747744453"/>
+  <variable name="ksi564" index="574" value="1.1574808889136534e-09" reducedCost="0"/>
+  <variable name="ksi565" index="575" value="2.3374556965937831e-08" reducedCost="0.0004717177636010206"/>
+  <variable name="ksi566" index="576" value="1.2353592593328244e-09" reducedCost="0"/>
+  <variable name="ksi567" index="577" value="2.339305539975674e-08" reducedCost="0.00027215305984818779"/>
+  <variable name="ksi568" index="578" value="1.2265201076999688e-09" reducedCost="0"/>
+  <variable name="ksi569" index="579" value="1.1652711018328432e-09" reducedCost="0"/>
+  <variable name="ksi570" index="580" value="1.2458875042753448e-09" reducedCost="0"/>
+  <variable name="ksi571" index="581" value="1.2071529331691977e-09" reducedCost="0"/>
+  <variable name="ksi572" index="582" value="2.4953231891221004e-08" reducedCost="0.00078336836255920206"/>
+  <variable name="ksi573" index="583" value="1.1079371864397558e-09" reducedCost="0"/>
+  <variable name="ksi574" index="584" value="2.4949875004425898e-08" reducedCost="0.00039803724216277167"/>
+  <variable name="ksi575" index="585" value="1.1459037052574672e-09" reducedCost="0"/>
+  <variable name="ksi576" index="586" value="1.1507946817701509e-09" reducedCost="0"/>
+  <variable name="ksi577" index="587" value="1.1522381937467685e-09" reducedCost="0"/>
+  <variable name="ksi578" index="588" value="1.2254711689863029e-09" reducedCost="0"/>
+  <variable name="ksi579" index="589" value="1.2071529331691977e-09" reducedCost="0"/>
+  <variable name="ksi580" index="590" value="1.1663198185019041e-09" reducedCost="0"/>
+  <variable name="ksi581" index="591" value="1.2036797114589604e-09" reducedCost="0"/>
+  <variable name="ksi582" index="592" value="1.1846382763636143e-09" reducedCost="0"/>
+  <variable name="ksi583" index="593" value="1.1638959795945425e-09" reducedCost="0"/>
+  <variable name="ksi584" index="594" value="1.1856872150772801e-09" reducedCost="0"/>
+  <variable name="ksi585" index="595" value="1.2547266559082004e-09" reducedCost="0"/>
+  <variable name="ksi586" index="596" value="1.2254711689863029e-09" reducedCost="0"/>
+  <variable name="ksi587" index="597" value="1.1492081730679615e-09" reducedCost="0"/>
+  <variable name="ksi588" index="598" value="1.1712110170591927e-09" reducedCost="0"/>
+  <variable name="ksi589" index="599" value="1.2061039944555318e-09" reducedCost="0"/>
+  <variable name="ksi590" index="600" value="2.3341429483240017e-08" reducedCost="0.00033478887710725654"/>
+  <variable name="ksi591" index="601" value="1.1843120928389794e-09" reducedCost="0"/>
+  <variable name="ksi592" index="602" value="1.1787034681631781e-09" reducedCost="0"/>
+  <variable name="ksi593" index="603" value="2.3422242329446332e-08" reducedCost="0.00040986392937427958"/>
+  <variable name="ksi594" index="604" value="1.193477205951865e-09" reducedCost="0"/>
+  <variable name="ksi595" index="605" value="2.3343329037564007e-08" reducedCost="0.00035036634933514383"/>
+  <variable name="ksi596" index="606" value="1.1867365978801558e-09" reducedCost="0"/>
+  <variable name="ksi597" index="607" value="1.2050546116526561e-09" reducedCost="0"/>
+  <variable name="ksi598" index="608" value="2.3351966923256693e-08" reducedCost="0.00032428256030519114"/>
+  <variable name="ksi599" index="609" value="1.2265203297445737e-09" reducedCost="0"/>
+  <variable name="ksi600" index="610" value="1.2265201076999688e-09" reducedCost="0"/>
+  <variable name="ksi601" index="611" value="2.3341429474227587e-08" reducedCost="0.00033478887710886311"/>
+  <variable name="ksi602" index="612" value="2.3320652401270645e-08" reducedCost="0.00029631764766311936"/>
+  <variable name="ksi603" index="613" value="1.1652711018328432e-09" reducedCost="0"/>
+  <variable name="ksi604" index="614" value="2.3359011138426073e-08" reducedCost="0.00035957271635783905"/>
+  <variable name="ksi605" index="615" value="2.3341429473748589e-08" reducedCost="0.00033478887710892128"/>
+  <variable name="ksi606" index="616" value="1.1846382763636143e-09" reducedCost="0"/>
+  <variable name="ksi607" index="617" value="1.2265203297445737e-09" reducedCost="0"/>
+  <variable name="ksi608" index="618" value="2.3346375175534065e-08" reducedCost="0.00034517928901784572"/>
+  <variable name="ksi609" index="619" value="1.2458875042753448e-09" reducedCost="0"/>
+  <variable name="ksi610" index="620" value="1.2254713910309079e-09" reducedCost="0"/>
+  <variable name="ksi611" index="621" value="2.403075487836858e-08" reducedCost="0.00079343810452758097"/>
+  <variable name="ksi612" index="622" value="1.1638957575499376e-09" reducedCost="0"/>
+  <variable name="ksi613" index="623" value="1.1675266309296717e-09" reducedCost="0"/>
+  <variable name="ksi614" index="624" value="1.1856872150772801e-09" reducedCost="0"/>
+  <variable name="ksi615" index="625" value="2.337674727313392e-08" reducedCost="0.00029831777624710472"/>
+  <variable name="ksi616" index="626" value="2.4755740105949551e-08" reducedCost="0.00055353514283508216"/>
+  <variable name="ksi617" index="627" value="1.2265203297445737e-09" reducedCost="0"/>
+  <variable name="ksi618" index="628" value="1.1147097689345742e-09" reducedCost="0"/>
+  <variable name="ksi619" index="629" value="2.3325318073261144e-08" reducedCost="0.0002156229697020857"/>
+  <variable name="ksi620" index="630" value="2.3299123066770494e-08" reducedCost="0.0003374203045603818"/>
+  <variable name="ksi621" index="631" value="1.2265203297445737e-09" reducedCost="0"/>
+  <variable name="ksi622" index="632" value="2.3402706906279441e-08" reducedCost="0.0004320268104560565"/>
+  <variable name="ksi623" index="633" value="2.0000000103257016" reducedCost="6.6096402011089998e-12"/>
+  <variable name="ksi624" index="634" value="2.0000000108274127" reducedCost="6.5556109329196403e-12"/>
+  <variable name="ksi625" index="635" value="2.0000000106628488" reducedCost="6.4606051279304124e-12"/>
+  <variable name="ksi626" index="636" value="2.0000000107643872" reducedCost="6.4291325125176829e-12"/>
+  <variable name="ksi627" index="637" value="2.0000000108162159" reducedCost="7.0323365738416914e-12"/>
+  <variable name="ksi628" index="638" value="2.0000000109499831" reducedCost="6.9925352682168448e-12"/>
+  <variable name="ksi629" index="639" value="2.0000000107533857" reducedCost="6.4476575603027811e-12"/>
+  <variable name="ksi630" index="640" value="2.0000000120532819" reducedCost="5.1785604785400862e-12"/>
+  <variable name="ksi631" index="641" value="2.0000000112234892" reducedCost="6.144368390810869e-12"/>
+  <variable name="ksi632" index="642" value="2.0000000153406927" reducedCost="4.4475148128513315e-12"/>
+  <variable name="ksi633" index="643" value="1.9999999998323097" reducedCost="0"/>
+  <variable name="ksi634" index="644" value="2.0000000102867075" reducedCost="6.5764069968336481e-12"/>
+  <variable name="ksi635" index="645" value="2.0000000113076175" reducedCost="6.1930597060524148e-12"/>
+  <variable name="ksi636" index="646" value="2.0000000102698268" reducedCost="6.4262577382436023e-12"/>
+  <variable name="ksi637" index="647" value="2.0000000103670037" reducedCost="6.6091861885218793e-12"/>
+  <variable name="ksi638" index="648" value="2.000000010561402" reducedCost="6.6851227984920955e-12"/>
+  <variable name="ksi639" index="649" value="1.9999999997387055" reducedCost="0"/>
+  <variable name="ksi640" index="650" value="2.0000000107027165" reducedCost="6.8636447888411784e-12"/>
+  <variable name="ksi641" index="651" value="2.0000000102341304" reducedCost="6.4917846196197914e-12"/>
+  <variable name="ksi642" index="652" value="2.0000000105203117" reducedCost="6.5839217054630791e-12"/>
+  <variable name="ksi643" index="653" value="2.0000000127263586" reducedCost="5.536956373533867e-12"/>
+  <variable name="ksi644" index="654" value="2.0000000102734554" reducedCost="6.4943110409106557e-12"/>
+  <variable name="ksi645" index="655" value="2.0000000107021614" reducedCost="6.5001557948993681e-12"/>
+  <variable name="ksi646" index="656" value="2.0000000097182777" reducedCost="5.9484035717746447e-12"/>
+  <variable name="ksi647" index="657" value="2.0000000105596776" reducedCost="6.5529564378975446e-12"/>
+  <variable name="ksi648" index="658" value="2.0000000105043783" reducedCost="6.4414904500485501e-12"/>
+  <variable name="ksi649" index="659" value="2.0000000106893769" reducedCost="6.9148985461219615e-12"/>
+  <variable name="ksi650" index="660" value="2.0000000153632871" reducedCost="4.8182127864197024e-12"/>
+  <variable name="ksi651" index="661" value="2.000000010933658" reducedCost="6.5532050064398608e-12"/>
+  <variable name="ksi652" index="662" value="2.0000000112799925" reducedCost="6.6362019374637053e-12"/>
+  <variable name="ksi653" index="663" value="2.0000000104125339" reducedCost="6.6040919700300754e-12"/>
+  <variable name="ksi654" index="664" value="2.0000000103833937" reducedCost="6.57807232909191e-12"/>
+  <variable name="ksi655" index="665" value="1.9999999995689528" reducedCost="0"/>
+  <variable name="ksi656" index="666" value="2.0000000005132295" reducedCost="0"/>
+  <variable name="ksi657" index="667" value="2.0000000131966282" reducedCost="5.7820009830389879e-12"/>
+  <variable name="ksi658" index="668" value="2.00000001317138" reducedCost="5.8775689260107321e-12"/>
+  <variable name="ksi659" index="669" value="2.0000000104278683" reducedCost="6.6867072677001488e-12"/>
+  <variable name="ksi660" index="670" value="2.0000000106181295" reducedCost="6.6337597970671662e-12"/>
+  <variable name="ksi661" index="671" value="2.0000000107310481" reducedCost="6.9566403794702112e-12"/>
+  <variable name="ksi662" index="672" value="2.0000000101936166" reducedCost="6.4823904475182143e-12"/>
+  <variable name="ksi663" index="673" value="2.0000000106940985" reducedCost="6.5611020580538658e-12"/>
+  <variable name="ksi664" index="674" value="2.0000000114559491" reducedCost="5.6109233133187908e-12"/>
+  <variable name="ksi665" index="675" value="2.0000000113447385" reducedCost="6.2862827493299382e-12"/>
+  <variable name="ksi666" index="676" value="2.0000000109907865" reducedCost="6.4237082876877919e-12"/>
+  <variable name="ksi667" index="677" value="2.0000000106672466" reducedCost="6.4586230034421921e-12"/>
+  <variable name="ksi668" index="678" value="1.999999999709781" reducedCost="0"/>
+  <variable name="ksi669" index="679" value="2.0000000168045124" reducedCost="4.1500971347939705e-12"/>
+  <variable name="ksi670" index="680" value="2.0000000108183733" reducedCost="7.0382635012660176e-12"/>
+  <variable name="ksi671" index="681" value="2.0000000102837681" reducedCost="6.5367291871384753e-12"/>
+  <variable name="ksi672" index="682" value="2.0000000107152238" reducedCost="6.5857044780697863e-12"/>
+  <variable name="ksi673" index="683" value="2.0000000104827915" reducedCost="6.441752836215967e-12"/>
+  <variable name="ksi674" index="684" value="2.000000010645802" reducedCost="6.5139706892254103e-12"/>
+  <variable name="ksi675" index="685" value="2.00000001047502" reducedCost="6.6681056983049162e-12"/>
+  <variable name="ksi676" index="686" value="2.0000000124388579" reducedCost="6.2343351539088071e-12"/>
+  <variable name="ksi677" index="687" value="2.000000000022959" reducedCost="0"/>
+  <variable name="ksi678" index="688" value="2.0000000107522253" reducedCost="6.5266952549466169e-12"/>
+  <variable name="ksi679" index="689" value="2.0000000114994103" reducedCost="7.1474007232562455e-12"/>
+  <variable name="ksi680" index="690" value="2.000000010778896" reducedCost="6.9262714087520961e-12"/>
+  <variable name="ksi681" index="691" value="2.000000010485377" reducedCost="6.500191113699585e-12"/>
+  <variable name="ksi682" index="692" value="2.0000000121530999" reducedCost="6.4884397418453312e-12"/>
+ </variables>
+</CPLEXSolution>
