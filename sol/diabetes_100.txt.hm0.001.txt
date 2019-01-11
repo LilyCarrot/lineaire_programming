@@ -1,0 +1,272 @@
+<?xml version = "1.0" encoding="UTF-8" standalone="yes"?>
+<CPLEXSolution version="1.2">
+ <header
+   problemName="SVM"
+   solutionName="incumbent"
+   solutionIndex="-1"
+   objectiveValue="0.043999999999999997"
+   solutionTypeValue="3"
+   solutionTypeString="primal"
+   solutionStatusValue="101"
+   solutionStatusString="integer optimal solution"
+   solutionMethodString="mip"
+   primalFeasible="1"
+   dualFeasible="1"
+   MIPNodes="36"
+   MIPIterations="244"
+   writeLevel="1"/>
+ <quality
+   epInt="1.0000000000000001e-05"
+   epRHS="9.9999999999999995e-07"
+   maxIntInfeas="0"
+   maxPrimalInfeas="0"
+   maxX="1"
+   maxSlack="9998"/>
+ <linearConstraints>
+  <constraint index="0" slack="-9998"/>
+  <constraint index="1" slack="0"/>
+  <constraint index="2" slack="-9998"/>
+  <constraint index="3" slack="0"/>
+  <constraint index="4" slack="-9998"/>
+  <constraint index="5" slack="0"/>
+  <constraint index="6" slack="-9998"/>
+  <constraint index="7" slack="0"/>
+  <constraint index="8" slack="-9998"/>
+  <constraint index="9" slack="-9998"/>
+  <constraint index="10" slack="0"/>
+  <constraint index="11" slack="-9998"/>
+  <constraint index="12" slack="0"/>
+  <constraint index="13" slack="-9998"/>
+  <constraint index="14" slack="-9998"/>
+  <constraint index="15" slack="-9998"/>
+  <constraint index="16" slack="-9998"/>
+  <constraint index="17" slack="-9998"/>
+  <constraint index="18" slack="0"/>
+  <constraint index="19" slack="-9998"/>
+  <constraint index="20" slack="0"/>
+  <constraint index="21" slack="0"/>
+  <constraint index="22" slack="-9998"/>
+  <constraint index="23" slack="-9998"/>
+  <constraint index="24" slack="-9998"/>
+  <constraint index="25" slack="-9998"/>
+  <constraint index="26" slack="-9998"/>
+  <constraint index="27" slack="0"/>
+  <constraint index="28" slack="0"/>
+  <constraint index="29" slack="0"/>
+  <constraint index="30" slack="0"/>
+  <constraint index="31" slack="-9998"/>
+  <constraint index="32" slack="0"/>
+  <constraint index="33" slack="0"/>
+  <constraint index="34" slack="0"/>
+  <constraint index="35" slack="0"/>
+  <constraint index="36" slack="0"/>
+  <constraint index="37" slack="-9998"/>
+  <constraint index="38" slack="-9998"/>
+  <constraint index="39" slack="-9998"/>
+  <constraint index="40" slack="0"/>
+  <constraint index="41" slack="0"/>
+  <constraint index="42" slack="0"/>
+  <constraint index="43" slack="-9998"/>
+  <constraint index="44" slack="0"/>
+  <constraint index="45" slack="-9998"/>
+  <constraint index="46" slack="0"/>
+  <constraint index="47" slack="0"/>
+  <constraint index="48" slack="-9998"/>
+  <constraint index="49" slack="0"/>
+  <constraint index="50" slack="0"/>
+  <constraint index="51" slack="0"/>
+  <constraint index="52" slack="0"/>
+  <constraint index="53" slack="-9998"/>
+  <constraint index="54" slack="0"/>
+  <constraint index="55" slack="0"/>
+  <constraint index="56" slack="-9998"/>
+  <constraint index="57" slack="0"/>
+  <constraint index="58" slack="0"/>
+  <constraint index="59" slack="0"/>
+  <constraint index="60" slack="0"/>
+  <constraint index="61" slack="-9998"/>
+  <constraint index="62" slack="0"/>
+  <constraint index="63" slack="0"/>
+  <constraint index="64" slack="-9998"/>
+  <constraint index="65" slack="0"/>
+  <constraint index="66" slack="-9998"/>
+  <constraint index="67" slack="0"/>
+  <constraint index="68" slack="0"/>
+  <constraint index="69" slack="0"/>
+  <constraint index="70" slack="-9998"/>
+  <constraint index="71" slack="0"/>
+  <constraint index="72" slack="-9998"/>
+  <constraint index="73" slack="0"/>
+  <constraint index="74" slack="0"/>
+  <constraint index="75" slack="0"/>
+  <constraint index="76" slack="0"/>
+  <constraint index="77" slack="0"/>
+  <constraint index="78" slack="-9998"/>
+  <constraint index="79" slack="0"/>
+  <constraint index="80" slack="0"/>
+  <constraint index="81" slack="0"/>
+  <constraint index="82" slack="0"/>
+  <constraint index="83" slack="0"/>
+  <constraint index="84" slack="-9998"/>
+  <constraint index="85" slack="0"/>
+  <constraint index="86" slack="0"/>
+  <constraint index="87" slack="0"/>
+  <constraint index="88" slack="-9998"/>
+  <constraint index="89" slack="0"/>
+  <constraint index="90" slack="0"/>
+  <constraint index="91" slack="0"/>
+  <constraint index="92" slack="0"/>
+  <constraint index="93" slack="-9998"/>
+  <constraint index="94" slack="0"/>
+  <constraint index="95" slack="0"/>
+  <constraint index="96" slack="0"/>
+  <constraint index="97" slack="0"/>
+  <constraint index="98" slack="0"/>
+  <constraint index="99" slack="-9998"/>
+  <constraint index="100" slack="-9998"/>
+  <constraint index="101" slack="0"/>
+  <constraint index="102" slack="0"/>
+  <constraint index="103" slack="0"/>
+  <constraint index="104" slack="0"/>
+  <constraint index="105" slack="0"/>
+  <constraint index="106" slack="0"/>
+  <constraint index="107" slack="0"/>
+  <constraint index="108" slack="0"/>
+  <constraint index="109" slack="-9998"/>
+  <constraint index="110" slack="-9998"/>
+  <constraint index="111" slack="-9998"/>
+  <constraint index="112" slack="0"/>
+  <constraint index="113" slack="0"/>
+  <constraint index="114" slack="-9998"/>
+  <constraint index="115" slack="-9998"/>
+  <constraint index="116" slack="-9998"/>
+ </linearConstraints>
+ <variables>
+  <variable name="w0" index="0" value="0"/>
+  <variable name="w1" index="1" value="0"/>
+  <variable name="w2" index="2" value="0"/>
+  <variable name="w3" index="3" value="0"/>
+  <variable name="w4" index="4" value="0"/>
+  <variable name="w5" index="5" value="0"/>
+  <variable name="w6" index="6" value="0"/>
+  <variable name="w7" index="7" value="0"/>
+  <variable name="b" index="8" value="1"/>
+  <variable name="z0" index="9" value="1"/>
+  <variable name="z1" index="10" value="0"/>
+  <variable name="z2" index="11" value="1"/>
+  <variable name="z3" index="12" value="0"/>
+  <variable name="z4" index="13" value="1"/>
+  <variable name="z5" index="14" value="0"/>
+  <variable name="z6" index="15" value="1"/>
+  <variable name="z7" index="16" value="0"/>
+  <variable name="z8" index="17" value="1"/>
+  <variable name="z9" index="18" value="1"/>
+  <variable name="z10" index="19" value="0"/>
+  <variable name="z11" index="20" value="1"/>
+  <variable name="z12" index="21" value="0"/>
+  <variable name="z13" index="22" value="1"/>
+  <variable name="z14" index="23" value="1"/>
+  <variable name="z15" index="24" value="1"/>
+  <variable name="z16" index="25" value="1"/>
+  <variable name="z17" index="26" value="1"/>
+  <variable name="z18" index="27" value="0"/>
+  <variable name="z19" index="28" value="1"/>
+  <variable name="z20" index="29" value="0"/>
+  <variable name="z21" index="30" value="0"/>
+  <variable name="z22" index="31" value="1"/>
+  <variable name="z23" index="32" value="1"/>
+  <variable name="z24" index="33" value="1"/>
+  <variable name="z25" index="34" value="1"/>
+  <variable name="z26" index="35" value="1"/>
+  <variable name="z27" index="36" value="0"/>
+  <variable name="z28" index="37" value="0"/>
+  <variable name="z29" index="38" value="0"/>
+  <variable name="z30" index="39" value="0"/>
+  <variable name="z31" index="40" value="1"/>
+  <variable name="z32" index="41" value="0"/>
+  <variable name="z33" index="42" value="0"/>
+  <variable name="z34" index="43" value="0"/>
+  <variable name="z35" index="44" value="0"/>
+  <variable name="z36" index="45" value="0"/>
+  <variable name="z37" index="46" value="1"/>
+  <variable name="z38" index="47" value="1"/>
+  <variable name="z39" index="48" value="1"/>
+  <variable name="z40" index="49" value="0"/>
+  <variable name="z41" index="50" value="0"/>
+  <variable name="z42" index="51" value="0"/>
+  <variable name="z43" index="52" value="1"/>
+  <variable name="z44" index="53" value="0"/>
+  <variable name="z45" index="54" value="1"/>
+  <variable name="z46" index="55" value="0"/>
+  <variable name="z47" index="56" value="0"/>
+  <variable name="z48" index="57" value="1"/>
+  <variable name="z49" index="58" value="0"/>
+  <variable name="z50" index="59" value="0"/>
+  <variable name="z51" index="60" value="0"/>
+  <variable name="z52" index="61" value="0"/>
+  <variable name="z53" index="62" value="1"/>
+  <variable name="z54" index="63" value="0"/>
+  <variable name="z55" index="64" value="0"/>
+  <variable name="z56" index="65" value="1"/>
+  <variable name="z57" index="66" value="0"/>
+  <variable name="z58" index="67" value="0"/>
+  <variable name="z59" index="68" value="0"/>
+  <variable name="z60" index="69" value="0"/>
+  <variable name="z61" index="70" value="1"/>
+  <variable name="z62" index="71" value="0"/>
+  <variable name="z63" index="72" value="0"/>
+  <variable name="z64" index="73" value="1"/>
+  <variable name="z65" index="74" value="0"/>
+  <variable name="z66" index="75" value="1"/>
+  <variable name="z67" index="76" value="0"/>
+  <variable name="z68" index="77" value="0"/>
+  <variable name="z69" index="78" value="0"/>
+  <variable name="z70" index="79" value="1"/>
+  <variable name="z71" index="80" value="0"/>
+  <variable name="z72" index="81" value="1"/>
+  <variable name="z73" index="82" value="0"/>
+  <variable name="z74" index="83" value="0"/>
+  <variable name="z75" index="84" value="0"/>
+  <variable name="z76" index="85" value="0"/>
+  <variable name="z77" index="86" value="0"/>
+  <variable name="z78" index="87" value="1"/>
+  <variable name="z79" index="88" value="0"/>
+  <variable name="z80" index="89" value="0"/>
+  <variable name="z81" index="90" value="0"/>
+  <variable name="z82" index="91" value="0"/>
+  <variable name="z83" index="92" value="0"/>
+  <variable name="z84" index="93" value="1"/>
+  <variable name="z85" index="94" value="0"/>
+  <variable name="z86" index="95" value="0"/>
+  <variable name="z87" index="96" value="0"/>
+  <variable name="z88" index="97" value="1"/>
+  <variable name="z89" index="98" value="0"/>
+  <variable name="z90" index="99" value="0"/>
+  <variable name="z91" index="100" value="0"/>
+  <variable name="z92" index="101" value="0"/>
+  <variable name="z93" index="102" value="1"/>
+  <variable name="z94" index="103" value="0"/>
+  <variable name="z95" index="104" value="0"/>
+  <variable name="z96" index="105" value="0"/>
+  <variable name="z97" index="106" value="0"/>
+  <variable name="z98" index="107" value="0"/>
+  <variable name="z99" index="108" value="1"/>
+  <variable name="z100" index="109" value="1"/>
+  <variable name="z101" index="110" value="0"/>
+  <variable name="z102" index="111" value="0"/>
+  <variable name="z103" index="112" value="0"/>
+  <variable name="z104" index="113" value="0"/>
+  <variable name="z105" index="114" value="0"/>
+  <variable name="z106" index="115" value="0"/>
+  <variable name="z107" index="116" value="0"/>
+  <variable name="z108" index="117" value="0"/>
+  <variable name="z109" index="118" value="1"/>
+  <variable name="z110" index="119" value="1"/>
+  <variable name="z111" index="120" value="1"/>
+  <variable name="z112" index="121" value="0"/>
+  <variable name="z113" index="122" value="0"/>
+  <variable name="z114" index="123" value="1"/>
+  <variable name="z115" index="124" value="1"/>
+  <variable name="z116" index="125" value="1"/>
+ </variables>
+</CPLEXSolution>
