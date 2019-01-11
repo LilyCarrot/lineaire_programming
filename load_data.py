@@ -14,6 +14,4 @@ def load_data(filename):
         (d, xi, yi) = process_one_line(line)
         X.append(xi)
         y.append(yi)
-#    X = np.array(X)
-#    y = np.array(y)
     return (X, y)
