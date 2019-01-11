@@ -1,0 +1,45 @@
+<?xml version = "1.0" encoding="UTF-8" standalone="yes"?>
+<CPLEXSolution version="1.2">
+ <header
+   problemName="SVM"
+   solutionName="incumbent"
+   solutionIndex="-1"
+   objectiveValue="1"
+   solutionTypeValue="3"
+   solutionTypeString="primal"
+   solutionStatusValue="101"
+   solutionStatusString="integer optimal solution"
+   solutionMethodString="mip"
+   primalFeasible="1"
+   dualFeasible="1"
+   MIPNodes="0"
+   MIPIterations="0"
+   writeLevel="1"/>
+ <quality
+   epInt="1.0000000000000001e-05"
+   epRHS="9.9999999999999995e-07"
+   maxIntInfeas="0"
+   maxPrimalInfeas="0"
+   maxX="2"
+   maxSlack="0"/>
+ <linearConstraints>
+  <constraint index="0" slack="0"/>
+  <constraint index="1" slack="0"/>
+ </linearConstraints>
+ <variables>
+  <variable name="w0" index="0" value="0"/>
+  <variable name="w1" index="1" value="0"/>
+  <variable name="w2" index="2" value="0"/>
+  <variable name="w3" index="3" value="0"/>
+  <variable name="w4" index="4" value="0"/>
+  <variable name="w5" index="5" value="0"/>
+  <variable name="w6" index="6" value="0"/>
+  <variable name="w7" index="7" value="0"/>
+  <variable name="w8" index="8" value="0"/>
+  <variable name="b" index="9" value="-1"/>
+  <variable name="ksi0" index="10" value="2"/>
+  <variable name="ksi1" index="11" value="0"/>
+  <variable name="z0" index="12" value="0"/>
+  <variable name="z1" index="13" value="0"/>
+ </variables>
+</CPLEXSolution>

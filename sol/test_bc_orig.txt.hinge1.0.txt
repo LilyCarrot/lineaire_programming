@@ -1,0 +1,45 @@
+<?xml version = "1.0" encoding="UTF-8" standalone="yes"?>
+<CPLEXSolution version="1.2">
+ <header
+   problemName="SVM"
+   objectiveValue="2"
+   solutionTypeValue="2"
+   solutionTypeString="nonbasic"
+   solutionStatusValue="1"
+   solutionStatusString="optimal"
+   solutionMethodString="barrier"
+   primalFeasible="1"
+   dualFeasible="1"
+   barrierIterations="0"
+   writeLevel="1"/>
+ <quality
+   barEpComp="1e-08"
+   maxPrimalInfeas="0"
+   maxPrimalResidual="0"
+   maxX="2"
+   maxSlack="0"
+   maxCompSlack="0"
+   objGap="0"
+   maxDualInfeas="0"
+   maxDualResidual="2.2204460492503131e-16"
+   maxPi="1"
+   maxRedCost="4.7238546220000002"/>
+ <linearConstraints>
+  <constraint index="0" slack="0" dual="1"/>
+  <constraint index="1" slack="0" dual="1"/>
+ </linearConstraints>
+ <variables>
+  <variable name="w0" index="0" value="0" reducedCost="2.4755490829999998"/>
+  <variable name="w1" index="1" value="0" reducedCost="3.0424698449999998"/>
+  <variable name="w2" index="2" value="0" reducedCost="3.1164573730000003"/>
+  <variable name="w3" index="3" value="0" reducedCost="3.3567368609999999"/>
+  <variable name="w4" index="4" value="0" reducedCost="1.7720271160000001"/>
+  <variable name="w5" index="5" value="0" reducedCost="2.4372670190000001"/>
+  <variable name="w6" index="6" value="0" reducedCost="3.2075316300000001"/>
+  <variable name="w7" index="7" value="0" reducedCost="2.918491516"/>
+  <variable name="w8" index="8" value="0" reducedCost="4.7238546220000002"/>
+  <variable name="b" index="9" value="-1" reducedCost="0"/>
+  <variable name="ksi0" index="10" value="2" reducedCost="0"/>
+  <variable name="ksi1" index="11" value="0" reducedCost="0"/>
+ </variables>
+</CPLEXSolution>

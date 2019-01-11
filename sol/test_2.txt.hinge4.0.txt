@@ -1,0 +1,52 @@
+<?xml version = "1.0" encoding="UTF-8" standalone="yes"?>
+<CPLEXSolution version="1.2">
+ <header
+   problemName="SVM"
+   objectiveValue="32.000000034680667"
+   solutionTypeValue="2"
+   solutionTypeString="nonbasic"
+   solutionStatusValue="1"
+   solutionStatusString="optimal"
+   solutionMethodString="barrier"
+   primalFeasible="1"
+   dualFeasible="1"
+   barrierIterations="11"
+   writeLevel="1"/>
+ <quality
+   barEpComp="1e-08"
+   maxPrimalInfeas="1.1102230246251565e-16"
+   maxPrimalResidual="1.1601051919356563e-16"
+   maxX="1.9999999992457198"
+   maxSlack="9.7163455059501302e-10"
+   maxCompSlack="3.088039352374179e-09"
+   objGap="3.4680667226894002e-08"
+   maxDualInfeas="0"
+   maxDualResidual="1.8318679906315083e-15"
+   maxPi="4"
+   maxRedCost="6.9291312895518837"/>
+ <linearConstraints>
+  <constraint index="0" slack="-7.3286976487452193e-10" dual="3.5921800379292166"/>
+  <constraint index="1" slack="-7.3698958047430096e-10" dual="3.6243459708868251"/>
+  <constraint index="2" slack="-9.1367668986208628e-10" dual="3.1326801137248772"/>
+  <constraint index="3" slack="-9.7163455059501302e-10" dual="2.6750033298131495"/>
+  <constraint index="4" slack="-7.9603190705768156e-10" dual="3.2491033192649721"/>
+  <constraint index="5" slack="1.1102230246251565e-16" dual="4"/>
+  <constraint index="6" slack="1.1102230246251565e-16" dual="4"/>
+  <constraint index="7" slack="1.1102230246251565e-16" dual="4"/>
+  <constraint index="8" slack="1.1102230246251565e-16" dual="4"/>
+ </linearConstraints>
+ <variables>
+  <variable name="w0" index="0" value="4.0084288752759467e-10" reducedCost="6.9291312895518837"/>
+  <variable name="w1" index="1" value="2.5621571865367394e-09" reducedCost="0.86221702460209082"/>
+  <variable name="b" index="2" value="0.99999999035671971" reducedCost="-0.27331277161903861"/>
+  <variable name="ksi0" index="3" value="7.4131500474635869e-09" reducedCost="0.40781996207078325"/>
+  <variable name="ksi1" index="4" value="7.0164268244420606e-09" reducedCost="0.37565402911317497"/>
+  <variable name="ksi2" index="5" value="2.4696424490811389e-09" reducedCost="0.8673198862751228"/>
+  <variable name="ksi3" index="6" value="2.1267574879635363e-09" reducedCost="1.3249966701868505"/>
+  <variable name="ksi4" index="7" value="4.1124690408158423e-09" reducedCost="0.75089668073502769"/>
+  <variable name="ksi5" index="8" value="1.9999999958818768" reducedCost="0"/>
+  <variable name="ksi6" index="9" value="1.9999999962827197" reducedCost="0"/>
+  <variable name="ksi7" index="10" value="1.9999999992457198" reducedCost="0"/>
+  <variable name="ksi8" index="11" value="1.9999999941214055" reducedCost="0"/>
+ </variables>
+</CPLEXSolution>
