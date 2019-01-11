@@ -6,7 +6,7 @@ import hardmargin
 import ramp
 
 if __name__=='__main__':
-  for filename in ['test_2.txt',  'test_3.txt',	'test_bc_orig.txt', 'bc-orig.txt', 'diabetes.txt',   'sonar.txt', 'heart-bin.txt',  'liver.txt']:
+  for filename in ['diabetes_300.txt']:
     (X, y) = load_data.load_data('data/' + filename)
     n = len(y)
     d = len(X[0])

@@ -1,0 +1,658 @@
+<?xml version = "1.0" encoding="UTF-8" standalone="yes"?>
+<CPLEXSolution version="1.2">
+ <header
+   problemName="SVM"
+   solutionName="incumbent"
+   solutionIndex="-1"
+   objectiveValue="0.11995123436454994"
+   solutionTypeValue="3"
+   solutionTypeString="primal"
+   solutionStatusValue="101"
+   solutionStatusString="integer optimal solution"
+   solutionMethodString="mip"
+   primalFeasible="1"
+   dualFeasible="1"
+   MIPNodes="626"
+   MIPIterations="3082"
+   writeLevel="1"/>
+ <quality
+   epInt="1.0000000000000001e-05"
+   epRHS="9.9999999999999995e-07"
+   maxIntInfeas="3.077364417054202e-06"
+   maxPrimalInfeas="0"
+   maxX="1"
+   maxSlack="9998.3083038808181"/>
+ <linearConstraints>
+  <constraint index="0" slack="-9996.5435527735208"/>
+  <constraint index="1" slack="-1.1152402290534189"/>
+  <constraint index="2" slack="-9997.3296031946466"/>
+  <constraint index="3" slack="-1.325993814179169"/>
+  <constraint index="4" slack="-9997.3665470340457"/>
+  <constraint index="5" slack="-1.0757564891246769"/>
+  <constraint index="6" slack="-9997.2304565852464"/>
+  <constraint index="7" slack="-9998.0279760401554"/>
+  <constraint index="8" slack="-9994.8322797511919"/>
+  <constraint index="9" slack="-9996.0055952080311"/>
+  <constraint index="10" slack="-1.8177133775801031"/>
+  <constraint index="11" slack="-9996.9102554907986"/>
+  <constraint index="12" slack="-1.3379960066925061"/>
+  <constraint index="13" slack="-9994.6044891634447"/>
+  <constraint index="14" slack="-9996.2175560007163"/>
+  <constraint index="15" slack="0"/>
+  <constraint index="16" slack="-9995.1970084754066"/>
+  <constraint index="17" slack="-9996.9186483028443"/>
+  <constraint index="18" slack="-4.4408920985006262e-16"/>
+  <constraint index="19" slack="-9996.4102121830147"/>
+  <constraint index="20" slack="-2.9133285500552812"/>
+  <constraint index="21" slack="-1.4979017969883719"/>
+  <constraint index="22" slack="-9996.2566443095366"/>
+  <constraint index="23" slack="-9996.2041579648212"/>
+  <constraint index="24" slack="-9995.1956394635108"/>
+  <constraint index="25" slack="-9996.3791180926528"/>
+  <constraint index="26" slack="-9996.8358978036813"/>
+  <constraint index="27" slack="-1.362482234538291"/>
+  <constraint index="28" slack="-2.0182382929279852"/>
+  <constraint index="29" slack="-1.8205109815956071"/>
+  <constraint index="30" slack="-1.4593241514221575"/>
+  <constraint index="31" slack="-9995.6181592882476"/>
+  <constraint index="32" slack="-0.71936650627412924"/>
+  <constraint index="33" slack="-1.8233085856111111"/>
+  <constraint index="34" slack="-1.6632441534594014"/>
+  <constraint index="35" slack="-1.5197972161044762"/>
+  <constraint index="36" slack="-1.1752926123811367"/>
+  <constraint index="37" slack="-9996.3433364698612"/>
+  <constraint index="38" slack="-9996.6281154614098"/>
+  <constraint index="39" slack="-9995.7532102510759"/>
+  <constraint index="40" slack="-1.2011896805921674"/>
+  <constraint index="41" slack="-1.4951041929728679"/>
+  <constraint index="42" slack="-2.0630086291990652"/>
+  <constraint index="43" slack="-9994.3679608330367"/>
+  <constraint index="44" slack="-0.66759920133850104"/>
+  <constraint index="45" slack="-9996.7559449085329"/>
+  <constraint index="46" slack="-0.31981158059173165"/>
+  <constraint index="47" slack="-1.2572163381099681"/>
+  <constraint index="48" slack="-9996.8284904069242"/>
+  <constraint index="49" slack="-9998.0195832281079"/>
+  <constraint index="50" slack="-1.7103266807380586"/>
+  <constraint index="51" slack="-0.37993578635573089"/>
+  <constraint index="52" slack="-1.0920298687233396"/>
+  <constraint index="53" slack="-9994.8817226229075"/>
+  <constraint index="54" slack="-2.3572135938050227"/>
+  <constraint index="55" slack="-0.20317254953056096"/>
+  <constraint index="56" slack="-9995.7166409285492"/>
+  <constraint index="57" slack="-2.7697320505762173"/>
+  <constraint index="58" slack="-1.3927704657009046"/>
+  <constraint index="59" slack="-1.6252908220534787"/>
+  <constraint index="60" slack="-9998.0055952080311"/>
+  <constraint index="61" slack="-9996.9986011979927"/>
+  <constraint index="62" slack="-0.5792534941440568"/>
+  <constraint index="63" slack="-1.2473558602452122"/>
+  <constraint index="64" slack="-9997.2496502994982"/>
+  <constraint index="65" slack="-1.4311101484833531"/>
+  <constraint index="66" slack="-9995.9641406375213"/>
+  <constraint index="67" slack="-1.8121181695490955"/>
+  <constraint index="68" slack="-1.0217815643557628"/>
+  <constraint index="69" slack="-2.1916541887850842"/>
+  <constraint index="70" slack="-9996.7230208776909"/>
+  <constraint index="71" slack="-1.5541470842951477"/>
+  <constraint index="72" slack="-9996.2398586854433"/>
+  <constraint index="73" slack="-2.664864340027572"/>
+  <constraint index="74" slack="-1.5007787219317978"/>
+  <constraint index="75" slack="-0.25203451679626321"/>
+  <constraint index="76" slack="-1.2468526954825578"/>
+  <constraint index="77" slack="-1.4273271291773999"/>
+  <constraint index="78" slack="0"/>
+  <constraint index="79" slack="-1.0259091065685251"/>
+  <constraint index="80" slack="0"/>
+  <constraint index="81" slack="-9998.0055952080311"/>
+  <constraint index="82" slack="-1.8078769764303368"/>
+  <constraint index="83" slack="-1.0579061288132827"/>
+  <constraint index="84" slack="-9995.5174850250969"/>
+  <constraint index="85" slack="-1.8343072033705861"/>
+  <constraint index="86" slack="-1.7260941408026227"/>
+  <constraint index="87" slack="-1.36697521389272"/>
+  <constraint index="88" slack="-9996.3015732876629"/>
+  <constraint index="89" slack="-1.0663782617877162"/>
+  <constraint index="90" slack="-0.2784363310100133"/>
+  <constraint index="91" slack="-2.0610855443394591"/>
+  <constraint index="92" slack="-1.9212452326799148"/>
+  <constraint index="93" slack="-9997.0097916140548"/>
+  <constraint index="94" slack="-1.8325250086120963"/>
+  <constraint index="95" slack="-2.053884942869221"/>
+  <constraint index="96" slack="-0.93937558809913524"/>
+  <constraint index="97" slack="-0.45995458668836875"/>
+  <constraint index="98" slack="-0.67764239777409152"/>
+  <constraint index="99" slack="-9994.9241357772207"/>
+  <constraint index="100" slack="-9997.0181844261006"/>
+  <constraint index="101" slack="-0.48531257891860502"/>
+  <constraint index="102" slack="-1.9720239598449618"/>
+  <constraint index="103" slack="-1.3420035730390092"/>
+  <constraint index="104" slack="-0.69498643084270029"/>
+  <constraint index="105" slack="-1.1699728595921024"/>
+  <constraint index="106" slack="-3.0505780529851423"/>
+  <constraint index="107" slack="-1.2109692562889363"/>
+  <constraint index="108" slack="-0.87163443552180775"/>
+  <constraint index="109" slack="-9996.0431156158702"/>
+  <constraint index="110" slack="-9996.1621793153136"/>
+  <constraint index="111" slack="-9995.5445024814471"/>
+  <constraint index="112" slack="-1.7088381006849556"/>
+  <constraint index="113" slack="-0.57645589012855281"/>
+  <constraint index="114" slack="-9996.7856190787988"/>
+  <constraint index="115" slack="-9996.1822866224193"/>
+  <constraint index="116" slack="-9996.9242435108754"/>
+  <constraint index="117" slack="0"/>
+  <constraint index="118" slack="-0.79641406375213641"/>
+  <constraint index="119" slack="-1.5103171723646689"/>
+  <constraint index="120" slack="-9995.8102373208676"/>
+  <constraint index="121" slack="-1.1780902163966407"/>
+  <constraint index="122" slack="-1.7704149752839164"/>
+  <constraint index="123" slack="-1.324007986614987"/>
+  <constraint index="124" slack="-9996.8554810317892"/>
+  <constraint index="125" slack="-9997.8980407896015"/>
+  <constraint index="126" slack="-1.7155864455939636"/>
+  <constraint index="127" slack="-1.1660880238833031"/>
+  <constraint index="128" slack="-9995.5934003599323"/>
+  <constraint index="129" slack="-9996.5244790351353"/>
+  <constraint index="130" slack="-9996.3904853100339"/>
+  <constraint index="131" slack="-9997.657807587284"/>
+  <constraint index="132" slack="-9996.1631438163695"/>
+  <constraint index="133" slack="-1.49214794710152"/>
+  <constraint index="134" slack="-1.1412331964157194"/>
+  <constraint index="135" slack="-1.1828345742780542"/>
+  <constraint index="136" slack="-1.3925668328952137"/>
+  <constraint index="137" slack="-1.0951029279808155"/>
+  <constraint index="138" slack="-1.3100199665374679"/>
+  <constraint index="139" slack="-2.3763773140903277"/>
+  <constraint index="140" slack="-1.2356622794205427"/>
+  <constraint index="141" slack="-1.8015958850658413"/>
+  <constraint index="142" slack="-0.69347535531467397"/>
+  <constraint index="143" slack="-9997.2412574874525"/>
+  <constraint index="144" slack="-1.8597820089869517"/>
+  <constraint index="145" slack="-1.4058523914158965"/>
+  <constraint index="146" slack="-1.8221645284648176"/>
+  <constraint index="147" slack="-1.4810293534757859"/>
+  <constraint index="148" slack="-1.2412574874515503"/>
+  <constraint index="149" slack="-1.1256038716808288"/>
+  <constraint index="150" slack="-2.3513847590017587"/>
+  <constraint index="151" slack="-0.70058163887370783"/>
+  <constraint index="152" slack="-9995.5703036505074"/>
+  <constraint index="153" slack="-3.4431778384727103"/>
+  <constraint index="154" slack="-9996.7503497005018"/>
+  <constraint index="155" slack="-9995.7602999564115"/>
+  <constraint index="156" slack="-0.64424795090730447"/>
+  <constraint index="157" slack="-1.0122865236326746"/>
+  <constraint index="158" slack="-1.4807807297202467"/>
+  <constraint index="159" slack="-9996.0824478047271"/>
+  <constraint index="160" slack="-2.2350902508473958"/>
+  <constraint index="161" slack="-1.9314261567364914"/>
+  <constraint index="162" slack="-2.6359119643137916"/>
+  <constraint index="163" slack="-0.95631985404800224"/>
+  <constraint index="164" slack="-9996.3589780368093"/>
+  <constraint index="165" slack="-9996.2037297849747"/>
+  <constraint index="166" slack="-1.0681904505127706"/>
+  <constraint index="167" slack="-0.82470738761886286"/>
+  <constraint index="168" slack="-0.74195688845542618"/>
+  <constraint index="169" slack="-2.1305070752724298"/>
+  <constraint index="170" slack="-9996.5904439102069"/>
+  <constraint index="171" slack="-9996.3835601638057"/>
+  <constraint index="172" slack="-9998.3083038808181"/>
+  <constraint index="173" slack="-1.1860276094017901"/>
+  <constraint index="174" slack="-1.1389987450959995"/>
+  <constraint index="175" slack="-9996.0451507703965"/>
+  <constraint index="176" slack="-1.2440550914670543"/>
+  <constraint index="177" slack="-9994.4426271318425"/>
+  <constraint index="178" slack="-1.2412574874515503"/>
+  <constraint index="179" slack="-9996.5932415142215"/>
+  <constraint index="180" slack="-1.326805590630491"/>
+  <constraint index="181" slack="-1.1684751998072915"/>
+  <constraint index="182" slack="-1.3986802026721574"/>
+  <constraint index="183" slack="-0.49650299498062012"/>
+  <constraint index="184" slack="-1.0729588851091729"/>
+  <constraint index="185" slack="-9996.7983848943331"/>
+  <constraint index="186" slack="-9995.1646385175281"/>
+  <constraint index="187" slack="-9995.2240527632439"/>
+  <constraint index="188" slack="-9995.9684477358242"/>
+  <constraint index="189" slack="-9995.7222061426146"/>
+  <constraint index="190" slack="-0.57365828611304925"/>
+  <constraint index="191" slack="-1.7902618241312651"/>
+  <constraint index="192" slack="-9997.2496502994982"/>
+  <constraint index="193" slack="0"/>
+  <constraint index="194" slack="-0.56124449197681869"/>
+  <constraint index="195" slack="-9995.3236307149709"/>
+  <constraint index="196" slack="-0.40256207975516833"/>
+  <constraint index="197" slack="-9997.1073028360479"/>
+  <constraint index="198" slack="-9996.4565669984913"/>
+  <constraint index="199" slack="-9996.1708207511165"/>
+  <constraint index="200" slack="-1.5205999128240908"/>
+  <constraint index="201" slack="-1.3955680697164086"/>
+  <constraint index="202" slack="-1.0767419044151261"/>
+  <constraint index="203" slack="-1.2480567405619816"/>
+  <constraint index="204" slack="-2.0025698944948234"/>
+  <constraint index="205" slack="-1.3615208959628302"/>
+  <constraint index="206" slack="-9995.5884251300504"/>
+  <constraint index="207" slack="-9995.6829860234229"/>
+  <constraint index="208" slack="-1.2743133286631045"/>
+  <constraint index="209" slack="-9996.0705746678104"/>
+  <constraint index="210" slack="-0.77765760907821502"/>
+  <constraint index="211" slack="-2.2276035331634114"/>
+  <constraint index="212" slack="-2.3582305843021016"/>
+  <constraint index="213" slack="-9996.5677382958784"/>
+  <constraint index="214" slack="-9995.6215168824801"/>
+  <constraint index="215" slack="-9995.7084517493076"/>
+  <constraint index="216" slack="-9996.4835394638922"/>
+  <constraint index="217" slack="-1.5949966736392884"/>
+  <constraint index="218" slack="-9996.6346960847313"/>
+  <constraint index="219" slack="-9997.2552455075293"/>
+  <constraint index="220" slack="-9995.6625464356221"/>
+  <constraint index="221" slack="-9996.2706323296152"/>
+  <constraint index="222" slack="-9998.0195832281079"/>
+  <constraint index="223" slack="-1.5220257501726207"/>
+  <constraint index="224" slack="-1.1035825594468909"/>
+  <constraint index="225" slack="-1.6840491784020779"/>
+  <constraint index="226" slack="-1.1445189682105945"/>
+  <constraint index="227" slack="-9997.3399668372731"/>
+  <constraint index="228" slack="-3.7138579138083436"/>
+  <constraint index="229" slack="-1.8813719788945167"/>
+  <constraint index="230" slack="-9996.4305381199101"/>
+  <constraint index="231" slack="-9995.0458368575837"/>
+  <constraint index="232" slack="-1.7558878792256034"/>
+  <constraint index="233" slack="-0.82470738761886286"/>
+  <constraint index="234" slack="-1.3291209441181993"/>
+  <constraint index="235" slack="-9997.0097916140548"/>
+  <constraint index="236" slack="-9995.6367389416027"/>
+  <constraint index="237" slack="-9995.9208738782872"/>
+  <constraint index="238" slack="-9996.2229144194953"/>
+  <constraint index="239" slack="-1.1445189682105945"/>
+  <constraint index="240" slack="-0.96668349667541253"/>
+  <constraint index="241" slack="-1.5998460104036787"/>
+  <constraint index="242" slack="-9997.7573437105402"/>
+  <constraint index="243" slack="-9997.0824480085812"/>
+  <constraint index="244" slack="-2.208692772645156"/>
+  <constraint index="245" slack="-9996.2605066497708"/>
+  <constraint index="246" slack="-0.84149301171188595"/>
+  <constraint index="247" slack="-4.2539481142154782"/>
+  <constraint index="248" slack="-2.5947869197276789"/>
+  <constraint index="249" slack="-1.8111327542586464"/>
+  <constraint index="250" slack="-0.17669141438888847"/>
+  <constraint index="251" slack="-1.4811161728953488"/>
+  <constraint index="252" slack="-1.6693902719743536"/>
+  <constraint index="253" slack="-1.2346768641300936"/>
+  <constraint index="254" slack="-9996.5138426920385"/>
+  <constraint index="255" slack="-9996.8885427902533"/>
+  <constraint index="256" slack="-0.8386954076963824"/>
+  <constraint index="257" slack="-1.1086596057319618"/>
+  <constraint index="258" slack="-1.4379421503317946"/>
+  <constraint index="259" slack="-9995.9938716332399"/>
+  <constraint index="260" slack="-1.4200065518409017"/>
+  <constraint index="261" slack="0"/>
+  <constraint index="262" slack="-1.3286177793555454"/>
+  <constraint index="263" slack="-1.5158314782276885"/>
+  <constraint index="264" slack="-9997.4235441098717"/>
+  <constraint index="265" slack="-1.519162240972411"/>
+  <constraint index="266" slack="0"/>
+  <constraint index="267" slack="-1.2063835402633671"/>
+  <constraint index="268" slack="-0.15151297824935428"/>
+  <constraint index="269" slack="0"/>
+  <constraint index="270" slack="-9995.9267863700297"/>
+  <constraint index="271" slack="-1.1646203580650578"/>
+  <constraint index="272" slack="-1.2356622794205427"/>
+  <constraint index="273" slack="-2.026825658048482"/>
+  <constraint index="274" slack="-0.93263632292183418"/>
+  <constraint index="275" slack="-1.7619294265662662"/>
+  <constraint index="276" slack="-9997.182031877559"/>
+  <constraint index="277" slack="-1.3082527687622614"/>
+  <constraint index="278" slack="-1.0757564891246769"/>
+  <constraint index="279" slack="-1.5593077875196517"/>
+  <constraint index="280" slack="-9997.10373252928"/>
+  <constraint index="281" slack="-1.9170308710475896"/>
+  <constraint index="282" slack="-2.3357554342668667"/>
+  <constraint index="283" slack="-9996.4221453078644"/>
+  <constraint index="284" slack="-9996.6843848254321"/>
+  <constraint index="285" slack="-1.8396328734111966"/>
+  <constraint index="286" slack="-3.7483695863349906"/>
+  <constraint index="287" slack="-9995.2475717352627"/>
+  <constraint index="288" slack="-0.70297039603776268"/>
+  <constraint index="289" slack="-1.7901000197952888"/>
+  <constraint index="290" slack="-2.1459836754030519"/>
+  <constraint index="291" slack="-9996.8118188414464"/>
+  <constraint index="292" slack="-9995.7192199027759"/>
+  <constraint index="293" slack="-9996.8209993532291"/>
+  <constraint index="294" slack="-0.068762479085917594"/>
+  <constraint index="295" slack="-1.3599064227918927"/>
+  <constraint index="296" slack="-9995.4884399127113"/>
+  <constraint index="297" slack="-2.5198570001832614"/>
+  <constraint index="298" slack="-9995.837419336327"/>
+  <constraint index="299" slack="-1.0013988020077518"/>
+  <constraint index="300" slack="0"/>
+  <constraint index="301" slack="-9996.7442304134729"/>
+  <constraint index="302" slack="-2.0758194356835942"/>
+  <constraint index="303" slack="-9995.9312375209138"/>
+  <constraint index="304" slack="-1.1529117802571061"/>
+  <constraint index="305" slack="-1.9607048958936675"/>
+  <constraint index="306" slack="-9996.4489559689282"/>
+  <constraint index="307" slack="-1.4539309949567758"/>
+  <constraint index="308" slack="-9996.3816343241742"/>
+  <constraint index="309" slack="-9996.1805344216282"/>
+ </linearConstraints>
+ <variables>
+  <variable name="w0" index="0" value="0.0027976040155038157"/>
+  <variable name="w1" index="1" value="0"/>
+  <variable name="w2" index="2" value="0.04137524958171835"/>
+  <variable name="w3" index="3" value="0.013161246642913927"/>
+  <variable name="w4" index="4" value="0.0030821389891833341"/>
+  <variable name="w5" index="5" value="0"/>
+  <variable name="w6" index="6" value="0"/>
+  <variable name="w7" index="7" value="0"/>
+  <variable name="b" index="8" value="-1"/>
+  <variable name="z0" index="9" value="1"/>
+  <variable name="z1" index="10" value="0"/>
+  <variable name="z2" index="11" value="1"/>
+  <variable name="z3" index="12" value="-0"/>
+  <variable name="z4" index="13" value="1"/>
+  <variable name="z5" index="14" value="0"/>
+  <variable name="z6" index="15" value="1"/>
+  <variable name="z7" index="16" value="1"/>
+  <variable name="z8" index="17" value="1"/>
+  <variable name="z9" index="18" value="1"/>
+  <variable name="z10" index="19" value="0"/>
+  <variable name="z11" index="20" value="1"/>
+  <variable name="z12" index="21" value="0"/>
+  <variable name="z13" index="22" value="1"/>
+  <variable name="z14" index="23" value="1"/>
+  <variable name="z15" index="24" value="1.9583228108526715e-06"/>
+  <variable name="z16" index="25" value="1"/>
+  <variable name="z17" index="26" value="1"/>
+  <variable name="z18" index="27" value="-0"/>
+  <variable name="z19" index="28" value="1"/>
+  <variable name="z20" index="29" value="-0"/>
+  <variable name="z21" index="30" value="0"/>
+  <variable name="z22" index="31" value="1"/>
+  <variable name="z23" index="32" value="1"/>
+  <variable name="z24" index="33" value="1"/>
+  <variable name="z25" index="34" value="1"/>
+  <variable name="z26" index="35" value="1"/>
+  <variable name="z27" index="36" value="-0"/>
+  <variable name="z28" index="37" value="-0"/>
+  <variable name="z29" index="38" value="0"/>
+  <variable name="z30" index="39" value="0"/>
+  <variable name="z31" index="40" value="1"/>
+  <variable name="z32" index="41" value="-0"/>
+  <variable name="z33" index="42" value="0"/>
+  <variable name="z34" index="43" value="-0"/>
+  <variable name="z35" index="44" value="-0"/>
+  <variable name="z36" index="45" value="-0"/>
+  <variable name="z37" index="46" value="1"/>
+  <variable name="z38" index="47" value="1"/>
+  <variable name="z39" index="48" value="1"/>
+  <variable name="z40" index="49" value="-0"/>
+  <variable name="z41" index="50" value="0"/>
+  <variable name="z42" index="51" value="-0"/>
+  <variable name="z43" index="52" value="1"/>
+  <variable name="z44" index="53" value="0"/>
+  <variable name="z45" index="54" value="1"/>
+  <variable name="z46" index="55" value="-0"/>
+  <variable name="z47" index="56" value="-0"/>
+  <variable name="z48" index="57" value="1"/>
+  <variable name="z49" index="58" value="1"/>
+  <variable name="z50" index="59" value="-0"/>
+  <variable name="z51" index="60" value="-0"/>
+  <variable name="z52" index="61" value="-0"/>
+  <variable name="z53" index="62" value="1"/>
+  <variable name="z54" index="63" value="-0"/>
+  <variable name="z55" index="64" value="-0"/>
+  <variable name="z56" index="65" value="1"/>
+  <variable name="z57" index="66" value="-0"/>
+  <variable name="z58" index="67" value="0"/>
+  <variable name="z59" index="68" value="-0"/>
+  <variable name="z60" index="69" value="1"/>
+  <variable name="z61" index="70" value="1"/>
+  <variable name="z62" index="71" value="0"/>
+  <variable name="z63" index="72" value="-0"/>
+  <variable name="z64" index="73" value="1"/>
+  <variable name="z65" index="74" value="-0"/>
+  <variable name="z66" index="75" value="1"/>
+  <variable name="z67" index="76" value="0"/>
+  <variable name="z68" index="77" value="-0"/>
+  <variable name="z69" index="78" value="-0"/>
+  <variable name="z70" index="79" value="1"/>
+  <variable name="z71" index="80" value="-0"/>
+  <variable name="z72" index="81" value="1"/>
+  <variable name="z73" index="82" value="-0"/>
+  <variable name="z74" index="83" value="-0"/>
+  <variable name="z75" index="84" value="-0"/>
+  <variable name="z76" index="85" value="0"/>
+  <variable name="z77" index="86" value="-0"/>
+  <variable name="z78" index="87" value="0"/>
+  <variable name="z79" index="88" value="-0"/>
+  <variable name="z80" index="89" value="-0"/>
+  <variable name="z81" index="90" value="1"/>
+  <variable name="z82" index="91" value="-0"/>
+  <variable name="z83" index="92" value="-0"/>
+  <variable name="z84" index="93" value="1"/>
+  <variable name="z85" index="94" value="-0"/>
+  <variable name="z86" index="95" value="-0"/>
+  <variable name="z87" index="96" value="-0"/>
+  <variable name="z88" index="97" value="1"/>
+  <variable name="z89" index="98" value="-0"/>
+  <variable name="z90" index="99" value="0"/>
+  <variable name="z91" index="100" value="-0"/>
+  <variable name="z92" index="101" value="-0"/>
+  <variable name="z93" index="102" value="1"/>
+  <variable name="z94" index="103" value="-0"/>
+  <variable name="z95" index="104" value="-0"/>
+  <variable name="z96" index="105" value="-0"/>
+  <variable name="z97" index="106" value="-0"/>
+  <variable name="z98" index="107" value="-0"/>
+  <variable name="z99" index="108" value="1"/>
+  <variable name="z100" index="109" value="1"/>
+  <variable name="z101" index="110" value="-0"/>
+  <variable name="z102" index="111" value="0"/>
+  <variable name="z103" index="112" value="-0"/>
+  <variable name="z104" index="113" value="0"/>
+  <variable name="z105" index="114" value="-0"/>
+  <variable name="z106" index="115" value="0"/>
+  <variable name="z107" index="116" value="-0"/>
+  <variable name="z108" index="117" value="-0"/>
+  <variable name="z109" index="118" value="1"/>
+  <variable name="z110" index="119" value="1"/>
+  <variable name="z111" index="120" value="1"/>
+  <variable name="z112" index="121" value="-0"/>
+  <variable name="z113" index="122" value="0"/>
+  <variable name="z114" index="123" value="1"/>
+  <variable name="z115" index="124" value="1"/>
+  <variable name="z116" index="125" value="1"/>
+  <variable name="z117" index="126" value="0"/>
+  <variable name="z118" index="127" value="-0"/>
+  <variable name="z119" index="128" value="-0"/>
+  <variable name="z120" index="129" value="1"/>
+  <variable name="z121" index="130" value="-0"/>
+  <variable name="z122" index="131" value="-0"/>
+  <variable name="z123" index="132" value="0"/>
+  <variable name="z124" index="133" value="1"/>
+  <variable name="z125" index="134" value="1"/>
+  <variable name="z126" index="135" value="-0"/>
+  <variable name="z127" index="136" value="-0"/>
+  <variable name="z128" index="137" value="1"/>
+  <variable name="z129" index="138" value="1"/>
+  <variable name="z130" index="139" value="1"/>
+  <variable name="z131" index="140" value="1"/>
+  <variable name="z132" index="141" value="1"/>
+  <variable name="z133" index="142" value="-0"/>
+  <variable name="z134" index="143" value="-0"/>
+  <variable name="z135" index="144" value="-0"/>
+  <variable name="z136" index="145" value="-0"/>
+  <variable name="z137" index="146" value="-0"/>
+  <variable name="z138" index="147" value="0"/>
+  <variable name="z139" index="148" value="-0"/>
+  <variable name="z140" index="149" value="0"/>
+  <variable name="z141" index="150" value="-0"/>
+  <variable name="z142" index="151" value="-0"/>
+  <variable name="z143" index="152" value="1"/>
+  <variable name="z144" index="153" value="-0"/>
+  <variable name="z145" index="154" value="-0"/>
+  <variable name="z146" index="155" value="-0"/>
+  <variable name="z147" index="156" value="-0"/>
+  <variable name="z148" index="157" value="0"/>
+  <variable name="z149" index="158" value="-0"/>
+  <variable name="z150" index="159" value="-0"/>
+  <variable name="z151" index="160" value="0"/>
+  <variable name="z152" index="161" value="1"/>
+  <variable name="z153" index="162" value="-0"/>
+  <variable name="z154" index="163" value="1"/>
+  <variable name="z155" index="164" value="1"/>
+  <variable name="z156" index="165" value="-0"/>
+  <variable name="z157" index="166" value="-0"/>
+  <variable name="z158" index="167" value="-0"/>
+  <variable name="z159" index="168" value="1"/>
+  <variable name="z160" index="169" value="-0"/>
+  <variable name="z161" index="170" value="-0"/>
+  <variable name="z162" index="171" value="-0"/>
+  <variable name="z163" index="172" value="-0"/>
+  <variable name="z164" index="173" value="1"/>
+  <variable name="z165" index="174" value="1"/>
+  <variable name="z166" index="175" value="-0"/>
+  <variable name="z167" index="176" value="0"/>
+  <variable name="z168" index="177" value="0"/>
+  <variable name="z169" index="178" value="-0"/>
+  <variable name="z170" index="179" value="1"/>
+  <variable name="z171" index="180" value="1"/>
+  <variable name="z172" index="181" value="1"/>
+  <variable name="z173" index="182" value="-0"/>
+  <variable name="z174" index="183" value="-0"/>
+  <variable name="z175" index="184" value="1"/>
+  <variable name="z176" index="185" value="0"/>
+  <variable name="z177" index="186" value="1"/>
+  <variable name="z178" index="187" value="-0"/>
+  <variable name="z179" index="188" value="1"/>
+  <variable name="z180" index="189" value="0"/>
+  <variable name="z181" index="190" value="-0"/>
+  <variable name="z182" index="191" value="-0"/>
+  <variable name="z183" index="192" value="0"/>
+  <variable name="z184" index="193" value="-0"/>
+  <variable name="z185" index="194" value="1"/>
+  <variable name="z186" index="195" value="1"/>
+  <variable name="z187" index="196" value="1"/>
+  <variable name="z188" index="197" value="1"/>
+  <variable name="z189" index="198" value="1"/>
+  <variable name="z190" index="199" value="0"/>
+  <variable name="z191" index="200" value="-0"/>
+  <variable name="z192" index="201" value="1"/>
+  <variable name="z193" index="202" value="3.077364417054202e-06"/>
+  <variable name="z194" index="203" value="-0"/>
+  <variable name="z195" index="204" value="1"/>
+  <variable name="z196" index="205" value="-0"/>
+  <variable name="z197" index="206" value="1"/>
+  <variable name="z198" index="207" value="1"/>
+  <variable name="z199" index="208" value="1"/>
+  <variable name="z200" index="209" value="-0"/>
+  <variable name="z201" index="210" value="-0"/>
+  <variable name="z202" index="211" value="-0"/>
+  <variable name="z203" index="212" value="-0"/>
+  <variable name="z204" index="213" value="-0"/>
+  <variable name="z205" index="214" value="-0"/>
+  <variable name="z206" index="215" value="1"/>
+  <variable name="z207" index="216" value="1"/>
+  <variable name="z208" index="217" value="-0"/>
+  <variable name="z209" index="218" value="1"/>
+  <variable name="z210" index="219" value="-0"/>
+  <variable name="z211" index="220" value="-0"/>
+  <variable name="z212" index="221" value="-0"/>
+  <variable name="z213" index="222" value="1"/>
+  <variable name="z214" index="223" value="1"/>
+  <variable name="z215" index="224" value="1"/>
+  <variable name="z216" index="225" value="1"/>
+  <variable name="z217" index="226" value="-0"/>
+  <variable name="z218" index="227" value="1"/>
+  <variable name="z219" index="228" value="1"/>
+  <variable name="z220" index="229" value="1"/>
+  <variable name="z221" index="230" value="1"/>
+  <variable name="z222" index="231" value="1"/>
+  <variable name="z223" index="232" value="-0"/>
+  <variable name="z224" index="233" value="-0"/>
+  <variable name="z225" index="234" value="-0"/>
+  <variable name="z226" index="235" value="-0"/>
+  <variable name="z227" index="236" value="1"/>
+  <variable name="z228" index="237" value="-0"/>
+  <variable name="z229" index="238" value="-0"/>
+  <variable name="z230" index="239" value="1"/>
+  <variable name="z231" index="240" value="1"/>
+  <variable name="z232" index="241" value="-0"/>
+  <variable name="z233" index="242" value="-0"/>
+  <variable name="z234" index="243" value="-0"/>
+  <variable name="z235" index="244" value="1"/>
+  <variable name="z236" index="245" value="1"/>
+  <variable name="z237" index="246" value="1"/>
+  <variable name="z238" index="247" value="1"/>
+  <variable name="z239" index="248" value="0"/>
+  <variable name="z240" index="249" value="-0"/>
+  <variable name="z241" index="250" value="-0"/>
+  <variable name="z242" index="251" value="1"/>
+  <variable name="z243" index="252" value="1"/>
+  <variable name="z244" index="253" value="-0"/>
+  <variable name="z245" index="254" value="1"/>
+  <variable name="z246" index="255" value="-0"/>
+  <variable name="z247" index="256" value="-0"/>
+  <variable name="z248" index="257" value="-0"/>
+  <variable name="z249" index="258" value="-0"/>
+  <variable name="z250" index="259" value="-0"/>
+  <variable name="z251" index="260" value="0"/>
+  <variable name="z252" index="261" value="-0"/>
+  <variable name="z253" index="262" value="-0"/>
+  <variable name="z254" index="263" value="1"/>
+  <variable name="z255" index="264" value="1"/>
+  <variable name="z256" index="265" value="-0"/>
+  <variable name="z257" index="266" value="-0"/>
+  <variable name="z258" index="267" value="-0"/>
+  <variable name="z259" index="268" value="1"/>
+  <variable name="z260" index="269" value="-0"/>
+  <variable name="z261" index="270" value="8.3928120465114108e-07"/>
+  <variable name="z262" index="271" value="-0"/>
+  <variable name="z263" index="272" value="-0"/>
+  <variable name="z264" index="273" value="1"/>
+  <variable name="z265" index="274" value="-0"/>
+  <variable name="z266" index="275" value="0"/>
+  <variable name="z267" index="276" value="-0"/>
+  <variable name="z268" index="277" value="-0"/>
+  <variable name="z269" index="278" value="5.5952080310076523e-07"/>
+  <variable name="z270" index="279" value="1"/>
+  <variable name="z271" index="280" value="-0"/>
+  <variable name="z272" index="281" value="-0"/>
+  <variable name="z273" index="282" value="-0"/>
+  <variable name="z274" index="283" value="-0"/>
+  <variable name="z275" index="284" value="-0"/>
+  <variable name="z276" index="285" value="1"/>
+  <variable name="z277" index="286" value="-0"/>
+  <variable name="z278" index="287" value="0"/>
+  <variable name="z279" index="288" value="-0"/>
+  <variable name="z280" index="289" value="1"/>
+  <variable name="z281" index="290" value="-0"/>
+  <variable name="z282" index="291" value="-0"/>
+  <variable name="z283" index="292" value="1"/>
+  <variable name="z284" index="293" value="1"/>
+  <variable name="z285" index="294" value="-0"/>
+  <variable name="z286" index="295" value="-0"/>
+  <variable name="z287" index="296" value="1"/>
+  <variable name="z288" index="297" value="-0"/>
+  <variable name="z289" index="298" value="-0"/>
+  <variable name="z290" index="299" value="-0"/>
+  <variable name="z291" index="300" value="1"/>
+  <variable name="z292" index="301" value="1"/>
+  <variable name="z293" index="302" value="1"/>
+  <variable name="z294" index="303" value="-0"/>
+  <variable name="z295" index="304" value="-0"/>
+  <variable name="z296" index="305" value="1"/>
+  <variable name="z297" index="306" value="-0"/>
+  <variable name="z298" index="307" value="1"/>
+  <variable name="z299" index="308" value="-0"/>
+  <variable name="z300" index="309" value="-0"/>
+  <variable name="z301" index="310" value="1"/>
+  <variable name="z302" index="311" value="-0"/>
+  <variable name="z303" index="312" value="1"/>
+  <variable name="z304" index="313" value="-0"/>
+  <variable name="z305" index="314" value="-0"/>
+  <variable name="z306" index="315" value="1"/>
+  <variable name="z307" index="316" value="-0"/>
+  <variable name="z308" index="317" value="1"/>
+  <variable name="z309" index="318" value="1"/>
+ </variables>
+</CPLEXSolution>

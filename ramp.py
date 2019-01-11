@@ -50,7 +50,7 @@ def addHardmarginToCplexInstance(p, d,n,X,y,c):
   return p
 
 if __name__=='__main__':
-  filename = 'data/test_3.txt'
+  filename = 'data/diabetes_small.txt'
   (X, y) = load_data.load_data(filename)
   n = len(y)
   d = len(X[0])
